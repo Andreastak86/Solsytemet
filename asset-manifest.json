@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Solsytemet/static/css/main.ca17c6e0.css",
-    "main.js": "/Solsytemet/static/js/main.cd5ee673.js",
+    "main.css": "/Solsytemet/static/css/main.3024cb6b.css",
+    "main.js": "/Solsytemet/static/js/main.cd459875.js",
     "static/js/787.0a4602ca.chunk.js": "/Solsytemet/static/js/787.0a4602ca.chunk.js",
     "index.html": "/Solsytemet/index.html",
-    "main.ca17c6e0.css.map": "/Solsytemet/static/css/main.ca17c6e0.css.map",
-    "main.cd5ee673.js.map": "/Solsytemet/static/js/main.cd5ee673.js.map",
+    "main.3024cb6b.css.map": "/Solsytemet/static/css/main.3024cb6b.css.map",
+    "main.cd459875.js.map": "/Solsytemet/static/js/main.cd459875.js.map",
     "787.0a4602ca.chunk.js.map": "/Solsytemet/static/js/787.0a4602ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca17c6e0.css",
-    "static/js/main.cd5ee673.js"
+    "static/css/main.3024cb6b.css",
+    "static/js/main.cd459875.js"
   ]
 }
