@@ -22,7 +22,7 @@ const Contact = () => {
     <section id='contact'>
       <h2>Kontakt Oss</h2>
       <div className='container contact__container'>
-        <div className='contact__potions'>
+        <div className='contact__options'>
           <article className='contact__option'>
             <form ref={form} onSubmit={sendEmail}>
               <input type='text' name='name' placeholder='Ditt Navn' required />
@@ -34,7 +34,7 @@ const Contact = () => {
               />
               <textarea
                 name='message'
-                rows='7'
+                rows='10'
                 placeholder='Din Melding'
                 required
               ></textarea>
