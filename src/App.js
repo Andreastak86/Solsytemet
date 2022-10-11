@@ -1,10 +1,10 @@
 import React from "react";
-import Contact from "./components/contact";
+import LandingPage from "./pages//LandingPage/index";
 
 const App = () => {
   return (
     <>
-      <Contact />
+      <LandingPage />
     </>
   );
 };
