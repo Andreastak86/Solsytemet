@@ -1,10 +1,12 @@
-function App() {
+import React from "react";
+import Contact from "./components/contact";
+
+const App = () => {
   return (
-    <div className="App">
-      <h1>Solsystemet</h1>
-      <h2>Test</h2>
-    </div>
+    <>
+      <Contact />
+    </>
   );
-}
+};
 
 export default App;
