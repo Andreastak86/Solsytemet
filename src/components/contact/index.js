@@ -2,6 +2,7 @@ import React from "react";
 import "./index.css";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { Container, Options, Button } from "./styles";
 
 const Contact = () => {
   const form = useRef();
@@ -19,10 +20,10 @@ const Contact = () => {
   };
 
   return (
-    <section id='contact'>
+    <Container>
       <h2>Kontakt Oss</h2>
-      <div className='container contact__container'>
-        <div className='contact__options'>
+      <Options>
+        <div>
           <article className='contact__option'>
             <form ref={form} onSubmit={sendEmail}>
               <input type='text' name='name' placeholder='Ditt Navn' required />
@@ -38,14 +39,12 @@ const Contact = () => {
                 placeholder='Din Melding'
                 required
               ></textarea>
-              <button type='submit' className='btn'>
-                Send Melding
-              </button>
+              <Button type='submit'>Send Melding</Button>
             </form>
           </article>
         </div>
-      </div>
-    </section>
+      </Options>
+    </Container>
   );
 };
 
