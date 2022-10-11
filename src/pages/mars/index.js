@@ -1,16 +1,14 @@
 import React from "react";
-import Mars from "./img/mars.jpg";
-import { Button, Paragraf, Headder } from "./styles";
+
+import { Button, Paragraf, Headder, Seksjon, Kilde } from "./styles";
 
 const index = () => {
   return (
-    <section id='Mars'>
+    <Seksjon>
       <div className='container mars__container'>
         <article>
           <Headder>Mars</Headder>
-          <div className='mars-img'>
-            <img src={Mars} alt='Planet Mars' />
-          </div>
+
           <Paragraf>
             Mars er den fjerde planeten regnet fra Sola. Den er den syvende
             største planeten i solsystemet og har litt over halvparten så stor
@@ -19,16 +17,16 @@ const index = () => {
             Jorda (23,9 timer). Et Mars-døgn kalles sol, som er en forkortelse
             for «solar day» (soldøgn). Mars kan ha vært mer jordlignende for 3,5
             milliarder år siden. Formasjoner på overflaten tyder på at vann har
-            rent der tidligere, mens i dag er overflaten tørrlagt.
-            <p className='ref'>
+            rent der tidligere, mens i dag er overflaten tørrlagt.{" "}
+            <Kilde>
               Aksnes, Kaare; Hammerstrøm, Maria: Mars i Store norske leksikon på
-              snl.no. Hentet 11. oktober 2022 fra{" "}
+              snl.no. Hentet 11. oktober 2022 fra
               <Button href='https://snl.no/Mars'>SNL</Button>
-            </p>
+            </Kilde>
           </Paragraf>
         </article>
       </div>
-    </section>
+    </Seksjon>
   );
 };
 
