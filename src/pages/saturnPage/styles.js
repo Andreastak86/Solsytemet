@@ -1,15 +1,16 @@
 import styled from "styled-components";
-import saturn from "./img/nasa-saturn-unsplash.jpg";
+import saturn from "./img/saturn.png";
 
 export const StyledPageSection = styled.section`
   width: 100%;
-  padding: 1em 0 0;
+  padding: 2em 0 0;
   background-color: #000;
   background-image: url(${saturn});
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 40% center;
   text-align: left;
-  height: 95vh;
+  height: 100vh;
+  line-height: 1.6;
 `;
 
 export const StyledPageContainer = styled.div`
@@ -49,9 +50,11 @@ export const StyledPageP = styled.p`
   color: orange;
 `;
 
-export const StyledPageUl = styled.ul``;
+export const StyledPageUl = styled.ul`
+  padding-left: 2em;
+`;
 
 export const StyledPageLi = styled.li`
   color: orange;
-  padding-bottom: 0.25em;
+  padding-bottom: 0.5em;
 `;

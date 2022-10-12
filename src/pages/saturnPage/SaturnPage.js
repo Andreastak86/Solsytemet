@@ -7,6 +7,7 @@ import {
   StyledPageMainWrapper,
   StyledPageP,
   StyledPageSection,
+  StyledPageUl,
 } from "./styles";
 
 export const Saturn = () => {
@@ -37,14 +38,14 @@ export const Saturn = () => {
 
           <StyledPageInfoWrapper facts>
             <StyledPageH1>Fakta Om Saturn</StyledPageH1>
-            <ul>
+            <StyledPageUl>
               <StyledPageLi>1 Saturn-år = 30 år på jorden</StyledPageLi>
               <StyledPageLi>Masse: 95 ganger jordens</StyledPageLi>
               <StyledPageLi>Gjennomsnittsradius: 9 ganger jordens</StyledPageLi>
               <StyledPageLi>Hovedringer: 9</StyledPageLi>
               <StyledPageLi>Gjennomsnittsfart: 9,69 km/s</StyledPageLi>
               <StyledPageLi>Måner: 82</StyledPageLi>
-            </ul>
+            </StyledPageUl>
           </StyledPageInfoWrapper>
         </StyledPageMainWrapper>
         <StyledPageFooter>
