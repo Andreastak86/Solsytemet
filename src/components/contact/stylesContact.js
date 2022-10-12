@@ -43,23 +43,3 @@ export const Button = styled.button`
   cursor: pointer;
   border: 1px solid #ffb800;
 `;
-
-/*///////////////// Media Queries///////////////////*/
-
-/*-----------------------Medium------------------*/
-
-// @media screen and (max-width: 1024px) `
-//   Main `
-//    86%
-//   `
-
-// `
-
-// /*-----------------------Small------------------*/
-
-// @media screen and (max-width: 600px) `
-//   Main `
-//     90%
-//   `
-
-// `
