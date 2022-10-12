@@ -1,12 +1,12 @@
 import React from "react";
-// import Contact from "../components/contact/index";
+import Contact from "../components/contact";
 import Mars from "./mars/index";
 
 const landingpages = () => {
   return (
     <>
       <Mars />
-      {/* <Contact /> */}
+      <Contact />
     </>
   );
 };

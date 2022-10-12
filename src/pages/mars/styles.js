@@ -6,6 +6,12 @@ export const Seksjon = styled.section`
   background-repeat: no-repeat;
   width: auto; /*or your image's width*/
   height: auto; /*or your image's height*/
+  @media (max-width: 768px) {
+    width: 86%;
+  }
+  @media (max-width: 375px) {
+    width: 90%;
+  }
 `;
 
 export const Mars__container = styled.div`
