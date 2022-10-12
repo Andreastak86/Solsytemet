@@ -1,5 +1,11 @@
 {
-
+    "Navbar": {
+        "title": "Solsystemet",
+        "mainPage": "Forsiden",
+        "ourSolarsystem": "Vårt solsystem",
+        "planets": "Planetene",
+        "contact": "Kontakt oss"
+    },
     "eksempel":{
         "test": "Dette er en test",
         "kake": "Og et eksempel på hvordan sette dette opp"

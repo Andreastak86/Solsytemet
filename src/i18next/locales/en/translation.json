@@ -1,4 +1,11 @@
 {
+    "Navbar": {
+        "title": "Solarsystem",
+        "mainPage": "Main page",
+        "ourSolarsystem": "Our solarsystem",
+        "planets": "Planets",
+        "contact": "Contact us"
+    },
     "Eksempel": {
         "test": "this is a test",
         "kakeErGodt": "I like cake"
