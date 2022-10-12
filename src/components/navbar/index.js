@@ -19,7 +19,7 @@ function Nav() {
           Planeter
         </li>
         <li>
-          Kontakt oss
+          Kontakt ossss
         </li>
       </ul>
     </NavBar>
