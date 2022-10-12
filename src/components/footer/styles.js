@@ -5,11 +5,14 @@ export const Footer = styled.footer`
   flex-direction: column;
   border: solid black 2px;
   background-color: black;
-  height: 20vh;
+  height: 7rem;
   color: rgb(159, 159, 159);;
   align-items: center;
   justify-content: center;
-  margin-top: 5rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 `
 
 export const FooterFlow = styled.ul`

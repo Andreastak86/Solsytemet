@@ -6,11 +6,14 @@ export const Box = styled.div`
 `;
 
 export const GlobalStyle = createGlobalStyle`
-    body, html, * {
+    * {
         margin: 0;
         padding: 0;
         font-family: 'Roboto Mono', monospace;
         color: white;
+        background-color: black;
+        box-sizing: border-box;
+
     }
     
 `;

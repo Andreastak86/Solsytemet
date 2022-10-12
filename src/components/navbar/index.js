@@ -1,27 +1,53 @@
 import React from "react";
-import { NavBar, NavFlex } from "./styles";
-import "./test.css"
+import { t } from "i18next";
+import { 
+  NavBar, 
+  NavMenuItems, 
+  NavMenuLink, 
+  NavMenuList, 
+  WebsiteName 
+} from "./styles";
 
 function Nav() {
   return (
     <NavBar>
-      <h1>
-        Solsytemet
-      </h1>
-      <ul>
-        <li>
-          Forsiden
-        </li>
-        <li>
-          Vårt solsystem
-        </li>
-        <li>
-          Planeter
-        </li>
-        <li>
-          Kontakt ossss
-        </li>
-      </ul>
+      <WebsiteName>
+        <NavMenuLink
+          href="#"
+        >
+          {t("Navbar.title")}
+        </NavMenuLink>
+      </WebsiteName>
+      <NavMenuList>
+        <NavMenuItems>
+          <NavMenuLink
+            href="#"
+          >
+            {t("Navbar.mainPage")}
+          </NavMenuLink>
+        </NavMenuItems>
+        <NavMenuItems>
+          <NavMenuLink
+            href="#"
+          >
+            {t("Navbar.ourSolarsystem")}
+          </NavMenuLink>
+        </NavMenuItems>
+        <NavMenuItems>
+          <NavMenuLink
+            href="#"
+          >
+            {t("Navbar.planets")}
+          </NavMenuLink>
+        </NavMenuItems>
+        <NavMenuItems>
+          <NavMenuLink
+            href="#"
+          >
+            {t("Navbar.contact")}
+          </NavMenuLink>
+        </NavMenuItems>
+      </NavMenuList>
     </NavBar>
   )
 }

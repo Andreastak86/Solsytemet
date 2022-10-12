@@ -32,13 +32,17 @@ function FooterBar() {
           </FooterList>
           <FooterList>
             <FooterLink
+              href="https://github.com/michhkh"
+            >
+              michhkh
+            </FooterLink>
+          </FooterList>
+          <FooterList>
+            <FooterLink
               href="https://github.com/OleKodehode"
             >
               OleKodehode
             </FooterLink>
-          </FooterList>
-          <FooterList>
-
           </FooterList>
         </FooterFlow>
       </Footer></>
