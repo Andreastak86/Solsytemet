@@ -1,3 +1,4 @@
+
 import React from "react";
 import LandingPage from "./pages//LandingPage/index";
 import Contact from "./components/contact";
@@ -14,3 +15,4 @@ const App = () => {
 };
 
 export default App;
+
