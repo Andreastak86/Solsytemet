@@ -1,17 +1,17 @@
 import { t } from "i18next";
 
-function Test() {
+function SetupEksempel() {
 
     return(
         <>
             <h1>
-                {t('test')}
+                {t('Eksempel.test')}
             </h1>
             <p>
-                {t('kake')}
+                {t('Eksempel.kakeErGodt')}
             </p>
         </>
     )
 }
 
-export default Test;
+export default SetupEksempel;

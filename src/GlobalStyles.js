@@ -1,3 +1,4 @@
+
 import styled, { createGlobalStyle } from "styled-components";
 
 export const Box = styled.div`
@@ -13,3 +14,4 @@ export const GlobalStyle = createGlobalStyle`
     }
     
 `;
+
