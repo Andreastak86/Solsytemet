@@ -1,6 +1,12 @@
 import React from "react";
-import { NavBar, NavMenuItems, NavMenuLink, NavMenuList, WebsiteName } from "./styles";
-import "./test.css"
+import { t } from "i18next";
+import { 
+  NavBar, 
+  NavMenuItems, 
+  NavMenuLink, 
+  NavMenuList, 
+  WebsiteName 
+} from "./styles";
 
 function Nav() {
   return (
@@ -9,7 +15,7 @@ function Nav() {
         <NavMenuLink
           href="#"
         >
-          Solsytemet
+          {t("Navbar.title")}
         </NavMenuLink>
       </WebsiteName>
       <NavMenuList>
@@ -17,28 +23,28 @@ function Nav() {
           <NavMenuLink
             href="#"
           >
-            Forsiden
+            {t("Navbar.mainPage")}
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
           <NavMenuLink
             href="#"
           >
-            Vårt solsystem
+            {t("Navbar.ourSolarsystem")}
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
           <NavMenuLink
             href="#"
           >
-            Planeter
+            {t("Navbar.planets")}
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
           <NavMenuLink
             href="#"
           >
-            Kontakt oss
+            {t("Navbar.contact")}
           </NavMenuLink>
         </NavMenuItems>
       </NavMenuList>
