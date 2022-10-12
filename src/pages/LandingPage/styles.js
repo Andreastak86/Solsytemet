@@ -10,4 +10,5 @@ export const LPDiv = styled.div`
 export const LPH1 = styled.h1`
   text-align: center;
   padding-top: 20%;
+  background: none;
 `;

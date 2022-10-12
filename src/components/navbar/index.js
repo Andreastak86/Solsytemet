@@ -1,27 +1,47 @@
 import React from "react";
-import { NavBar } from "./styles";
+import { NavBar, NavMenuItems, NavMenuLink, NavMenuList, WebsiteName } from "./styles";
 import "./test.css"
 
 function Nav() {
   return (
     <NavBar>
-      <h1>
-        Solsytemet
-      </h1>
-      <ul>
-        <li>
-          Forsiden
-        </li>
-        <li>
-          Vårt solsystem
-        </li>
-        <li>
-          Planeter
-        </li>
-        <li>
-          Kontakt ossss
-        </li>
-      </ul>
+      <WebsiteName>
+        <NavMenuLink
+          href="#"
+        >
+          Solsytemet
+        </NavMenuLink>
+      </WebsiteName>
+      <NavMenuList>
+        <NavMenuItems>
+          <NavMenuLink
+            href="#"
+          >
+            Forsiden
+          </NavMenuLink>
+        </NavMenuItems>
+        <NavMenuItems>
+          <NavMenuLink
+            href="#"
+          >
+            Vårt solsystem
+          </NavMenuLink>
+        </NavMenuItems>
+        <NavMenuItems>
+          <NavMenuLink
+            href="#"
+          >
+            Planeter
+          </NavMenuLink>
+        </NavMenuItems>
+        <NavMenuItems>
+          <NavMenuLink
+            href="#"
+          >
+            Kontakt oss
+          </NavMenuLink>
+        </NavMenuItems>
+      </NavMenuList>
     </NavBar>
   )
 }
