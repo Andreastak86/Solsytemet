@@ -11,6 +11,7 @@ import {
   BrowserRouter,
   // NavLink
 } from "react-router-dom";
+import Sun from "./pages/sun";
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
         <Nav />
         <Routes>
           <Route path="/" element={<LandingPage />} />
+          <Route path="/sun" element={<Sun />} />
         </Routes>
         <FooterBar />
       </BrowserRouter>

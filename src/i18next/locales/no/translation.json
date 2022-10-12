@@ -6,6 +6,11 @@
         "planets": "Planetene",
         "contact": "Kontakt oss"
     },
+
+    "Sun": {
+        "title": "Solen",
+        "titleSubtext": "Solen vår er en 4,5 milliarder år gammel stjerne - en varm glødende ball av hydrogen og helium i sentrum av solsystemet vårt."
+    },
     "eksempel":{
         "test": "Dette er en test",
         "kake": "Og et eksempel på hvordan sette dette opp"

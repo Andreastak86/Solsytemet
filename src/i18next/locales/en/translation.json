@@ -6,25 +6,35 @@
         "planets": "Planets",
         "contact": "Contact us"
     },
+
+    "Sun": {
+        "title": "Sun",
+        "titleSubtext": "Our Sun is a 4.5 billion-year-old star - a hot glowing ball of hydrogen and helium at the center of our solar system."
+    },
+
     "Eksempel": {
         "test": "this is a test",
         "kakeErGodt": "I like cake"
     },
+
     "HomePage": {
         "titel": "This is a test",
-        "tittelSubtext": "This is a small text under the title",
+        "titelSubtext": "This is a small text under the title",
         "textSomethingIntresting": "Name the text in camelcase by something relevant"
     },
+
     "Earth": {
         "title": "This is Earths titsle",
         "titleSubtext": "Earth is the planet we live on",
         "textRotation": "This is a text about earths rotation"
     },
+
     "Mars": {
         "title": "This is Mars title",
         "titleSubtext": "Mars is the planet",
         "textRotation": "This is a text about mars rotation"
     },
+
     "Footer":{
         "MadeBy": "Made by:"
     }
