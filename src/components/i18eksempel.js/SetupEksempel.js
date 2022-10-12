@@ -1,6 +1,6 @@
 import { t } from "i18next";
 
-function Test() {
+function SetupEksempel() {
 
     return(
         <>
@@ -14,4 +14,4 @@ function Test() {
     )
 }
 
-export default Test;
+export default SetupEksempel;

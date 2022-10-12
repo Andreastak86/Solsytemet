@@ -17,5 +17,8 @@
         "title": "This is Mars title",
         "titleSubtext": "Mars is the planet",
         "textRotation": "This is a text about mars rotation"
+    },
+    "Footer":{
+        "MadeBy": "Made by:"
     }
 }
