@@ -38,7 +38,7 @@ export const StyledPageInfoWrapper = styled.div`
   width: ${(props) => (props.info ? "100%" : props.facts && "100%")};
 
   @media screen and (min-width: 600px) {
-    width: ${(props) => (props.info ? "50%" : props.facts && "30%")};
+    width: ${(props) => (props.info ? "50%" : props.facts && "32%")};
   }
 `;
 
