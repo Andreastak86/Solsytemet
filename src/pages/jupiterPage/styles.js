@@ -1,15 +1,16 @@
 import styled from "styled-components";
-import jupiter from "./img/pexels-zch-jupiter.jpg";
+import jupiter from "./img/jupiter.png";
 
 export const StyledPageSection = styled.section`
   width: 100%;
-  padding: 1em 0 0;
+  padding: 2em 0 0;
   background-color: #000;
   background-image: url(${jupiter});
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: 40% center;
   text-align: left;
   height: 95vh;
+  line-height: 1.6;
 `;
 
 export const StyledPageContainer = styled.div`
@@ -49,9 +50,11 @@ export const StyledPageP = styled.p`
   color: #fff;
 `;
 
-export const StyledPageUl = styled.ul``;
+export const StyledPageUl = styled.ul`
+  padding-left: 2em;
+`;
 
 export const StyledPageLi = styled.li`
   color: #fff;
-  padding-bottom: 0.25em;
+  padding-bottom: 0.5em;
 `;
