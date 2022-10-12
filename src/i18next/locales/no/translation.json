@@ -1,4 +1,10 @@
 {
-  "test": "Dette er en test",
-  "kake": "Og et eksempel på hvordan sette dette opp"
+
+    "eksempel":{
+        "test": "Dette er en test",
+        "kake": "Og et eksempel på hvordan sette dette opp"
+    },
+    "Footer":{
+        "MadeBy": "Laget av:"
+    }
 }

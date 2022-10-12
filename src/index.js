@@ -1,4 +1,3 @@
-
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./i18next/i18n";
@@ -11,4 +10,3 @@ root.render(
     <App />
   </>
 );
-
