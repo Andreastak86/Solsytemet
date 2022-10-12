@@ -1,5 +1,5 @@
 import React from "react";
-import { NavBar, NavFlex } from "./styles";
+import { NavBar } from "./styles";
 import "./test.css"
 
 function Nav() {
