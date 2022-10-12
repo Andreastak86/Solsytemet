@@ -1,12 +1,12 @@
 import React from "react";
 import Contact from "./components/contact";
-import SetupEksempel from "./components/i18eksempel.js/SetupEksempel";
+import FooterBar from "./components/footer";
 
 const App = () => {
   return (
     <>
       <Contact />
-      <SetupEksempel />
+      <FooterBar />
     </>
   );
 };

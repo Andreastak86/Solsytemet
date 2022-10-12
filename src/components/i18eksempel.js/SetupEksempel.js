@@ -5,10 +5,10 @@ function Test() {
     return(
         <>
             <h1>
-                {t('test')}
+                {t('Eksempel.test')}
             </h1>
             <p>
-                {t('kake')}
+                {t('Eksempel.kakeErGodt')}
             </p>
         </>
     )
