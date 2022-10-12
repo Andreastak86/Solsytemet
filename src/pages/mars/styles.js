@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import img from "./img/mars.jpg";
+import Mars from "./img/mars.jpg";
 
 export const Seksjon = styled.section`
-  background-image: url(${img});
+  background-image: url(${Mars});
   background-repeat: no-repeat;
   width: auto; /*or your image's width*/
   height: auto; /*or your image's height*/
