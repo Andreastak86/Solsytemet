@@ -10,12 +10,6 @@
   flex-direction: column;
   gap: 1.2rem;
 }
-/* 
-.contact__option {
-  padding: 1.2rem;
-  border-radius: 1.2rem;
-  text-align: center;
-} */
 
 .contact__option-icon {
   font-size: 1.5rem;
