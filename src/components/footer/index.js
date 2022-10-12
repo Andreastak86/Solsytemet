@@ -1,7 +1,11 @@
 import React from "react";
-import { Footer, FooterFlow, FooterList } from "./styles";
-
-
+import { t } from "i18next";
+import { 
+  Footer, 
+  FooterFlow, 
+  FooterLink, 
+  FooterList 
+} from "./styles";
 
 
 function FooterBar() {
@@ -9,17 +13,29 @@ function FooterBar() {
     <>
       <Footer>
         <h4>
-          Made by:
+          {t("Footer.MadeBy")}
         </h4>
         <FooterFlow>
           <FooterList>
-            Andreastak86
+            <FooterLink
+              href="https://github.com/Andreastak86"
+            >
+              Andreastak86
+            </FooterLink>
           </FooterList>
           <FooterList>
-            Morthenjo
+            <FooterLink
+              href="https://github.com/Morthenjo"
+            >
+              Morthenjo
+            </FooterLink>
           </FooterList>
           <FooterList>
-            OleKodehode
+            <FooterLink
+              href="https://github.com/OleKodehode"
+            >
+              OleKodehode
+            </FooterLink>
           </FooterList>
           <FooterList>
 

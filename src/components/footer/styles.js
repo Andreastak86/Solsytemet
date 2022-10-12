@@ -23,8 +23,10 @@ export const FooterFlow = styled.ul`
 
 export const FooterList = styled.li`
   margin: 0 1rem;
+  color: #FFF;
 `
 
-export const FooterLink = styled.li`
-
+export const FooterLink = styled.a`
+  color: #fff;
+  text-decoration: none;
 `
