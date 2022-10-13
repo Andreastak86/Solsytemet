@@ -36,7 +36,9 @@ function Nav() {
         <NavMenuItems>
           <NavMenuLink>
 
-            <NavLink>
+            <NavLink
+              to="#"
+            >
               {t("Navbar.ourSolarsystem")}
             </NavLink>
           </NavMenuLink>
@@ -52,7 +54,9 @@ function Nav() {
         </NavMenuItems>
         <NavMenuItems>
           <NavMenuLink>
-            <NavLink>
+            <NavLink
+              to="#"
+            >
               {t("Navbar.contact")}
             </NavLink>
           </NavMenuLink>
