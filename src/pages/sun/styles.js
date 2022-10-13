@@ -1,6 +1,12 @@
 import styled from "styled-components";
 import TheSun from "./img/the_sun.jpg"
+import SunAndEarth from "./img/earth-and-the-sun.jpg"
 
+export const SunBackground = styled.div`
+  width: 100%;
+  height: 100%;
+  background-color: black;
+`
 
 export const SunHeader = styled.div`
   margin-top: 7rem;
@@ -20,9 +26,22 @@ export const SunTitle = styled.h1`
 `
 
 export const SunText = styled.p`
-  margin: 0 auto;
-  margin-top: 5rem;
+  margin: 5rem auto;
   text-align: center;
   color: white;
   width: 30%;
+`
+
+export const SunImgTextFlex = styled.div`
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+`
+
+export const SunEarthImage = styled.div`
+  width: 100%;
+  background: url(${SunAndEarth});
+  background-size: contain;
+  background-repeat: no-repeat;
 `

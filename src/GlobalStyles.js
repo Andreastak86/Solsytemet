@@ -10,7 +10,6 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         font-family: 'Roboto Mono', monospace;
         color: white;
-        /* background-color: black; */
         box-sizing: border-box;
 
     }
