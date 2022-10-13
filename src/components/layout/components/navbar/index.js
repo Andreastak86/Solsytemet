@@ -9,7 +9,7 @@ import {
   NavMenuList2,
   WebsiteName,
 } from "./styles";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
   const [active, setActive] = useState();
@@ -22,44 +22,82 @@ function Nav() {
       <NavBar>
         <WebsiteName>
           <NavMenuLink>
-            <Link to="/Solsytemet">{t("Navbar.title")}</Link>
+            <NavLink
+              to="/"
+            >
+              {t("Navbar.title")}
+            </NavLink>
           </NavMenuLink>
         </WebsiteName>
         <NavMenuList>
           <NavMenuItems>
             <NavMenuLink>
-              <Link to="/Solsytemet/sun">{t("Navbar.mainPage")}</Link>
+              <NavLink
+                to="/"
+              >
+                {t("Navbar.mainPage")}
+              </NavLink>
             </NavMenuLink>
           </NavMenuItems>
           <NavMenuItems>
             <NavMenuLink>
-              <Link>{t("Navbar.ourSolarsystem")}</Link>
+              <NavLink
+                to="/sun"
+              >
+                {t("Navbar.ourSun")}
+              </NavLink>
             </NavMenuLink>
           </NavMenuItems>
           <NavMenuItems onClick={planetDropDown}>
-            <NavMenuLink>{t("Navbar.planets")}</NavMenuLink>
+            <NavMenuLink>
+              {t("Navbar.planets")}
+            </NavMenuLink>
           </NavMenuItems>
           <NavMenuItems>
-            <NavMenuLink>{t("Navbar.contact")}</NavMenuLink>
+            <NavMenuLink>
+              <NavLink
+                to="#"
+              >
+                {t("Navbar.contact")}
+              </NavLink>
+            </NavMenuLink>
           </NavMenuItems>
         </NavMenuList>
       </NavBar>
-      <NavBar2 active={active}>
+      <NavBar2 
+        active={active}
+      >
         <NavMenuItems>
           <NavMenuLink>
-            <Link to="/Solsytemet/mars">Mars</Link>
+            <NavLink 
+              to="/mars"
+            >
+              Mars
+            </NavLink>
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
           <NavMenuLink>
-            <Link to="/Solsytemet/jupiter">Jupiter</Link>
+            <NavLink 
+              to="/jupiter"
+            >
+              Jupiter
+            </NavLink>
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
-          <Link to="/Solsytemet/saturn">Saturn</Link>
+          <NavLink 
+            to="/saturn"
+          >
+            Saturn
+          </NavLink>
         </NavMenuItems>
         <NavMenuItems>
-          <Link to="/Solsytemet/moon">Moon</Link>
+          <NavLink 
+            to="/moon"
+          >
+            Moon
+          </NavLink>
         </NavMenuItems>
       </NavBar2>
     </>

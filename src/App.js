@@ -27,7 +27,7 @@ const App = () => {
             }
           />
           <Route
-            path="/Solsytemet"
+            path="/Solsytemet/"
             element={
               <LandingPage />
             }
