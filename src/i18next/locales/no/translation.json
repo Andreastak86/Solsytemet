@@ -1,22 +1,51 @@
 {
-    "Navbar": {
-        "title": "Solsystemet",
-        "mainPage": "Forsiden",
-        "ourSolarsystem": "Vårt solsystem",
-        "planets": "Planetene",
-        "contact": "Kontakt oss"
-    },
+  "Navbar": {
+    "title": "Solsystemet",
+    "mainPage": "Forsiden",
+    "ourSolarsystem": "Vårt solsystem",
+    "planets": "Planetene",
+    "contact": "Kontakt oss"
+  },
 
-    "Sun": {
-        "title": "Solen",
-        "titleSubtext": "Solen vår er en 4,5 milliarder år gammel stjerne - en varm glødende ball av hydrogen og helium i sentrum av solsystemet vårt.",
-        "age": "Solen har ikke et 'år' i seg selv. Men solen går i bane rundt Melkeveiens sentrum omtrent hvert 230. million jordår, og bringer planetene, asteroidene, kometene og andre objekter med seg."
-    },
-    "eksempel":{
-        "test": "Dette er en test",
-        "kake": "Og et eksempel på hvordan sette dette opp"
-    },
-    "Footer":{
-        "MadeBy": "Laget av:"
-    }
+  "Sun": {
+    "title": "Solen",
+    "titleSubtext": "Solen vår er en 4,5 milliarder år gammel stjerne - en varm glødende ball av hydrogen og helium i sentrum av solsystemet vårt."
+  },
+
+  "eksempel": {
+    "test": "Dette er en test",
+    "kake": "Og et eksempel på hvordan sette dette opp"
+  },
+
+  "Jupiter": {
+    "title": "Jupiter",
+    "firstText": "Jupiter er den femte planeten fra solen og den største planeten i solsystemet. Jupiter, i tillegg til Saturn, Uranus og Neptun er gasskjemper.",
+    "secondText": "Planeten var i oldtiden forbundet med mytologi og religiøse oppfatninger i en rekke kulturer. Romerne oppkalte planeten etter den romerske guden Jupiter.",
+    "thirdText": "Jupiter består hovedsakelig av hydrogen. Den raske rotasjonen gir Jupiter form som en flattrykt sfæroide, med en liten bul rundt ekvator. Den ytre atmosfæren er segregert i flere striper på forskjellige høyder, som fører til turbulens og stormer langs de vekselvirkende grensene.",
+    "factsTitle": "Fakta om Jupiter",
+    "factsSize": "Største planeten i solsystemet",
+    "factsSpeed": "Gjennomsnittsfart: 13,07 km/s",
+    "factsMass": "Masse: 2,5 ganger massen til alle andre planeter i solsystemet til sammen",
+    "factsEquatorRadius": "Ekvatorradius: 71 492 km",
+    "source": "Hentet: 11. oktober 2022 fra https://no.wikipedia.org/wiki/Jupiter"
+  },
+
+  "Saturn": {
+    "title": "Saturn",
+    "firstText": "Saturn er den sjette planeten fra solen og den nest største i solsystemet, etter Jupiter. Den er oppkalt etter den romerske guden Saturn.",
+    "secondText": "Saturns lag med metallisk hydrogen leder elektrisk strøm, og antas å gi opphav til planetens magnetfelt, som ved overflaten er noe svakere enn jordens. Vindhastighetene kan komme opp i 1 800 km/t.",
+    "thirdText": "Saturns ringsystem består av ni sammenhengende hovedringer og tre usammenhengende buer, som består hovedsakelig av ispartikler, med også en del stein og støv. 82 kjente måner går i bane rundt planeten - 53 av disse har fått offisielle navn. I tillegg befinner det seg hundrevis av «dvergmåner» i ringsystemet.",
+    "factsTitle": "Fakta Om Saturn",
+    "factsYear": "1 Saturn-år = 30 år på jorden",
+    "factsMass": "Masse: 95 ganger jordens",
+    "factsRadius": "Gjennomsnittsradius: 9 ganger jordens",
+    "factsRings": "Hovedringer: 9",
+    "factsSpeed": "Gjennomsnittsfart: 9,69 km/s",
+    "factsMoons": "Måner: 82",
+    "source": "Hentet: 11. oktober 2022 fra https://no.wikipedia.org/wiki/Saturn"
+  },
+
+  "Footer": {
+    "MadeBy": "Laget av:"
+  }
 }

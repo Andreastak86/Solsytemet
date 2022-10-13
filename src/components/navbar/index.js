@@ -5,7 +5,7 @@ import {
   NavMenuItems,
   NavMenuLink,
   NavMenuList,
-  WebsiteName
+  WebsiteName,
 } from "./styles";
 import { NavLink } from "react-router-dom";
 
@@ -13,48 +13,33 @@ function Nav() {
   return (
     <NavBar>
       <WebsiteName>
-        <NavMenuLink
-        >
-          <NavLink to='/'>
 
-            {t("Navbar.title")}
-          </NavLink>
+        <NavMenuLink>
+          <Link to="/Solsytemet">{t("Navbar.title")}</Link>
         </NavMenuLink>
       </WebsiteName>
       <NavMenuList>
         <NavMenuItems>
-          <NavMenuLink
-          >
-            <NavLink to='/sun'>
-              {t("Navbar.mainPage")}
-            </NavLink>
+
+          <NavMenuLink>
+            <Link to="/Solsytemet/sun">{t("Navbar.mainPage")}</Link>
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
           <NavMenuLink>
-            <NavLink>
-              {t("Navbar.ourSolarsystem")}
-            </NavLink>
+
+            <Link>{t("Navbar.ourSolarsystem")}</Link>
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavMenuLink>
-            <NavLink>
-            {t("Navbar.planets")}
-            </NavLink>
-          </NavMenuLink>
+          <NavMenuLink href="#">{t("Navbar.planets")}</NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavMenuLink
-          >
-            <NavLink>
-              {t("Navbar.contact")}
-            </NavLink>
-          </NavMenuLink>
+          <NavMenuLink href="#">{t("Navbar.contact")}</NavMenuLink>
         </NavMenuItems>
       </NavMenuList>
     </NavBar>
-  )
+  );
 }
 
 export default Nav;

@@ -1,51 +1,48 @@
-// import React from "react";
-// import "./index.css";
-// import { useRef } from "react";
-// import emailjs from "@emailjs/browser";
-// import { Container, Options, Button } from "./styles";
+import React from "react";
 
-// const Contact = () => {
-//   const form = useRef();
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import { Main, Form, Input, Button } from "./stylesContact.js";
 
-//   const sendEmail = (e) => {
-//     e.preventDefault();
+const Contact = () => {
+  const form = useRef();
 
-//     emailjs.sendForm(
-//       "service_ll2alhu",
-//       "template_n8q0gqf",
-//       form.current,
-//       "GyOKH1R0saYvMD1DZ"
-//     );
-//     e.target.reset();
-//   };
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-//   return (
-//     <Container>
-//       <h2>Kontakt Oss</h2>
-//       <Options>
-//         <div>
-//           <article className='contact__option'>
-//             <form ref={form} onSubmit={sendEmail}>
-//               <input type='text' name='name' placeholder='Ditt Navn' required />
-//               <input
-//                 type='email'
-//                 name='email'
-//                 placeholder='Din Mailadresse'
-//                 required
-//               />
-//               <textarea
-//                 name='message'
-//                 rows='10'
-//                 placeholder='Din Melding'
-//                 required
-//               ></textarea>
-//               <Button type='submit'>Send Melding</Button>
-//             </form>
-//           </article>
-//         </div>
-//       </Options>
-//     </Container>
-//   );
-// };
+    emailjs.sendForm(
+      "service_ll2alhu",
+      "template_n8q0gqf",
+      form.current,
+      "GyOKH1R0saYvMD1DZ"
+    );
+    e.target.reset();
+  };
 
-// export default Contact;
+  return (
+    <>
+      <Main>
+        <h2>Kontakt Oss</h2>
+
+        <Form ref={form} onSubmit={sendEmail}>
+          <Input type='text' name='name' placeholder='Ditt Navn' required />
+          <Input
+            type='email'
+            name='email'
+            placeholder='Din Mailadresse'
+            required
+          />
+          <Input
+            name='message'
+            rows='20'
+            placeholder='Din Melding'
+            required
+          ></Input>
+          <Button type='submit'>Send Melding</Button>
+        </Form>
+      </Main>
+    </>
+  );
+};
+
+export default Contact;
