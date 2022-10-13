@@ -57,3 +57,5 @@ export const Saturn = () => {
     </StyledPageSection>
   );
 };
+
+export default Saturn;

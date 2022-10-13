@@ -59,3 +59,5 @@ export const Jupiter = () => {
     </StyledPageSection>
   );
 };
+
+export default Jupiter;
