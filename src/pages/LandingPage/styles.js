@@ -4,7 +4,7 @@ import Stars from "./img/stars.avif";
 export const LPDiv = styled.div`
   background: url(${Stars});
   width: 100%;
-  height: 100vh;
+  height: 150vh;
   z-index: -10;
   overflow: hidden;
 `;
@@ -39,7 +39,7 @@ export const MercuryContainer = styled.div`
   width: 13rem;
   height: 13rem;
   /* border: solid red 5px; */
-  animation: spin 20s linear infinite;
+  animation: spin 3479s linear infinite;
   position: absolute;
   @keyframes spin {
     from {
@@ -56,7 +56,7 @@ export const VenusContainer = styled.div`
   height: 20rem;
   /* border: solid red 5px; */
   position: absolute;
-  animation: spin 20s linear infinite;
+  animation: spin 14579s linear infinite;
   @keyframes spin {
     from {
       transform: rotate(0deg);
@@ -72,7 +72,7 @@ export const EarthContainer = styled.div`
   height: 25rem;
   /* border: solid red 5px; */
   position: absolute;
-  animation: spin 20s linear infinite;
+  animation: spin 59.4s linear infinite;
   @keyframes spin {
     from {
       transform: rotate(0deg);
@@ -88,7 +88,7 @@ export const MarsContainer = styled.div`
   height: 32rem;
   /* border: solid red 5px; */
   position: absolute;
-  animation: spin 20s linear infinite;
+  animation: spin 61.8s linear infinite;
   @keyframes spin {
     from {
       transform: rotate(0deg);
@@ -103,7 +103,7 @@ export const JupiterContainer = styled.div`
   height: 40rem;
   /* border: solid red 5px; */
   position: absolute;
-  animation: spin 20s linear infinite;
+  animation: spin 24.6s linear infinite;
   @keyframes spin {
     from {
       transform: rotate(0deg);
@@ -118,7 +118,7 @@ export const SaturnContainer = styled.div`
   height: 48rem;
   /* border: solid red 5px; */
   position: absolute;
-  animation: spin 20s linear infinite;
+  animation: spin 27s linear infinite;
   @keyframes spin {
     from {
       transform: rotate(0deg);
@@ -133,7 +133,7 @@ export const UranusContainer = styled.div`
   height: 55rem;
   /* border: solid red 5px; */
   position: absolute;
-  animation: spin 20s linear infinite;
+  animation: spin 43.2s linear infinite;
   @keyframes spin {
     from {
       transform: rotate(0deg);
@@ -148,7 +148,7 @@ export const NeptuneContainer = styled.div`
   height: 63rem;
   /* border: solid red 5px; */
   position: absolute;
-  animation: spin 20s linear infinite;
+  animation: spin 40.2s linear infinite;
   @keyframes spin {
     from {
       transform: rotate(0deg);
@@ -163,7 +163,7 @@ export const PlutoContainer = styled.div`
   height: 70rem;
   /* border: solid red 5px; */
   position: absolute;
-  animation: spin 20s linear infinite;
+  animation: spin 383.4s linear infinite;
   @keyframes spin {
     from {
       transform: rotate(0deg);

@@ -6,7 +6,7 @@ import {
   NavMenuItems,
   NavMenuLink,
   NavMenuList,
-  NavMenuList2,
+  // NavMenuList2,
   WebsiteName,
 } from "./styles";
 import { NavLink } from "react-router-dom";
