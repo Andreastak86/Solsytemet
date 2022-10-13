@@ -15,27 +15,47 @@ function Nav() {
       <WebsiteName>
 
         <NavMenuLink>
-          <NavLink to="/Solsytemet">{t("Navbar.title")}</NavLink>
+          <NavLink
+            to="/Solsytemet"
+          >
+            {t("Navbar.title")}
+          </NavLink>
         </NavMenuLink>
       </WebsiteName>
       <NavMenuList>
         <NavMenuItems>
 
           <NavMenuLink>
-            <NavLink to="/Solsytemet/sun">{t("Navbar.mainPage")}</NavLink>
+            <NavLink
+              to="/Solsytemet/sun"
+            >
+              {t("Navbar.mainPage")}
+            </NavLink>
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
           <NavMenuLink>
 
-            <NavLink>{t("Navbar.ourSolarsystem")}</NavLink>
+            <NavLink>
+              {t("Navbar.ourSolarsystem")}
+            </NavLink>
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavMenuLink href="#">{t("Navbar.planets")}</NavMenuLink>
+          <NavMenuLink>
+            <NavLink
+              to="#"
+            >
+              {t("Navbar.planets")}
+            </NavLink>
+          </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavMenuLink href="#">{t("Navbar.contact")}</NavMenuLink>
+          <NavMenuLink>
+            <NavLink>
+              {t("Navbar.contact")}
+            </NavLink>
+          </NavMenuLink>
         </NavMenuItems>
       </NavMenuList>
     </NavBar>
