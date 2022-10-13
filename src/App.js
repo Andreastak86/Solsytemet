@@ -16,7 +16,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/sun" element={<Sun />} />
-          <Route path="mars" element={<Mars />} />
+          <Route path="/mars" element={<Mars />} />
           <Route path="/jupiter" element={<Jupiter />} />
           <Route path="/saturn" element={<Saturn />} />
         </Routes>
