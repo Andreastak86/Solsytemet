@@ -2,6 +2,11 @@ import styled from "styled-components";
 import TheSun from "./img/the_sun.jpg"
 import SunAndEarth from "./img/earth-and-the-sun.jpg"
 
+export const SunBackground = styled.div`
+  width: 100%;
+  height: 100%;
+  background-color: black;
+`
 
 export const SunHeader = styled.div`
   margin-top: 7rem;
