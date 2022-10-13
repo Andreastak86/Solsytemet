@@ -1,16 +1,16 @@
 import React from "react";
-import FooterBar from "./components/footer";
-import Nav from "./components/navbar";
-import LandingPage from "./pages//LandingPage/index";
 import {
   Routes,
   Route,
   HashRouter,
 } from "react-router-dom";
+import Layout from "./components/layout/Layout";
+import LandingPage from "./pages//LandingPage/index";
 import Sun from "./pages/sun";
 import Mars from "./pages/mars";
 import Jupiter from "./pages/jupiterPage";
 import Saturn from "./pages/saturnPage";
+
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
       <HashRouter
       // basename="/"
       >
-        <Nav />
+        <Layout >
         <Routes>
           <Route
             path="/"
@@ -27,7 +27,7 @@ const App = () => {
             }
           />
           <Route
-            path="/Solsytemet"
+            path="/Solsytemet/"
             element={
               <LandingPage />
             }
@@ -57,7 +57,7 @@ const App = () => {
             }
           />
         </Routes>
-        <FooterBar />
+        </Layout>
       </HashRouter>
     </>
   );
