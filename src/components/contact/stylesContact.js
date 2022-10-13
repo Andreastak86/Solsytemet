@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Main = styled.section`
-  background: #0d1b2a;
+  background: black;
   color: #ffb800;
   display: grid;
   grid-template-columns: max-content;

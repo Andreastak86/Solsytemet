@@ -8,7 +8,6 @@ import {
 } from "./styles";
 import Sun from "./img/sun.webp";
 import Mercury from "./img/mercury.webp";
-import Contact from "../../components/contact";
 
 const LandingPage = () => {
   return (
@@ -23,7 +22,6 @@ const LandingPage = () => {
           </MercuryContainer>
         </LPMid>
       </LPDiv>
-      <Contact />
     </>
   );
 };
