@@ -23,8 +23,7 @@ function Sun() {
                 <SunImgTextFlex>
                     <SunEarthImage />
                     <SunText>
-                        The Sun doesn't have a "year," per se. But the Sun orbits the center of the Milky Way about every 230 million Earth years, bringing the planets, asteroids, comets, and other objects with it.
-                        {/* {t("")} */}
+                        {t("Sun.age")}
                     </SunText>
                 </SunImgTextFlex>
             </SunBackground>
