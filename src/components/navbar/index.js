@@ -1,36 +1,41 @@
 import React from "react";
 import { t } from "i18next";
-import { 
-  NavBar, 
-  NavMenuItems, 
-  NavMenuLink, 
-  NavMenuList, 
-  WebsiteName 
+import {
+  NavBar,
+  NavMenuItems,
+  NavMenuLink,
+  NavMenuList,
+  WebsiteName
 } from "./styles";
+import { Link } from "react-router-dom";
 
 function Nav() {
   return (
     <NavBar>
       <WebsiteName>
         <NavMenuLink
-          href="#"
         >
-          {t("Navbar.title")}
+          <Link to='/Solsytemet'>
+
+            {t("Navbar.title")}
+          </Link>
         </NavMenuLink>
       </WebsiteName>
       <NavMenuList>
         <NavMenuItems>
           <NavMenuLink
-            href="#"
           >
-            {t("Navbar.mainPage")}
+            <Link to='/Solsytemet'>
+              {t("Navbar.mainPage")}
+            </Link>
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
           <NavMenuLink
-            href="#"
           >
-            {t("Navbar.ourSolarsystem")}
+            <Link>
+              {t("Navbar.ourSolarsystem")}
+            </Link>
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
