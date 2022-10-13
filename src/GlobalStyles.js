@@ -1,4 +1,3 @@
-
 import styled, { createGlobalStyle } from "styled-components";
 
 export const Box = styled.div`
@@ -11,10 +10,9 @@ export const GlobalStyle = createGlobalStyle`
         padding: 0;
         font-family: 'Roboto Mono', monospace;
         color: white;
-        background-color: black;
+        /* background-color: black; */
         box-sizing: border-box;
 
     }
     
 `;
-

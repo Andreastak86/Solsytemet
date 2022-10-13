@@ -3,7 +3,7 @@ import React from "react";
 import FooterBar from "./components/footer";
 // import SetupEksempel from "./components/i18eksempel.js/SetupEksempel";
 import Nav from "./components/navbar";
-import LandingPage from "./pages//LandingPage/index";
+import LandingPage from "./pages/LandingPage/index";
 import {
   // HashRouter as Router,
   Routes,
@@ -12,7 +12,6 @@ import {
   // NavLink
 } from "react-router-dom";
 import Sun from "./pages/sun";
-
 
 const App = () => {
   return (
@@ -23,6 +22,7 @@ const App = () => {
           <Route path="/" element={<LandingPage />} />
           <Route path="/sun" element={<Sun />} />
         </Routes>
+        <LandingPage />
         <FooterBar />
       </BrowserRouter>
     </>
