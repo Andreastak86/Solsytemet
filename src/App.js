@@ -5,6 +5,7 @@ const App = () => {
   return (
     <>
       <Landingpages />
+      <h1>test</h1>
     </>
   );
 };
