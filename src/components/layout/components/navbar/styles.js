@@ -10,6 +10,7 @@ export const NavBar = styled.nav`
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 10;
 `;
 
 export const WebsiteName = styled.h1`
@@ -40,6 +41,7 @@ export const NavBar2 = styled.nav`
   width: 100%;
   transition: 0.3s;
   overflow: hidden;
+  z-index: 10;
 `;
 
 export const NavMenuItems = styled.li`
