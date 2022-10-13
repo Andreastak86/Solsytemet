@@ -15,20 +15,20 @@ function Nav() {
       <WebsiteName>
 
         <NavMenuLink>
-          <Link to="/Solsytemet">{t("Navbar.title")}</Link>
+          <NavLink to="/Solsytemet">{t("Navbar.title")}</NavLink>
         </NavMenuLink>
       </WebsiteName>
       <NavMenuList>
         <NavMenuItems>
 
           <NavMenuLink>
-            <Link to="/Solsytemet/sun">{t("Navbar.mainPage")}</Link>
+            <NavLink to="/Solsytemet/sun">{t("Navbar.mainPage")}</NavLink>
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
           <NavMenuLink>
 
-            <Link>{t("Navbar.ourSolarsystem")}</Link>
+            <NavLink>{t("Navbar.ourSolarsystem")}</NavLink>
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
