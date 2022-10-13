@@ -14,11 +14,36 @@ const App = () => {
       <BrowserRouter>
         <Nav />
         <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/sun" element={<Sun />} />
-          <Route path="/mars" element={<Mars />} />
-          <Route path="/jupiter" element={<Jupiter />} />
-          <Route path="/saturn" element={<Saturn />} />
+          <Route
+            path="/Solsytemet"
+            element={
+              <LandingPage />
+            }
+          />
+          <Route
+            path="/Solsytemet/sun"
+            element={
+              <Sun />
+            }
+          />
+          <Route
+            path="/Solsytemet/mars"
+            element={
+              <Mars />
+            }
+          />
+          <Route
+            path="/Solsytemet/jupiter"
+            element={
+              <Jupiter />
+            }
+          />
+          <Route
+            path="/Solsytemet/saturn"
+            element={
+              <Saturn />
+            }
+          />
         </Routes>
         <LandingPage />
         <FooterBar />
