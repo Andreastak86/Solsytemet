@@ -1,19 +1,26 @@
 {
   "files": {
-    "main.js": "/Solsytemet/static/js/main.a3ae519b.js",
+    "main.js": "/Solsytemet/static/js/main.aada9d58.js",
+    "static/media/Venus.png": "/Solsytemet/static/media/Venus.c6ca3fcd32f4b4219e20.png",
     "static/media/the_sun.jpg": "/Solsytemet/static/media/the_sun.d0fb31474d9d510817ac.jpg",
-    "static/media/saturn.png": "/Solsytemet/static/media/saturn.b1140cba3a54f155801a.png",
+    "static/media/jupiter.webp": "/Solsytemet/static/media/jupiter.676cd1683ddbf61661d7.webp",
+    "static/media/saturn.png": "/Solsytemet/static/media/saturn.bb84bd0b6ad70206d4c1.png",
     "static/media/jupiter.png": "/Solsytemet/static/media/jupiter.e3cee1f00009372afa75.png",
     "static/media/earth-and-the-sun.jpg": "/Solsytemet/static/media/earth-and-the-sun.7322b7b1656063d54278.jpg",
     "static/media/stars.avif": "/Solsytemet/static/media/stars.850e8edde99c74a87e69.avif",
+    "static/media/mars.png": "/Solsytemet/static/media/mars.4799a28467824ea15561.png",
+    "static/media/neptune.webp": "/Solsytemet/static/media/neptune.0a871dc9bacfd52e2451.webp",
+    "static/media/pluto.webp": "/Solsytemet/static/media/pluto.f16d55f3dfa6f0349eab.webp",
     "static/media/mars.jpg": "/Solsytemet/static/media/mars.9476da02b58cccdd323f.jpg",
     "static/media/sun.webp": "/Solsytemet/static/media/sun.2e406438ba7b5d5273de.webp",
     "static/media/mercury.webp": "/Solsytemet/static/media/mercury.c06eee0042a4addcfea9.webp",
+    "static/media/earth.png": "/Solsytemet/static/media/earth.ec7dd377343456488b42.png",
+    "static/media/uranus.png": "/Solsytemet/static/media/uranus.de09c889c02a1b0ba0c5.png",
     "index.html": "/Solsytemet/index.html",
     "static/media/getFetch.cjs": "/Solsytemet/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.a3ae519b.js.map": "/Solsytemet/static/js/main.a3ae519b.js.map"
+    "main.aada9d58.js.map": "/Solsytemet/static/js/main.aada9d58.js.map"
   },
   "entrypoints": [
-    "static/js/main.a3ae519b.js"
+    "static/js/main.aada9d58.js"
   ]
 }
