@@ -1,15 +1,13 @@
 {
   "files": {
-    "main.css": "/Solsytemet/static/css/main.3024cb6b.css",
-    "main.js": "/Solsytemet/static/js/main.cd459875.js",
-    "static/js/787.0a4602ca.chunk.js": "/Solsytemet/static/js/787.0a4602ca.chunk.js",
+    "main.js": "/Solsytemet/static/js/main.9303a428.js",
+    "static/media/the_sun.jpg": "/Solsytemet/static/media/the_sun.d0fb31474d9d510817ac.jpg",
+    "static/media/stars.avif": "/Solsytemet/static/media/stars.850e8edde99c74a87e69.avif",
     "index.html": "/Solsytemet/index.html",
-    "main.3024cb6b.css.map": "/Solsytemet/static/css/main.3024cb6b.css.map",
-    "main.cd459875.js.map": "/Solsytemet/static/js/main.cd459875.js.map",
-    "787.0a4602ca.chunk.js.map": "/Solsytemet/static/js/787.0a4602ca.chunk.js.map"
+    "static/media/getFetch.cjs": "/Solsytemet/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.9303a428.js.map": "/Solsytemet/static/js/main.9303a428.js.map"
   },
   "entrypoints": [
-    "static/css/main.3024cb6b.css",
-    "static/js/main.cd459875.js"
+    "static/js/main.9303a428.js"
   ]
 }
