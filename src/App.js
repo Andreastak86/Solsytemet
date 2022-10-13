@@ -12,7 +12,6 @@ import Mars from "./pages/mars";
 import Jupiter from "./pages/jupiterPage";
 import Saturn from "./pages/saturnPage";
 
-
 const App = () => {
   return (
     <>
