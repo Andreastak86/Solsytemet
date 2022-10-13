@@ -179,11 +179,12 @@ export const Modal = styled.div`
   border: 2px solid white;
   z-index: 10;
   position: fixed;
-  top: 20rem;
-  left: 20rem;
+  top: 30%;
+  left: 40%;
   height: 400px;
   width: 400px;
-  display: ${(props) => (props.active ? "flex" : "none")};
+  transition: 1s;
+  transform: scale(${(props) => (props.active ? "100%" : "0%")});
 `;
 
 export const Button = styled.button`

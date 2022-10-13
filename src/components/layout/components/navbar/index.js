@@ -37,7 +37,9 @@ function Nav() {
             </NavMenuLink>
           </NavMenuItems>
           <NavMenuItems onClick={planetDropDown}>
-            <NavMenuLink>{t("Navbar.planets")}</NavMenuLink>
+            <NavMenuLink>
+              <NavLink to="/">{t("Navbar.planets")}</NavLink>
+            </NavMenuLink>
           </NavMenuItems>
           <NavMenuItems>
             <NavMenuLink>

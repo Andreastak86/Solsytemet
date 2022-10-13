@@ -26,7 +26,7 @@ import Uranus from "./img/uranus.png";
 import Neptune from "./img/neptune.webp";
 import Pluto from "./img/pluto.webp";
 import { Link } from "react-router-dom";
-import { useRef, useState } from "react";
+import { useState } from "react";
 
 const LandingPage = () => {
   const [active, setActive] = useState(false);
@@ -35,18 +35,9 @@ const LandingPage = () => {
     setActive(!active);
   };
 
-  const closeMenu = (e) => {
-    if (menu.current && active && !menu.current.contains(e.target)) {
-      setActive(false);
-    }
-  };
-
-  const menu = useRef(null);
-  document.addEventListener("mousedown", closeMenu);
-
   return (
     <>
-      <LPDiv ref={menu}>
+      <LPDiv>
         <LPMid>
           <SunContainer>
             <LPImg onClick={toggle} id="1" src={Sun} alt="the sun" />
@@ -81,7 +72,7 @@ const LandingPage = () => {
             <LPImg src={Pluto} alt="Pluto" />
           </PlutoContainer>
         </LPMid>
-        <Modal id="1" active={active}>
+        <Modal active={active}>
           <LPImg src={Sun} alt="The Sun" />
           <Button>
             <Link to="/sun">Om Solen</Link>
