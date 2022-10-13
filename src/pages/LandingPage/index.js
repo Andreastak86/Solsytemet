@@ -8,6 +8,7 @@ import {
 } from "./styles";
 import Sun from "./img/sun.webp";
 import Mercury from "./img/mercury.webp";
+import Contact from "../../components/contact";
 
 const LandingPage = () => {
   return (
@@ -15,13 +16,14 @@ const LandingPage = () => {
       <LPDiv>
         <LPMid>
           <SunContainer>
-            <LPImg src={Sun} alt="the sun"></LPImg>
+            <LPImg src={Sun} alt='the sun'></LPImg>
           </SunContainer>
           <MercuryContainer>
-            <LPImg src={Mercury} alt="Mercury"></LPImg>
+            <LPImg src={Mercury} alt='Mercury'></LPImg>
           </MercuryContainer>
         </LPMid>
       </LPDiv>
+      <Contact />
     </>
   );
 };
