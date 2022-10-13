@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Solsytemet/static/js/main.ff7d8795.js",
+    "main.js": "/Solsytemet/static/js/main.a3ae519b.js",
     "static/media/the_sun.jpg": "/Solsytemet/static/media/the_sun.d0fb31474d9d510817ac.jpg",
     "static/media/saturn.png": "/Solsytemet/static/media/saturn.b1140cba3a54f155801a.png",
     "static/media/jupiter.png": "/Solsytemet/static/media/jupiter.e3cee1f00009372afa75.png",
@@ -11,9 +11,9 @@
     "static/media/mercury.webp": "/Solsytemet/static/media/mercury.c06eee0042a4addcfea9.webp",
     "index.html": "/Solsytemet/index.html",
     "static/media/getFetch.cjs": "/Solsytemet/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.ff7d8795.js.map": "/Solsytemet/static/js/main.ff7d8795.js.map"
+    "main.a3ae519b.js.map": "/Solsytemet/static/js/main.a3ae519b.js.map"
   },
   "entrypoints": [
-    "static/js/main.ff7d8795.js"
+    "static/js/main.a3ae519b.js"
   ]
 }
