@@ -6,6 +6,7 @@ export const LPDiv = styled.div`
   width: 100%;
   height: 100vh;
   z-index: -10;
+  overflow: hidden;
 `;
 
 export const LPImg = styled.img`
