@@ -1,17 +1,12 @@
 import React from "react";
 import FooterBar from "./components/footer";
 import Nav from "./components/navbar";
-import LandingPage from "./pages//LandingPage/index";
-import {
-  Routes,
-  Route,
-  BrowserRouter,
-} from "react-router-dom";
+import LandingPage from "./pages/LandingPage/index";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Sun from "./pages/sun";
 import Mars from "./pages/mars";
 import Jupiter from "./pages/jupiterPage";
 import Saturn from "./pages/saturnPage";
-
 
 const App = () => {
   return (
@@ -50,6 +45,7 @@ const App = () => {
             }
           />
         </Routes>
+        <LandingPage />
         <FooterBar />
       </BrowserRouter>
     </>
