@@ -12,7 +12,7 @@ export const Seksjon = styled.section`
   }
 `;
 
-export const Moon__container = styled.div`
+export const moon__container = styled.div`
   color: #ffffff;
 `;
 
