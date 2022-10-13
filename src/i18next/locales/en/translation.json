@@ -63,6 +63,32 @@
     "source": "Retrieved: October 11th 2022 from https://no.wikipedia.org/wiki/Saturn"
   },
 
+  "Neptun": {
+    "title": "Neptune",
+    "firstText": "Neptune is the eighth and outermost planet in the solar system from the sun, and the only planet that is impossible to see from Earth with the naked eye. It is named after Neptune, the Roman god of the sea. It is the fourth largest planet in the Solar System by diameter and has the third largest mass.",
+    "secondText": "Neptune has a similar chemical composition to Uranus, and both differ from the composition of the much larger gas giants Jupiter and Saturn. Neptune's atmosphere has a larger amount of ice-forming substances, such as water, ammonia and methane.",
+    "thirdText": "The planet's blue appearance comes mainly from red sunlight being absorbed by methane in the upper atmospheric layers. Unlike the relatively calm atmosphere of Uranus, Neptune's atmosphere is known for its active and visible weather patterns.",
+    "factsTitle": "Facts About Neptune",
+    "factsDiscovery": "Discovered: September 23, 1846",
+    "factsMass": "The planet with the third largest mass in the solar system",
+    "factsSpeed": "Average speed: 5.43 km/s",
+    "factsMoons": "Moons: 14 known",
+    "source": "Retrieved: October 13th 2022 from https://no.wikipedia.org/wiki/Neptun_(planet)"
+  },
+
+  "Venus": {
+    "title": "Venus",
+    "firstText": "Venus is the second planet from the sun and the third smallest in the solar system. The planet is named after Venus, the Roman goddess of love, beauty and fertility. After the Moon, Venus is the brightest natural object in the night sky and is bright enough to cast shadows.",
+    "secondText": "If you are far north on Earth (for example Tromsø), Venus is circumpolar in certain periods and visible all night. The same is the case in certain other periods if you are far enough south on Earth. It is called the Evening Star when it is visible after sunset and the Morning Star when it is visible before sunrise.",
+    "thirdText": "Venus is a terrestrial planet and is sometimes called Earth's «sister planet» due to its relatively similar size, gravity and composition. An opaque layer of highly reflective clouds of sulfuric acid prevents the surface from being seen in visible light from space.",
+    "factsTitle": "Facts About Venus",
+    "factsRadius": "Average radius: 6,051.8 km",
+    "factsSize": "The third smallest planet in the solar system",
+    "factsSpeed": "Average speed: 35.02 km/s",
+    "factsMoons": "Moons: None",
+    "source": "Retrieved: October 13th 2022 from https://no.wikipedia.org/wiki/Venus"
+  },
+
   "Footer": {
     "MadeBy": "Made by:"
   }
