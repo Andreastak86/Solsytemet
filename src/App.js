@@ -20,31 +20,31 @@ const App = () => {
         <Nav />
         <Routes>
           <Route
-            path="/"
+            path="/Solsytemet"
             element={
               <LandingPage />
             }
           />
           <Route
-            path="/sun"
+            path="/Solsytemet/sun"
             element={
               <Sun />
             }
           />
           <Route
-            path="/mars"
+            path="/Solsytemet/mars"
             element={
               <Mars />
             }
           />
           <Route
-            path="/jupiter"
+            path="/Solsytemet/jupiter"
             element={
               <Jupiter />
             }
           />
           <Route
-            path="/saturn"
+            path="/Solsytemet/saturn"
             element={
               <Saturn />
             }
