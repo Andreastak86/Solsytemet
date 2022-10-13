@@ -8,14 +8,8 @@ export const LPDiv = styled.div`
   z-index: -10;
 `;
 
-export const LPH1 = styled.h1`
-  text-align: center;
-  padding-top: 20%;
-  background: none;
-`;
-
 export const LPImg = styled.img`
-  width: 100%;
+  width: 5rem;
   object-fit: contain;
   animation: spin 20s linear infinite;
   @keyframes spin {
@@ -29,70 +23,152 @@ export const LPImg = styled.img`
 `;
 
 export const LPMid = styled.div`
-  position: absolute;
-  top: 45%;
-  left: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const SunContainer = styled.div`
-  width: 10rem;
-  height: 10rem;
   position: absolute;
   z-index: 1;
 `;
 
 export const MercuryContainer = styled.div`
-  width: 20rem;
-  height: 5rem;
+  width: 13rem;
+  height: 13rem;
+  /* border: solid red 5px; */
+  animation: spin 20s linear infinite;
   position: absolute;
-  padding-left: 15rem;
-  top: 2.5rem;
-  left: -5rem;
-  animation: mercury 3s linear infinite;
-  @keyframes mercury {
-    0% {
-      transform: translate(0, 0);
-      z-index: 2;
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
     }
-    10% {
-      transform: translate(-5rem, 1rem);
-      z-index: 2;
-    }
-    20% {
-      transform: translate(-10rem, 2rem);
-      z-index: 2;
-    }
-    30% {
-      transform: translate(-15rem, 1rem);
-      z-index: 2;
-    }
-    40% {
-      transform: translate(-15rem, 0rem);
-      z-index: 2;
-    }
-    50% {
-      transform: translate(-15rem, -1rem);
-      z-index: 2;
-    }
-    60% {
-      transform: translate(-13rem, -2rem);
-      z-index: 0;
-    }
-    70% {
-      transform: translate(-10rem, -3rem);
-      z-index: 0;
-    }
-    80% {
-      transform: translate(-2rem, -2rem);
-      z-index: 0;
-    }
-    90% {
-      transform: translate(2rem, -1rem);
-      z-index: 1;
-    }
-    100% {
-      transform: translate(0, 0);
-      z-index: 1;
+    to {
+      transform: rotate(360deg);
     }
   }
-`;
+`
+
+export const VenusContainer = styled.div`
+  width: 20rem;
+  height: 20rem;
+  /* border: solid red 5px; */
+  position: absolute;
+  animation: spin 20s linear infinite;
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+`
+
+export const EarthContainer = styled.div`
+  width: 25rem;
+  height: 25rem;
+  /* border: solid red 5px; */
+  position: absolute;
+  animation: spin 20s linear infinite;
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+`
+
+export const MarsContainer = styled.div`
+  width: 32rem;
+  height: 32rem;
+  /* border: solid red 5px; */
+  position: absolute;
+  animation: spin 20s linear infinite;
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+`
+export const JupiterContainer = styled.div`
+  width: 40rem;
+  height: 40rem;
+  /* border: solid red 5px; */
+  position: absolute;
+  animation: spin 20s linear infinite;
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+`
+export const SaturnContainer = styled.div`
+  width: 48rem;
+  height: 48rem;
+  /* border: solid red 5px; */
+  position: absolute;
+  animation: spin 20s linear infinite;
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+`
+export const UranusContainer = styled.div`
+  width: 55rem;
+  height: 55rem;
+  /* border: solid red 5px; */
+  position: absolute;
+  animation: spin 20s linear infinite;
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+`
+export const NeptuneContainer = styled.div`
+  width: 63em;
+  height: 63rem;
+  /* border: solid red 5px; */
+  position: absolute;
+  animation: spin 20s linear infinite;
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+`
+export const PlutoContainer = styled.div`
+  width: 70rem;
+  height: 70rem;
+  /* border: solid red 5px; */
+  position: absolute;
+  animation: spin 20s linear infinite;
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+`
