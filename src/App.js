@@ -1,8 +1,12 @@
 import React from "react";
 import FooterBar from "./components/footer";
 import Nav from "./components/navbar";
-import LandingPage from "./pages/LandingPage/index";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import LandingPage from "./pages//LandingPage/index";
+import {
+  Routes,
+  Route,
+  HashRouter,
+} from "react-router-dom";
 import Sun from "./pages/sun";
 import Mars from "./pages/mars";
 import Jupiter from "./pages/jupiterPage";
@@ -11,9 +15,17 @@ import Saturn from "./pages/saturnPage";
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <HashRouter
+      // basename="/"
+      >
         <Nav />
         <Routes>
+          <Route
+            path="/"
+            element={
+              <LandingPage />
+            }
+          />
           <Route
             path="/Solsytemet"
             element={
@@ -21,32 +33,32 @@ const App = () => {
             }
           />
           <Route
-            path="/Solsytemet/sun"
+            path="/sun"
             element={
               <Sun />
             }
           />
           <Route
-            path="/Solsytemet/mars"
+            path="/mars"
             element={
               <Mars />
             }
           />
           <Route
-            path="/Solsytemet/jupiter"
+            path="/jupiter"
             element={
               <Jupiter />
             }
           />
           <Route
-            path="/Solsytemet/saturn"
+            path="/saturn"
             element={
               <Saturn />
             }
           />
         </Routes>
         <FooterBar />
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 };

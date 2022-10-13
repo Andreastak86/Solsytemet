@@ -1,41 +1,69 @@
 {
-    "Navbar": {
-        "title": "Solarsystem",
-        "mainPage": "Main page",
-        "ourSolarsystem": "Our solarsystem",
-        "planets": "Planets",
-        "contact": "Contact us"
-    },
+  "Navbar": {
+    "title": "Solarsystem",
+    "mainPage": "Main page",
+    "ourSolarsystem": "Our solarsystem",
+    "planets": "Planets",
+    "contact": "Contact us"
+  },
 
-    "Sun": {
-        "title": "Sun",
-        "titleSubtext": "Our Sun is a 4.5 billion-year-old star - a hot glowing ball of hydrogen and helium at the center of our solar system."
-    },
+  "Sun": {
+    "title": "Sun",
+    "titleSubtext": "Our Sun is a 4.5 billion-year-old star - a hot glowing ball of hydrogen and helium at the center of our solar system."
+  },
 
-    "Eksempel": {
-        "test": "this is a test",
-        "kakeErGodt": "I like cake"
-    },
+  "Eksempel": {
+    "test": "this is a test",
+    "kakeErGodt": "I like cake"
+  },
 
-    "HomePage": {
-        "titel": "This is a test",
-        "titelSubtext": "This is a small text under the title",
-        "textSomethingIntresting": "Name the text in camelcase by something relevant"
-    },
+  "HomePage": {
+    "titel": "This is a test",
+    "titelSubtext": "This is a small text under the title",
+    "textSomethingIntresting": "Name the text in camelcase by something relevant"
+  },
 
-    "Earth": {
-        "title": "This is Earths titsle",
-        "titleSubtext": "Earth is the planet we live on",
-        "textRotation": "This is a text about earths rotation"
-    },
+  "Earth": {
+    "title": "This is Earths titsle",
+    "titleSubtext": "Earth is the planet we live on",
+    "textRotation": "This is a text about earths rotation"
+  },
 
-    "Mars": {
-        "title": "This is Mars title",
-        "titleSubtext": "Mars is the planet",
-        "textRotation": "This is a text about mars rotation"
-    },
+  "Mars": {
+    "title": "This is Mars title",
+    "titleSubtext": "Mars is the planet",
+    "textRotation": "This is a text about mars rotation"
+  },
 
-    "Footer":{
-        "MadeBy": "Made by:"
-    }
+  "Jupiter": {
+    "title": "Jupiter",
+    "firstText": "Jupiter is the fifth planet from the sun and the largest planet in the solar system. Jupiter, in addition to Saturn, Uranus and Neptune are gas giants.",
+    "secondText": "In ancient times, the planet was associated with mythology and religious beliefs in a number of cultures. The Romans named the planet after the Roman god Jupiter.",
+    "thirdText": "Jupiter consists mainly of hydrogen. The rapid rotation gives Jupiter the shape of a flattened spheroid, with a small bulge around the equator. The outer atmosphere is segregated into several strips at different altitudes, leading to turbulence and storms along the interacting boundaries.",
+    "factsTitle": "Facts about Jupiter",
+    "factsSize": "Largest planet in the solar system",
+    "factsSpeed": "Average speed: 13.07 km/s",
+    "factsMass": "Mass: 2.5 times the mass of all other planets in the solar system combined",
+    "factsEquatorRadius": "Equatorradius: 71 492 km",
+    "source": "Retrieved: October 11th 2022 from https://no.wikipedia.org/wiki/Jupiter"
+  },
+
+  "Saturn": {
+    "title": "Saturn",
+    "firstText": "Saturn is the sixth planet from the Sun and the second largest in the Solar System, after Jupiter. It is named after the Roman god Saturn.",
+    "secondText": "Saturn's layer of metallic hydrogen conducts electricity, and is thought to give rise to the planet's magnetic field, which at the surface is somewhat weaker than Earth's. Wind speeds can reach 1,800 km/h.",
+    "thirdText": "Saturn's ring system consists of nine connected main rings and three disconnected arcs, which consist mainly of ice particles, with also some rock and dust. 82 known moons orbit the planet - 53 of these have been given official names. In addition, there are hundreds of «dwarf moons» in the ring system.",
+    "factsTitle": "Facts About Saturn",
+    "factsYear": "1 Saturn year = 30 years on earth",
+    "factsMass": "Mass: 95 times that of Earth",
+    "factsRadius": "Average radius: 9 times that of Earth",
+    "factsRings": "Main rings: 9",
+    "factsSpeed": "Average speed: 9.69 km/s",
+    "factsMoons": "Moons: 82",
+    "source": "Retrieved: October 11th 2022 from https://no.wikipedia.org/wiki/Saturn"
+  },
+
+  "Footer": {
+    "MadeBy": "Made by:"
+  }
 }

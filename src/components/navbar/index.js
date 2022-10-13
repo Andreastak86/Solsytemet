@@ -9,7 +9,7 @@ import {
   NavMenuList2,
   WebsiteName,
 } from "./styles";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
   const [active, setActive] = useState();

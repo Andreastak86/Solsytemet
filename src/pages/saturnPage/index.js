@@ -9,49 +9,34 @@ import {
   StyledPageSection,
   StyledPageUl,
 } from "./styles";
+import { t } from "i18next";
 
-export const Saturn = () => {
+const Saturn = () => {
   return (
     <StyledPageSection>
       <StyledPageContainer>
         <StyledPageMainWrapper>
           <StyledPageInfoWrapper info>
-            <StyledPageH1>Saturn</StyledPageH1>
-            <StyledPageP>
-              Saturn er den sjette planeten fra solen og den nest største i
-              solsystemet, etter Jupiter. Den er oppkalt etter den romerske
-              guden Saturn.
-            </StyledPageP>
-            <StyledPageP>
-              Saturns lag med metallisk hydrogen leder elektrisk strøm, og antas
-              å gi opphav til planetens magnetfelt, som ved overflaten er noe
-              svakere enn jordens. Vindhastighetene kan komme opp i 1 800 km/t.
-            </StyledPageP>
-            <StyledPageP>
-              Saturns ringsystem består av ni sammenhengende hovedringer og tre
-              usammenhengende buer, som består hovedsakelig av ispartikler, med
-              også en del stein og støv. 82 kjente måner går i bane rundt
-              planeten - 53 av disse har fått offisielle navn. I tillegg
-              befinner det seg hundrevis av «dvergmåner» i ringsystemet.
-            </StyledPageP>
+            <StyledPageH1>{t("Saturn.title")}</StyledPageH1>
+            <StyledPageP>{t("Saturn.firstText")}</StyledPageP>
+            <StyledPageP>{t("Saturn.secondText")}</StyledPageP>
+            <StyledPageP>{t("Saturn.thirdText")}</StyledPageP>
           </StyledPageInfoWrapper>
 
           <StyledPageInfoWrapper facts>
-            <StyledPageH1>Fakta Om Saturn</StyledPageH1>
+            <StyledPageH1>{t("Saturn.factsTitle")}</StyledPageH1>
             <StyledPageUl>
-              <StyledPageLi>1 Saturn-år = 30 år på jorden</StyledPageLi>
-              <StyledPageLi>Masse: 95 ganger jordens</StyledPageLi>
-              <StyledPageLi>Gjennomsnittsradius: 9 ganger jordens</StyledPageLi>
-              <StyledPageLi>Hovedringer: 9</StyledPageLi>
-              <StyledPageLi>Gjennomsnittsfart: 9,69 km/s</StyledPageLi>
-              <StyledPageLi>Måner: 82</StyledPageLi>
+              <StyledPageLi>{t("Saturn.factsYear")}</StyledPageLi>
+              <StyledPageLi>{t("Saturn.factsMass")}</StyledPageLi>
+              <StyledPageLi>{t("Saturn.factsRadius")}</StyledPageLi>
+              <StyledPageLi>{t("Saturn.factsRings")}</StyledPageLi>
+              <StyledPageLi>{t("Saturn.factsSpeed")}</StyledPageLi>
+              <StyledPageLi>{t("Saturn.factsMoons")}</StyledPageLi>
             </StyledPageUl>
           </StyledPageInfoWrapper>
         </StyledPageMainWrapper>
         <StyledPageFooter>
-          <StyledPageP footer>
-            Hentet: 11. oktober 2022 fra https://no.wikipedia.org/wiki/Saturn
-          </StyledPageP>
+          <StyledPageP footer>{t("Saturn.source")}</StyledPageP>
         </StyledPageFooter>
       </StyledPageContainer>
     </StyledPageSection>
