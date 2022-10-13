@@ -9,7 +9,8 @@
 
     "Sun": {
         "title": "Sun",
-        "titleSubtext": "Our Sun is a 4.5 billion-year-old star - a hot glowing ball of hydrogen and helium at the center of our solar system."
+        "titleSubtext": "Our Sun is a 4.5 billion-year-old star - a hot glowing ball of hydrogen and helium at the center of our solar system.",
+        "age": "The Sun doesn't have a 'year,' per se. But the Sun orbits the center of the Milky Way about every 230 million Earth years, bringing the planets, asteroids, comets, and other objects with it."
     },
 
     "Eksempel": {

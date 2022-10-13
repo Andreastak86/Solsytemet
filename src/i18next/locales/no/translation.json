@@ -9,7 +9,8 @@
 
     "Sun": {
         "title": "Solen",
-        "titleSubtext": "Solen vår er en 4,5 milliarder år gammel stjerne - en varm glødende ball av hydrogen og helium i sentrum av solsystemet vårt."
+        "titleSubtext": "Solen vår er en 4,5 milliarder år gammel stjerne - en varm glødende ball av hydrogen og helium i sentrum av solsystemet vårt.",
+        "age": "Solen har ikke et 'år' i seg selv. Men solen går i bane rundt Melkeveiens sentrum omtrent hvert 230. million jordår, og bringer planetene, asteroidene, kometene og andre objekter med seg."
     },
     "eksempel":{
         "test": "Dette er en test",

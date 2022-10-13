@@ -7,7 +7,7 @@ import {
   NavMenuList,
   WebsiteName
 } from "./styles";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function Nav() {
   return (
@@ -15,41 +15,41 @@ function Nav() {
       <WebsiteName>
         <NavMenuLink
         >
-          <Link to='/Solsytemet'>
+          <NavLink to='/'>
 
             {t("Navbar.title")}
-          </Link>
+          </NavLink>
         </NavMenuLink>
       </WebsiteName>
       <NavMenuList>
         <NavMenuItems>
           <NavMenuLink
           >
-            <Link to='/Solsytemet'>
+            <NavLink to='/sun'>
               {t("Navbar.mainPage")}
-            </Link>
+            </NavLink>
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavMenuLink
-          >
-            <Link>
+          <NavMenuLink>
+            <NavLink>
               {t("Navbar.ourSolarsystem")}
-            </Link>
+            </NavLink>
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavMenuLink
-            href="#"
-          >
+          <NavMenuLink>
+            <NavLink>
             {t("Navbar.planets")}
+            </NavLink>
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
           <NavMenuLink
-            href="#"
           >
-            {t("Navbar.contact")}
+            <NavLink>
+              {t("Navbar.contact")}
+            </NavLink>
           </NavMenuLink>
         </NavMenuItems>
       </NavMenuList>
