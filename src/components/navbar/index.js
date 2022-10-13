@@ -25,7 +25,7 @@ function Nav() {
         <NavMenuItems>
           <NavMenuLink
           >
-            <Link to='/Solsytemet'>
+            <Link to='/Solsytemet/sun'>
               {t("Navbar.mainPage")}
             </Link>
           </NavMenuLink>
