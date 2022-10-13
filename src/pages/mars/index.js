@@ -2,7 +2,7 @@ import React from "react";
 
 import { Button, Paragraf, Headder, Seksjon, Kilde } from "./styles";
 
-const index = () => {
+const Mars = () => {
   return (
     <Seksjon>
       <div className='container mars__container'>
@@ -30,4 +30,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Mars;
