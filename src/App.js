@@ -45,7 +45,6 @@ const App = () => {
             }
           />
         </Routes>
-        <LandingPage />
         <FooterBar />
       </BrowserRouter>
     </>
