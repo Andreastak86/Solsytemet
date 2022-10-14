@@ -1,4 +1,12 @@
 {
-    "test": "Dette er en test",
-    "kake": "jeg likerss kake"
+  "test": "Dette er en test",
+  "kake": "jeg likerss kake",
+  "Moon": {
+    "title": "Månen",
+    "para1": "Månen er jordens eneste naturlige satellitt . Diameteren er omtrent en fjerdedel av jordens diameter (sammenlignbar med Australias bredde ).",
+    "para2": "Månen er den femte største satellitten i solsystemet . Den er større enn noen av de kjente dvergplanetene og er den største (og mest massive) satellitten i forhold til moderplaneten .",
+    "para3": "Månen er et objekt med planetmasse som dannet et differensiert steinlegeme , noe som gjør den til en satellittplanet under geofysiske definisjoner av begrepet . ",
+    "para4": "Den mangler noen betydelig atmosfære , hydrosfære eller magnetfelt . ",
+    "para5": "Dens overflatetyngdekraft er omtrent en sjettedel av jordens (0,1654  g ). Jupiters måne Io er den eneste satellitten i solsystemet som er kjent for å ha høyere overflatetyngdekraft og -tetthet."
+  }
 }
