@@ -45,6 +45,32 @@
     "source": "Hentet: 11. oktober 2022 fra https://no.wikipedia.org/wiki/Saturn"
   },
 
+  "Neptun": {
+    "title": "Neptun",
+    "firstText": "Neptun er den åttende og ytterste planeten i solsystemet regnet fra solen, og den eneste planeten det er umulig å se fra jorden med det blotte øyet. Den er oppkalt etter Neptun, den romerske havguden. Den er den fjerde største planeten i solsystemet etter diameter og har den tredje største massen.",
+    "secondText": "Neptun har en lignende kjemisk sammensetning som Uranus, og begge skiller seg fra sammensetningen til de langt større gasskjempene Jupiter og Saturn. Neptuns atmosfære har en større mengde isdannende stoffer, som blant annet vann, ammoniakk og metan.",
+    "thirdText": "Planetens blå utseende kommer hovedsakelig av at rødt sollys absorberes av metan i de øvre atmosfærelagene. I motsetning til den relativt rolige atmosfæren til Uranus er Neptuns atmosfære kjent for sine aktive og synlige værmønstre.",
+    "factsTitle": "Fakta Om Neptun",
+    "factsDiscovery": "Oppdaget: 23. september 1846",
+    "factsMass": "Planeten med den tredje største massen i solsystemet",
+    "factsSpeed": "Gjennomsnittsfart: 5,43 km/s",
+    "factsMoons": "Måner: 14 kjente",
+    "source": "Hentet: 13. oktober 2022 fra https://no.wikipedia.org/wiki/Neptun_(planet)"
+  },
+
+  "Venus": {
+    "title": "Venus",
+    "firstText": "Venus er den andre planeten fra solen og den tredje minste i solsystemet. Planeten er oppkalt etter Venus, den romerske gudinnen for kjærlighet, skjønnhet og fruktbarhet. Etter månen er Venus det mest lyssterke naturlige objektet på nattehimmelen og den er lys nok til å kaste skygger.",
+    "secondText": "Dersom man er langt nord på jorden (for eksempel Tromsø), er Venus i visse perioder sirkumpolar og synlig hele natten. Det samme er tilfelle i visse andre perioder hvis man er langt nok mot sør på jorden. Den kalles Aftenstjernen når den er synlig etter solnedgang og Morgenstjernen når den er synlig før soloppgang.",
+    "thirdText": "Venus er en terrestrisk planet og blir noen ganger kalt jordens «søsterplanet» på grunn av relativt lik størrelse, gravitasjon og sammensetning. Et ugjennomsiktig lag med svært reflektive skyer av svovelsyre hindrer overflaten i å bli sett i synlig lys fra verdensrommet.",
+    "factsTitle": "Fakta Om Venus",
+    "factsRadius": "Gjennomsnittsradius: 6 051,8 km",
+    "factsSize": "Den tredje minste planeten i solsystemet",
+    "factsSpeed": "Gjennomsnittsfart: 35,02 km/s",
+    "factsMoons": "Måner: Ingen",
+    "source": "Hentet: 13. oktober 2022 fra https://no.wikipedia.org/wiki/Venus"
+  },
+
   "Footer": {
     "MadeBy": "Laget av:"
   },

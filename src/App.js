@@ -8,6 +8,8 @@ import Mars from "./pages/mars";
 import Jupiter from "./pages/jupiterPage";
 import Saturn from "./pages/saturnPage";
 import Moon from "./pages/moon";
+import Neptun from "./pages/neptunPage";
+import Venus from "./pages/venusPage";
 
 const App = () => {
   return (
@@ -15,13 +17,42 @@ const App = () => {
       <HashRouter>
         <Layout>
           <Routes>
-            <Route path="/" element={<Moon />} />
-            {/* <Route path="/Solsytemet/" element={<LandingPage />} /> */}
-            <Route path="/sun" element={<Sun />} />
-            <Route path="/earth" element={<Earth />} />
-            <Route path="/mars" element={<Mars />} />
-            <Route path="/jupiter" element={<Jupiter />} />
-            <Route path="/saturn" element={<Saturn />} />
+            <Route path="/moon" element={<Moon />} />
+            <Route 
+              path="/Solsytemet/" 
+              element={<LandingPage />} />
+            <Route 
+              path="/sun" 
+              element={<Sun />} 
+            />
+              <Route 
+                path="/earth" 
+                element={<Earth />} 
+              />
+            <Route 
+              path="/mars" 
+              element={<Mars />} 
+            />
+            <Route 
+              path="/jupiter" 
+              element={<Jupiter />} 
+            />
+            <Route 
+              path="/saturn" 
+              element={<Saturn />} 
+            />
+            <Route
+            path="/neptun"
+            element={
+              <Neptun />
+            }
+            />
+            <Route
+              path="/venus"
+              element={
+                <Venus />
+              }
+            />
           </Routes>
         </Layout>
       </HashRouter>

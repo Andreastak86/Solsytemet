@@ -3,7 +3,7 @@ import jupiter from "./img/jupiter.png";
 
 export const StyledPageSection = styled.section`
   width: 100%;
-  padding: 6em 0 0em;
+  padding: 10em 0 0em;
   background-color: #000;
   background-image: url(${jupiter});
   background-repeat: no-repeat;
@@ -18,7 +18,7 @@ export const StyledPageSection = styled.section`
 `;
 
 export const StyledPageContainer = styled.div`
-  width: 85%;
+  width: 75%;
   margin: auto auto;
 `;
 
@@ -47,7 +47,7 @@ export const StyledPageFooter = styled.footer`
   color: #fff;
 
   @media screen and (min-width: 600px) {
-    margin-top: 22%;
+    margin-top: 12%;
   }
 `;
 
