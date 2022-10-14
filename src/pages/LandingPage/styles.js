@@ -46,17 +46,11 @@ export const MarsImg = styled.img`
   width: 2.5rem;
   object-fit: contain;
   animation: spin 20s linear infinite;
-  /* position: fixed;
-  bottom: 0;
-  left: 0; */
 `;
 export const JupiterImg = styled.img`
   width: 10rem;
   object-fit: contain;
   animation: spin 20s linear infinite;
-  /* position: absolute;
-  bottom: 0;
-  right: 0; */
 `;
 export const SaturnImg = styled.img`
   width: 9rem;
@@ -104,7 +98,7 @@ export const SunContainer = styled.div`
 export const MercuryContainer = styled.div`
   width: 25rem;
   height: 25rem;
-  /* animation: spin 3479s linear infinite; */
+  animation: spin 3479s linear infinite;
   position: absolute;
   z-index: 8;
   border: solid red 2px;
@@ -114,7 +108,7 @@ export const VenusContainer = styled.div`
   width: 33rem;
   height: 33rem;
   position: absolute;
-  /* animation: spin 14579s linear infinite; */
+  animation: spin 14579s linear infinite;
   z-index: 7;
   border: solid red 2px;
 `;
@@ -123,7 +117,7 @@ export const EarthContainer = styled.div`
   width: 42rem;
   height: 42rem;
   position: absolute;
-  /* animation: spin 59.4s linear infinite; */
+  animation: spin 59.4s linear infinite;
   z-index: 6;
   border: solid red 2px;
 `;
@@ -135,14 +129,14 @@ margin-left: -1rem;
   height: 6.5rem;
   position: absolute;
   border: solid yellow 2px;
-  /* animation: spin 1638s linear infinite; */
+  animation: spin 1638s linear infinite;
 `
 
 export const MarsContainer = styled.div`
   width: 49rem;
   height: 49rem;
   position: absolute;
-  /* animation: spin 61.8s linear infinite; */
+  animation: spin 61.8s linear infinite;
   z-index: 5;
   border: solid red 2px;
 `;
@@ -150,7 +144,7 @@ export const JupiterContainer = styled.div`
   width: 67rem;
   height: 67rem;
   position: absolute;
-  /* animation: spin 24.6s linear infinite; */
+  animation: spin 24.6s linear infinite;
   z-index: 4;
   border: solid red 2px;
 `;
@@ -158,7 +152,7 @@ export const SaturnContainer = styled.div`
   width: 80rem;
   height: 80rem;
   position: absolute;
-  /* animation: spin 27s linear infinite; */
+  animation: spin 27s linear infinite;
   z-index: 3;
   border: solid red 2px;
 `;
@@ -166,7 +160,7 @@ export const UranusContainer = styled.div`
   width: 90rem;
   height: 90rem;
   position: absolute;
-  /* animation: spin 43.2s linear infinite; */
+  animation: spin 43.2s linear infinite;
   z-index: 2;
   border: solid red 2px;
 `;
@@ -174,7 +168,7 @@ export const NeptuneContainer = styled.div`
   width: 98rem;
   height: 98rem;
   position: absolute;
-  /* animation: spin 40.2s linear infinite; */
+  animation: spin 40.2s linear infinite;
   z-index: 1;
   border: solid red 2px;
 `;
@@ -182,33 +176,7 @@ export const PlutoContainer = styled.div`
   width: 100rem;
   height: 100rem;
   position: absolute;
-  /* animation: spin 383.4s linear infinite; */
+  animation: spin 383.4s linear infinite;
   z-index: 0;
   border: solid red 2px;
 `;
-
-// export const Modal = styled.div`
-//   background-color: rgba(0, 0, 0, 0.6);
-//   border: 2px solid white;
-//   z-index: 10;
-//   position: fixed;
-//   top: 30%;
-//   left: 40%;
-//   height: 400px;
-//   width: 400px;
-//   transition: 1s;
-//   transform: scale(${(props) => (props.active ? "100%" : "0%")});
-// `;
-
-// export const Button = styled.button`
-//   height: 5rem;
-//   width: 10rem;
-//   margin: auto;
-//   background: rgba(100, 200, 200, 0.3);
-//   border-radius: 5rem;
-//   border: 1px solid white;
-//   transition: 1s;
-//   :hover {
-//     background-color: rgba(100, 200, 200, 1);
-//   }
-// `;

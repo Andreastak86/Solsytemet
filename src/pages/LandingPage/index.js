@@ -1,8 +1,6 @@
-// import { useState } from "react";
 import { Link } from "react-router-dom";
 import {
   LPDiv,
-  // LPImg,
   LPMid,
   SunContainer,
   MercuryContainer,
@@ -18,6 +16,7 @@ import {
   MercuryImg,
   VenusImg,
   EarthImg,
+  MoonImg,
   MarsImg,
   JupiterImg,
   SaturnImg,
@@ -25,9 +24,6 @@ import {
   NeptuneImg,
   PlutoImg,
   MoonContainer,
-  MoonImg,
-  // Modal,
-  // Button,
 } from "./styles";
 import Sun from "./img/sun.webp";
 import Mercury from "./img/mercury.webp";
@@ -42,11 +38,6 @@ import Neptune from "./img/neptune.webp";
 import Pluto from "./img/pluto.webp";
 
 const LandingPage = () => {
-  // const [active, setActive] = useState(false);
-
-  // const toggle = () => {
-  //   setActive(!active);
-  // };
 
   return (
     <>
@@ -57,8 +48,6 @@ const LandingPage = () => {
               to="/sun"
             >
               <SunImg
-                // onClick={toggle} 
-                id="1"
                 src={Sun}
                 alt="the sun"
               />
@@ -165,19 +154,6 @@ const LandingPage = () => {
             </Link>
           </PlutoContainer>
         </LPMid>
-        {/* <Modal active={active}>
-          <SunImg 
-            src={Sun} 
-            alt="The Sun" 
-          />
-          <Button>
-            <Link 
-              to="/sun"
-            >
-              Om Solen
-            </Link>
-          </Button>
-        </Modal> */}
       </LPDiv>
     </>
   );
