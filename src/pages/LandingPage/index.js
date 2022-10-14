@@ -1,96 +1,183 @@
+// import { useState } from "react";
+import { Link } from "react-router-dom";
 import {
-  EarthContainer,
-  JupiterContainer,
   LPDiv,
-  LPImg,
+  // LPImg,
   LPMid,
-  MarsContainer,
+  SunContainer,
   MercuryContainer,
+  VenusContainer,
+  EarthContainer,
+  MarsContainer,
+  JupiterContainer,
+  SaturnContainer,
+  UranusContainer,
   NeptuneContainer,
   PlutoContainer,
-  SaturnContainer,
-  SunContainer,
-  UranusContainer,
-  VenusContainer,
+  SunImg,
+  MercuryImg,
+  VenusImg,
+  EarthImg,
+  MarsImg,
+  JupiterImg,
+  SaturnImg,
+  UranusImg,
+  NeptuneImg,
+  PlutoImg,
+  MoonContainer,
+  MoonImg,
+  // Modal,
+  // Button,
 } from "./styles";
 import Sun from "./img/sun.webp";
 import Mercury from "./img/mercury.webp";
 import Venus from "./img/Venus.png";
-import Earth from "./img/earth.png"
-import Mars from "./img/mars.png"
-import Jupiter from "./img/jupiter.webp"
-import Saturn from "./img/saturn.png"
-import Uranus from "./img/uranus.png"
-import Neptune from "./img/neptune.webp"
-import Pluto from "./img/pluto.webp"
-
+import Earth from "./img/earth.png";
+import Moon from "./img/moon.png"
+import Mars from "./img/mars.png";
+import Jupiter from "./img/jupiter.webp";
+import Saturn from "./img/saturn.png";
+import Uranus from "./img/uranus.png";
+import Neptune from "./img/neptune.webp";
+import Pluto from "./img/pluto.webp";
 
 const LandingPage = () => {
+  // const [active, setActive] = useState(false);
+
+  // const toggle = () => {
+  //   setActive(!active);
+  // };
+
   return (
     <>
       <LPDiv>
         <LPMid>
           <SunContainer>
-            <LPImg 
-              src={Sun} 
-              alt="the sun" 
-            />
+            <Link
+              to="/sun"
+            >
+              <SunImg
+                // onClick={toggle} 
+                id="1"
+                src={Sun}
+                alt="the sun"
+              />
+            </Link>
           </SunContainer>
           <MercuryContainer>
-            <LPImg 
-              src={Mercury} 
-              alt="Mercury" 
-            />
+            <Link
+              to="/mercury"
+            >
+              <MercuryImg
+                src={Mercury}
+                alt="Mercury"
+              />
+            </Link>
           </MercuryContainer>
           <VenusContainer>
-            <LPImg
-              src={Venus}
-              alt="Venus"
-            />
+            <Link
+              to="/venus"
+            >
+              <VenusImg
+                src={Venus}
+                alt="Venus"
+              />
+            </Link>
           </VenusContainer>
           <EarthContainer>
-            <LPImg
-              src={Earth}
-              alt="Earth"
-            />
+            <MoonContainer>
+              <Link
+                to="/moon"
+              >
+                <MoonImg
+                  src={Moon}
+                  alt="Moon"
+                />
+              </Link>
+                </MoonContainer>
+              <Link to="/earth">
+                <EarthImg
+                  src={Earth}
+                  alt="Earth"
+                />
+              </Link>
           </EarthContainer>
           <MarsContainer>
-            <LPImg
-              src={Mars}
-              alt="Mars"
-            />
+            <Link
+              to="/mars"
+            >
+              <MarsImg
+                src={Mars}
+                alt="Mars"
+              />
+            </Link>
           </MarsContainer>
           <JupiterContainer>
-          <LPImg
-              src={Jupiter}
-              alt="Jupiter"
-            />
+            <Link
+              to="/jupiter"
+            >
+              <JupiterImg
+                src={Jupiter}
+                alt="Jupiter"
+              />
+            </Link>
           </JupiterContainer>
           <SaturnContainer>
-          <LPImg
-              src={Saturn}
-              alt="Saturn"
-            />
+            <Link
+              to="/saturn"
+            >
+              <SaturnImg
+                src={Saturn}
+                alt="Saturn"
+              />
+            </Link>
+
           </SaturnContainer>
           <UranusContainer>
-          <LPImg
-              src={Uranus}
-              alt="Uranus"
-            />
+            <Link
+              to="/uranus"
+            >
+
+              <UranusImg
+                src={Uranus}
+                alt="Uranus"
+              />
+            </Link>
           </UranusContainer>
           <NeptuneContainer>
-          <LPImg
-              src={Neptune}
-              alt="Neptune"
-            />
+            <Link
+              to="/neptune"
+            >
+              <NeptuneImg
+                src={Neptune}
+                alt="Neptune"
+              />
+            </Link>
           </NeptuneContainer>
           <PlutoContainer>
-          <LPImg
-              src={Pluto}
-              alt="Pluto"
-            />
+            <Link
+              to="pluto"
+            >
+              <PlutoImg
+                src={Pluto}
+                alt="Pluto"
+              />
+            </Link>
           </PlutoContainer>
         </LPMid>
+        {/* <Modal active={active}>
+          <SunImg 
+            src={Sun} 
+            alt="The Sun" 
+          />
+          <Button>
+            <Link 
+              to="/sun"
+            >
+              Om Solen
+            </Link>
+          </Button>
+        </Modal> */}
       </LPDiv>
     </>
   );

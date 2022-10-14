@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import { t } from "i18next";
 import {
   NavBar,
@@ -9,7 +10,6 @@ import {
   // NavMenuList2,
   WebsiteName,
 } from "./styles";
-import { NavLink } from "react-router-dom";
 
 function Nav() {
   const [active, setActive] = useState();
@@ -22,7 +22,7 @@ function Nav() {
       <NavBar>
         <WebsiteName>
           <NavMenuLink>
-            <NavLink
+            <NavLink 
               to="/"
             >
               {t("Navbar.title")}
@@ -32,7 +32,7 @@ function Nav() {
         <NavMenuList>
           <NavMenuItems>
             <NavMenuLink>
-              <NavLink
+              <NavLink 
                 to="/"
               >
                 {t("Navbar.mainPage")}
@@ -41,21 +41,27 @@ function Nav() {
           </NavMenuItems>
           <NavMenuItems>
             <NavMenuLink>
-              <NavLink
+              <NavLink 
                 to="/sun"
               >
                 {t("Navbar.ourSun")}
               </NavLink>
             </NavMenuLink>
           </NavMenuItems>
-          <NavMenuItems onClick={planetDropDown}>
+          <NavMenuItems 
+            onClick={planetDropDown}
+          >
             <NavMenuLink>
-              {t("Navbar.planets")}
+              <NavLink 
+                to="/"
+              >
+                {t("Navbar.planets")}
+              </NavLink>
             </NavMenuLink>
           </NavMenuItems>
           <NavMenuItems>
             <NavMenuLink>
-              <NavLink
+              <NavLink 
                 to="#"
               >
                 {t("Navbar.contact")}
@@ -97,6 +103,13 @@ function Nav() {
             to="/moon"
           >
             Moon
+          </NavLink>
+        </NavMenuItems>
+        <NavMenuItems>
+          <NavLink 
+            to="/earth"
+          >
+            Earth
           </NavLink>
         </NavMenuItems>
       </NavBar2>
