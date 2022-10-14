@@ -1,11 +1,11 @@
 import styled from "styled-components";
-//import jupiter from "./img/jupiter.png";
+import neptun from "./img/Neptune.png";
 
 export const StyledPageSection = styled.section`
   width: 100%;
-  padding: 6em 0 0em;
+  padding: 10em 0 0em;
   background-color: #000;
-  background-image: url(${jupiter});
+  background-image: url(${neptun});
   background-repeat: no-repeat;
   background-position: 40% center;
   text-align: left;
@@ -18,7 +18,7 @@ export const StyledPageSection = styled.section`
 `;
 
 export const StyledPageContainer = styled.div`
-  width: 85%;
+  width: 75%;
   margin: auto auto;
 `;
 
@@ -44,10 +44,10 @@ export const StyledPageInfoWrapper = styled.div`
 
 export const StyledPageFooter = styled.footer`
   margin-top: 45%;
-  color: #fff;
+  color: #d5dcf5;
 
   @media screen and (min-width: 600px) {
-    margin-top: 22%;
+    margin-top: 12%;
   }
 `;
 
@@ -55,7 +55,7 @@ export const StyledPageH1 = styled.h1`
   margin: 0;
   padding: 1em 0;
   font-size: 1.8rem;
-  color: #fff;
+  color: #d5dcf5;
 
   @media screen and (min-width: 600px) {
     font-size: 3rem;
@@ -65,7 +65,7 @@ export const StyledPageH1 = styled.h1`
 export const StyledPageP = styled.p`
   margin: 0;
   padding: 0.5em 0;
-  color: #fff;
+  color: #d5dcf5;
   font-size: ${(props) => (props.footer ? "0.6rem" : "1rem")};
   filter: ${(props) =>
     props.footer ? "none" : "drop-shadow(1px 2px 1px black)"};
@@ -80,7 +80,7 @@ export const StyledPageUl = styled.ul`
 `;
 
 export const StyledPageLi = styled.li`
-  color: #fff;
+  color: #d5dcf5;
   padding-bottom: 0.25em;
 
   @media screen and (min-width: 600px) {
