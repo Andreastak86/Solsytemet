@@ -4,6 +4,9 @@ import MoonImage from "./img/earthFromMoon.jpg";
 
 export const Box = styled.div`
   margin: 10rem 7rem;
+  @media (max-width: 768px) {
+    margin: 7rem 1rem;
+  }
 `;
 
 export const MoonH1 = styled.h1`
@@ -20,6 +23,10 @@ export const MoonP = styled.p`
   text-align: left;
   padding-right: 20%;
   margin-bottom: 2rem;
+  @media (max-width: 768px) {
+    font-size: 1rem;
+    padding: 0;
+  }
 `;
 
 export const MoonContainer = styled.div`
