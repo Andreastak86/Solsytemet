@@ -3,7 +3,7 @@ import EarthImage from "./img/earth.webp";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const Earth = () => {
+const EarthPage = () => {
   const [apiError, setApiError] = useState();
   const [data, setData] = useState();
 
@@ -61,4 +61,4 @@ const Earth = () => {
     </>;
   }
 };
-export default Earth;
+export default EarthPage;

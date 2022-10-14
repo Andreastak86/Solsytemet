@@ -8,7 +8,7 @@ import {
     SunTitle
 } from "./styles";
 
-function Sun() {
+function SunPage() {
     return (
         <>
             <SunBackground>
@@ -31,4 +31,4 @@ function Sun() {
     )
 }
 
-export default Sun;
+export default SunPage;
