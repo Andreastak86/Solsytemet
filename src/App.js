@@ -1,9 +1,5 @@
 import React from "react";
-import { 
-  Routes, 
-  Route, 
-  HashRouter 
-} from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Layout from "./components/layout/Layout";
 import LandingPage from "./pages//LandingPage/index";
 import Sun from "./pages/sun";
@@ -11,6 +7,7 @@ import Earth from "./pages/earth";
 import Mars from "./pages/mars";
 import Jupiter from "./pages/jupiterPage";
 import Saturn from "./pages/saturnPage";
+import Moon from "./pages/moon";
 import Neptun from "./pages/neptunPage";
 import Venus from "./pages/venusPage";
 
@@ -20,11 +17,10 @@ const App = () => {
       <HashRouter>
         <Layout>
           <Routes>
+            <Route path="/moon" element={<Moon />} />
             <Route 
-              path="/" 
-              element={<LandingPage />} 
-            />
-            {/* <Route path="/Solsytemet/" element={<LandingPage />} /> */}
+              path="/Solsytemet/" 
+              element={<LandingPage />} />
             <Route 
               path="/sun" 
               element={<Sun />} 
