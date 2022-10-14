@@ -11,6 +11,8 @@ import Earth from "./pages/earth";
 import Mars from "./pages/mars";
 import Jupiter from "./pages/jupiterPage";
 import Saturn from "./pages/saturnPage";
+import Neptun from "./pages/neptunPage";
+import Venus from "./pages/venusPage";
 
 const App = () => {
   return (
@@ -42,6 +44,18 @@ const App = () => {
             <Route 
               path="/saturn" 
               element={<Saturn />} 
+            />
+            <Route
+            path="/neptun"
+            element={
+              <Neptun />
+            }
+            />
+            <Route
+              path="/venus"
+              element={
+                <Venus />
+              }
             />
           </Routes>
         </Layout>
