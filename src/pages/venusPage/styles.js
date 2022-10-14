@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import venus from "./img/venus.png";
+import venus from "./img/Venus.png";
 
 export const StyledPageSection = styled.section`
   width: 100%;
