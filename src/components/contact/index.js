@@ -1,8 +1,7 @@
 import React from "react";
-
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { Main, Form, Input, Button } from "./stylesContact.js";
+import { Main, Form, Button, Kontakt } from "./stylesContact.js";
 
 const Contact = () => {
   const form = useRef();
@@ -23,22 +22,37 @@ const Contact = () => {
     <>
       <Main>
         <h2>Kontakt Oss</h2>
+        <Kontakt>
+          <a
+            href='solsystemet.kodehode@gmail.com'
+            target='_blank'
+            rel='noreferrer'
+          >
+            Send oss en mail
+          </a>
+        </Kontakt>
 
         <Form ref={form} onSubmit={sendEmail}>
-          <Input type='text' name='name' placeholder='Ditt Navn' required />
-          <Input
+          <h5>Eller Send Oss En Melding</h5>
+          <input type='text' name='name' placeholder='Ditt Navn' required />
+          <input
             type='email'
             name='email'
             placeholder='Din Mailadresse'
             required
           />
-          <Input
+          <textarea
             name='message'
-            rows='20'
+            rows='7'
             placeholder='Din Melding'
             required
-          ></Input>
-          <Button type='submit'>Send Melding</Button>
+          ></textarea>
+
+          <Button>
+            <button type='submit' className='btn btn-primary'>
+              Send Melding
+            </button>
+          </Button>
         </Form>
       </Main>
     </>

@@ -43,3 +43,8 @@ export const Button = styled.button`
   cursor: pointer;
   border: 1px solid #ffb800;
 `;
+
+export const Kontakt = styled.div`
+  display: grid;
+  margin-bottom: 1rem;
+`;
