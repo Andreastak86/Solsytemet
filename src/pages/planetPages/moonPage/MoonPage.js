@@ -1,7 +1,7 @@
-import { Box, MoonContainer, MoonH1, MoonImg, MoonP } from "./styles";
+import { Box, MoonContainer, MoonH1, MoonP } from "./styles";
 import { t } from "i18next";
 
-const Moon = () => {
+const MoonPage = () => {
   return (
     <>
       <Box>
@@ -17,4 +17,4 @@ const Moon = () => {
   );
 };
 
-export default Moon;
+export default MoonPage;

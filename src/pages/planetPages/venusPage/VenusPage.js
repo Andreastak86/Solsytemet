@@ -11,7 +11,7 @@ import {
 } from "./styles";
 import { t } from "i18next";
 
-const Venus = () => {
+const VenusPage = () => {
   return (
     <StyledPageSection>
       <StyledPageContainer>
@@ -41,4 +41,4 @@ const Venus = () => {
   );
 };
 
-export default Venus;
+export default VenusPage;

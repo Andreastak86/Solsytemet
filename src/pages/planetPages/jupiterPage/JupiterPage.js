@@ -11,7 +11,7 @@ import {
 } from "./styles";
 import { t } from "i18next";
 
-const Jupiter = () => {
+const JupiterPage = () => {
   return (
     <StyledPageSection>
       <StyledPageContainer>
@@ -42,4 +42,4 @@ const Jupiter = () => {
   );
 };
 
-export default Jupiter;
+export default JupiterPage;

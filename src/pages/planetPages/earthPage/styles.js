@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Stars from "../LandingPage/img/stars.avif";
+import Stars from "./../../LandingPage/img/stars.avif";
 
 export const EarthContainer = styled.div`
   position: fixed;

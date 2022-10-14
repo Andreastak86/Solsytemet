@@ -11,7 +11,7 @@ import {
 } from "./styles";
 import { t } from "i18next";
 
-const Neptun = () => {
+const NeptunPage = () => {
   return (
     <StyledPageSection>
       <StyledPageContainer>
@@ -41,4 +41,4 @@ const Neptun = () => {
   );
 };
 
-export default Neptun;
+export default NeptunPage;

@@ -11,7 +11,7 @@ import {
 } from "./styles";
 import { t } from "i18next";
 
-const Saturn = () => {
+const SaturnPage = () => {
   return (
     <StyledPageSection>
       <StyledPageContainer>
@@ -43,4 +43,4 @@ const Saturn = () => {
   );
 };
 
-export default Saturn;
+export default SaturnPage;

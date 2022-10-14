@@ -2,7 +2,7 @@ import React from "react";
 
 import { Button, Paragraf, Headder, Seksjon, Kilde } from "./styles";
 
-const Mars = () => {
+const MarsPage = () => {
   return (
     <Seksjon>
       <div className='container mars__container'>
@@ -30,4 +30,4 @@ const Mars = () => {
   );
 };
 
-export default Mars;
+export default MarsPage;
