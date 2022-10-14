@@ -3,11 +3,11 @@ import saturn from "./img/saturn.png";
 
 export const StyledPageSection = styled.section`
   width: 100%;
-  padding: 6em 0 0em;
+  padding: 10em 0 0em;
   background-color: #000;
   background-image: url(${saturn});
   background-repeat: no-repeat;
-  background-position: 40% center;
+  background-position: 38% 45%;
   text-align: left;
   height: 100vh;
   line-height: 1.2;
@@ -18,7 +18,7 @@ export const StyledPageSection = styled.section`
 `;
 
 export const StyledPageContainer = styled.div`
-  width: 85%;
+  width: 75%;
   margin: auto auto;
 `;
 
@@ -47,7 +47,7 @@ export const StyledPageFooter = styled.footer`
   color: orange;
 
   @media screen and (min-width: 600px) {
-    margin-top: 22%;
+    margin-top: 12%;
   }
 `;
 
