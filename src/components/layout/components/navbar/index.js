@@ -100,6 +100,20 @@ function Nav() {
         </NavMenuItems>
         <NavMenuItems>
           <NavLink 
+            to="/venus"
+          >
+            Venus
+          </NavLink>
+        </NavMenuItems>
+        <NavMenuItems>
+          <NavLink 
+            to="/neptun"
+          >
+            Neptun
+          </NavLink>
+        </NavMenuItems>
+        <NavMenuItems>
+          <NavLink 
             to="/moon"
           >
             Moon
