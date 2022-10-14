@@ -7,21 +7,30 @@ export const LPDiv = styled.div`
   height: 200vh;
   z-index: -1;
   overflow: hidden;
+  @media (max-width: 1080) {
+    height: 340vh;
+  }
+  @media (max-width: 720px) {
+    height: 150vh;
+  }
+  @media (max-width: 720px) {
+    height: 100vh;
+  }
 `;
 
 export const SunImg = styled.img`
-  width: 30rem;
+  width: 20rem;
   object-fit: contain;
   animation: spin 20s linear infinite;
+  @media (max-width: 720px) {
+    width: 15rem;
+  }
 `;
 
 export const MercuryImg = styled.img`
   width: 2rem;
   object-fit: contain;
   animation: spin 20s linear infinite;
-  /* position: fixed;
-  top: 0;
-  right: 0; */
 `;
 
 export const VenusImg = styled.img`
@@ -51,12 +60,19 @@ export const JupiterImg = styled.img`
   width: 10rem;
   object-fit: contain;
   animation: spin 20s linear infinite;
+  @media (max-width: 720px) {
+    width: 6rem;
+  }
 `;
 export const SaturnImg = styled.img`
   width: 9rem;
   object-fit: contain;
   animation: spin 20s linear infinite;
+  @media (max-width: 720px) {
+    width: 6rem;
+  }
 `;
+
 export const UranusImg = styled.img`
   width: 7rem;
   object-fit: contain;
@@ -98,85 +114,161 @@ export const SunContainer = styled.div`
 export const MercuryContainer = styled.div`
   width: 25rem;
   height: 25rem;
-  animation: spin 3479s linear infinite;
   position: absolute;
   z-index: 8;
+  /* animation: spin 3479s linear infinite; */
   border: solid red 2px;
+  @media (max-width: 1024px) {
+   width: 18rem;
+   height: 18rem;
+  }
+  @media (max-width: 720px) {
+    width: 13rem;
+    height: 13rem;
+  }
 `;
 
 export const VenusContainer = styled.div`
   width: 33rem;
   height: 33rem;
   position: absolute;
-  animation: spin 14579s linear infinite;
   z-index: 7;
+  /* animation: spin 14579s linear infinite; */
   border: solid red 2px;
+  @media (max-width: 1024px) {
+    width: 26rem;
+    height: 26rem;
+  }
+  @media (max-width: 720px) {
+    width: 21rem;
+    height: 21rem;
+  }
 `;
 
 export const EarthContainer = styled.div`
   width: 42rem;
   height: 42rem;
   position: absolute;
-  animation: spin 59.4s linear infinite;
   z-index: 6;
+  /* animation: spin 59.4s linear infinite; */
   border: solid red 2px;
+  @media (max-width: 1024px) {
+    width: 35rem;
+    height: 35rem;
+  }
+  @media (max-width: 720px) {
+    width: 28rem;
+    height: 28rem;
+  }
 `;
 
 export const MoonContainer = styled.div`
-margin-top: -1.5rem;
-margin-left: -1rem;
+  margin-top: -1.5rem;
+  margin-left: -1rem;
   width: 6.8rem;
   height: 6.5rem;
   position: absolute;
+  /* animation: spin 1638s linear infinite; */
   border: solid yellow 2px;
-  animation: spin 1638s linear infinite;
 `
 
 export const MarsContainer = styled.div`
   width: 49rem;
   height: 49rem;
   position: absolute;
-  animation: spin 61.8s linear infinite;
   z-index: 5;
+  /* animation: spin 61.8s linear infinite; */
   border: solid red 2px;
+  @media (max-width: 1024px) {
+    width: 42rem;
+    height: 42rem;
+  }
+  @media (max-width: 720px) {
+    width: 35rem;
+    height: 35rem;
+  }
 `;
 export const JupiterContainer = styled.div`
   width: 67rem;
   height: 67rem;
   position: absolute;
-  animation: spin 24.6s linear infinite;
   z-index: 4;
+  /* animation: spin 24.6s linear infinite; */
   border: solid red 2px;
+  @media (max-width: 1024px) {
+    width: 60rem;
+    height: 60rem;
+  }
+  @media (max-width: 720px) {
+    width: 46rem;
+    height: 46rem;
+  }
 `;
 export const SaturnContainer = styled.div`
   width: 80rem;
   height: 80rem;
   position: absolute;
-  animation: spin 27s linear infinite;
   z-index: 3;
+  /* animation: spin 27s linear infinite; */
   border: solid red 2px;
+  @media (max-width: 1024px) {
+    width: 73rem;
+    height: 73rem;
+  }
+  @media (max-width: 720px) {
+    width: 55rem ;
+    height: 55rem;
+  }
 `;
 export const UranusContainer = styled.div`
   width: 90rem;
   height: 90rem;
   position: absolute;
-  animation: spin 43.2s linear infinite;
   z-index: 2;
+  /* animation: spin 43.2s linear infinite; */
   border: solid red 2px;
+  @media (max-width: 1024px) {
+    width: 80rem;
+    height: 80rem;
+  }
+  @media (max-width: 720px) {
+    width: 65rem;
+    height: 65rem;
+  }
 `;
 export const NeptuneContainer = styled.div`
   width: 98rem;
   height: 98rem;
+  overflow: hidden;
+
   position: absolute;
-  animation: spin 40.2s linear infinite;
-  z-index: 1;
+  /* animation: spin 40.2s linear infinite; */
   border: solid red 2px;
+  z-index: 1;
+  @media (max-width: 1024px) {
+    width: 88rem;
+    height: 88rem;
+  }
+  @media (max-width: 720px) {
+    width: 75rem;
+    height: 75rem;
+  }
 `;
 export const PlutoContainer = styled.div`
   width: 100rem;
   height: 100rem;
+  overflow: hidden;
   position: absolute;
-  animation: spin 383.4s linear infinite;
   z-index: 0;
+  /* animation: spin 383.4s linear infinite; */
   border: solid red 2px;
+  @media (max-width: 1024px) {
+    width: 90rem;
+    height: 90rem;
+  }
+
+  @media (max-width: 720px) {
+   width: 76rem;
+   height: 76rem;
+  }
 `;

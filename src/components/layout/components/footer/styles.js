@@ -12,7 +12,7 @@ export const Footer = styled.footer`
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 10;
 `;
 
