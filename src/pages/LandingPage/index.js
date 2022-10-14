@@ -1,19 +1,31 @@
+// import { useState } from "react";
+import { Link } from "react-router-dom";
 import {
-  Button,
-  EarthContainer,
-  JupiterContainer,
   LPDiv,
-  LPImg,
+  // LPImg,
   LPMid,
-  MarsContainer,
+  SunContainer,
   MercuryContainer,
-  Modal,
+  VenusContainer,
+  EarthContainer,
+  MarsContainer,
+  JupiterContainer,
+  SaturnContainer,
+  UranusContainer,
   NeptuneContainer,
   PlutoContainer,
-  SaturnContainer,
-  SunContainer,
-  UranusContainer,
-  VenusContainer,
+  SunImg,
+  MercuryImg,
+  VenusImg,
+  EarthImg,
+  MarsImg,
+  JupiterImg,
+  SaturnImg,
+  UranusImg,
+  NeptuneImg,
+  PlutoImg,
+  // Modal,
+  // Button,
 } from "./styles";
 import Sun from "./img/sun.webp";
 import Mercury from "./img/mercury.webp";
@@ -25,59 +37,134 @@ import Saturn from "./img/saturn.png";
 import Uranus from "./img/uranus.png";
 import Neptune from "./img/neptune.webp";
 import Pluto from "./img/pluto.webp";
-import { Link } from "react-router-dom";
-import { useState } from "react";
 
 const LandingPage = () => {
-  const [active, setActive] = useState(false);
+  // const [active, setActive] = useState(false);
 
-  const toggle = () => {
-    setActive(!active);
-  };
+  // const toggle = () => {
+  //   setActive(!active);
+  // };
 
   return (
     <>
       <LPDiv>
         <LPMid>
           <SunContainer>
-            <LPImg onClick={toggle} id="1" src={Sun} alt="the sun" />
+            <Link
+              to="/sun"
+            >
+              <SunImg
+                // onClick={toggle} 
+                id="1"
+                src={Sun}
+                alt="the sun"
+              />
+            </Link>
           </SunContainer>
           <MercuryContainer>
-            <LPImg src={Mercury} alt="Mercury" />
+            <Link
+              to="/mercury"
+            >
+              <MercuryImg
+                src={Mercury}
+                alt="Mercury"
+              />
+            </Link>
           </MercuryContainer>
           <VenusContainer>
-            <LPImg src={Venus} alt="Venus" />
+            <Link
+              to="/venus"
+            >
+              <VenusImg
+                src={Venus}
+                alt="Venus"
+              />
+            </Link>
           </VenusContainer>
           <EarthContainer>
             <Link to="/earth">
-              <LPImg src={Earth} alt="Earth" />
+              <EarthImg
+                src={Earth}
+                alt="Earth"
+              />
             </Link>
           </EarthContainer>
           <MarsContainer>
-            <LPImg src={Mars} alt="Mars" />
+            <Link
+              to="/mars"
+            >
+              <MarsImg
+                src={Mars}
+                alt="Mars"
+              />
+            </Link>
           </MarsContainer>
           <JupiterContainer>
-            <LPImg src={Jupiter} alt="Jupiter" />
+            <Link
+              to="/jupiter"
+            >
+              <JupiterImg
+                src={Jupiter}
+                alt="Jupiter"
+              />
+            </Link>
           </JupiterContainer>
           <SaturnContainer>
-            <LPImg src={Saturn} alt="Saturn" />
+            <Link
+              to="/saturn"
+            >
+              <SaturnImg
+                src={Saturn}
+                alt="Saturn"
+              />
+            </Link>
+
           </SaturnContainer>
           <UranusContainer>
-            <LPImg src={Uranus} alt="Uranus" />
+            <Link
+              to="/uranus"
+            >
+
+              <UranusImg
+                src={Uranus}
+                alt="Uranus"
+              />
+            </Link>
           </UranusContainer>
           <NeptuneContainer>
-            <LPImg src={Neptune} alt="Neptune" />
+            <Link
+              to="/neptune"
+            >
+              <NeptuneImg
+                src={Neptune}
+                alt="Neptune"
+              />
+            </Link>
           </NeptuneContainer>
           <PlutoContainer>
-            <LPImg src={Pluto} alt="Pluto" />
+            <Link
+              to="pluto"
+            >
+              <PlutoImg
+                src={Pluto}
+                alt="Pluto"
+              />
+            </Link>
           </PlutoContainer>
         </LPMid>
-        <Modal active={active}>
-          <LPImg src={Sun} alt="The Sun" />
+        {/* <Modal active={active}>
+          <SunImg 
+            src={Sun} 
+            alt="The Sun" 
+          />
           <Button>
-            <Link to="/sun">Om Solen</Link>
+            <Link 
+              to="/sun"
+            >
+              Om Solen
+            </Link>
           </Button>
-        </Modal>
+        </Modal> */}
       </LPDiv>
     </>
   );
