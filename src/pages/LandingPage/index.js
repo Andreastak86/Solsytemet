@@ -24,6 +24,8 @@ import {
   UranusImg,
   NeptuneImg,
   PlutoImg,
+  MoonContainer,
+  MoonImg,
   // Modal,
   // Button,
 } from "./styles";
@@ -31,6 +33,7 @@ import Sun from "./img/sun.webp";
 import Mercury from "./img/mercury.webp";
 import Venus from "./img/Venus.png";
 import Earth from "./img/earth.png";
+import Moon from "./img/moon.png"
 import Mars from "./img/mars.png";
 import Jupiter from "./img/jupiter.webp";
 import Saturn from "./img/saturn.png";
@@ -82,12 +85,22 @@ const LandingPage = () => {
             </Link>
           </VenusContainer>
           <EarthContainer>
-            <Link to="/earth">
-              <EarthImg
-                src={Earth}
-                alt="Earth"
-              />
-            </Link>
+            <MoonContainer>
+              <Link
+                to="/moon"
+              >
+                <MoonImg
+                  src={Moon}
+                  alt="Moon"
+                />
+              </Link>
+                </MoonContainer>
+              <Link to="/earth">
+                <EarthImg
+                  src={Earth}
+                  alt="Earth"
+                />
+              </Link>
           </EarthContainer>
           <MarsContainer>
             <Link
