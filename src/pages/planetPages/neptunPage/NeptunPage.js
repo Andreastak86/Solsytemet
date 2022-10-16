@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import {
   StyledPageContainer,
   StyledPageFooter,
@@ -9,7 +10,6 @@ import {
   StyledPageSection,
   StyledPageUl,
 } from "./styles";
-import { t } from "i18next";
 
 const NeptunPage = () => {
   return (

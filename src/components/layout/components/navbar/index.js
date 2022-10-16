@@ -22,7 +22,7 @@ function Nav() {
       <NavBar>
         <WebsiteName>
           <NavMenuLink>
-            <NavLink 
+            <NavLink
               to="/"
             >
               {t("Navbar.title")}
@@ -32,7 +32,7 @@ function Nav() {
         <NavMenuList>
           <NavMenuItems>
             <NavMenuLink>
-              <NavLink 
+              <NavLink
                 to="/"
               >
                 {t("Navbar.mainPage")}
@@ -41,27 +41,23 @@ function Nav() {
           </NavMenuItems>
           <NavMenuItems>
             <NavMenuLink>
-              <NavLink 
+              <NavLink
                 to="/sun"
               >
                 {t("Navbar.ourSun")}
               </NavLink>
             </NavMenuLink>
           </NavMenuItems>
-          <NavMenuItems 
+          <NavMenuItems
             onClick={planetDropDown}
           >
             <NavMenuLink>
-              <NavLink 
-                to="/"
-              >
-                {t("Navbar.planets")}
-              </NavLink>
+              {t("Navbar.planets")}
             </NavMenuLink>
           </NavMenuItems>
           <NavMenuItems>
             <NavMenuLink>
-              <NavLink 
+              <NavLink
                 to="#"
               >
                 {t("Navbar.contact")}
@@ -70,12 +66,12 @@ function Nav() {
           </NavMenuItems>
         </NavMenuList>
       </NavBar>
-      <NavBar2 
+      <NavBar2
         active={active}
       >
         <NavMenuItems>
           <NavMenuLink>
-            <NavLink 
+            <NavLink
               to="/mars"
             >
               Mars
@@ -84,7 +80,7 @@ function Nav() {
         </NavMenuItems>
         <NavMenuItems>
           <NavMenuLink>
-            <NavLink 
+            <NavLink
               to="/jupiter"
             >
               Jupiter
@@ -92,35 +88,35 @@ function Nav() {
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavLink 
+          <NavLink
             to="/saturn"
           >
             Saturn
           </NavLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavLink 
+          <NavLink
             to="/venus"
           >
             Venus
           </NavLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavLink 
+          <NavLink
             to="/neptun"
           >
             Neptun
           </NavLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavLink 
+          <NavLink
             to="/moon"
           >
             Moon
           </NavLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavLink 
+          <NavLink
             to="/earth"
           >
             Earth

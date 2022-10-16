@@ -12,11 +12,21 @@
     "titleSubtext": "Solen vår er en 4,5 milliarder år gammel stjerne - en varm glødende ball av hydrogen og helium i sentrum av solsystemet vårt."
   },
 
-  "eksempel": {
-    "test": "Dette er en test",
-    "kake": "Og et eksempel på hvordan sette dette opp"
+  "Earth": {
+    "title": "Jorda",
+    "name": "Et av de eldgamle navnene på vår jord er",
+    "radius": "Jorden vår har en ekvatorial radius på"
   },
 
+  "Moon": {
+    "title": "Månen",
+    "para1": "Månen er jordens eneste naturlige satellitt . Diameteren er omtrent en fjerdedel av jordens diameter (sammenlignbar med Australias bredde ).",
+    "para2": "Månen er den femte største satellitten i solsystemet . Den er større enn noen av de kjente dvergplanetene og er den største (og mest massive) satellitten i forhold til moderplaneten .",
+    "para3": "Månen er et objekt med planetmasse som dannet et differensiert steinlegeme , noe som gjør den til en satellittplanet under geofysiske definisjoner av begrepet . ",
+    "para4": "Den mangler noen betydelig atmosfære , hydrosfære eller magnetfelt . ",
+    "para5": "Dens overflatetyngdekraft er omtrent en sjettedel av jordens (0,1654  g ). Jupiters måne Io er den eneste satellitten i solsystemet som er kjent for å ha høyere overflatetyngdekraft og -tetthet."
+  },
+  
   "Jupiter": {
     "title": "Jupiter",
     "firstText": "Jupiter er den femte planeten fra solen og den største planeten i solsystemet. Jupiter, i tillegg til Saturn, Uranus og Neptun er gasskjemper.",
@@ -73,13 +83,5 @@
 
   "Footer": {
     "MadeBy": "Laget av:"
-  },
-  "Moon": {
-    "title": "Månen",
-    "para1": "Månen er jordens eneste naturlige satellitt . Diameteren er omtrent en fjerdedel av jordens diameter (sammenlignbar med Australias bredde ).",
-    "para2": "Månen er den femte største satellitten i solsystemet . Den er større enn noen av de kjente dvergplanetene og er den største (og mest massive) satellitten i forhold til moderplaneten .",
-    "para3": "Månen er et objekt med planetmasse som dannet et differensiert steinlegeme , noe som gjør den til en satellittplanet under geofysiske definisjoner av begrepet . ",
-    "para4": "Den mangler noen betydelig atmosfære , hydrosfære eller magnetfelt . ",
-    "para5": "Dens overflatetyngdekraft er omtrent en sjettedel av jordens (0,1654  g ). Jupiters måne Io er den eneste satellitten i solsystemet som er kjent for å ha høyere overflatetyngdekraft og -tetthet."
   }
 }

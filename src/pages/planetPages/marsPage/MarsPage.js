@@ -1,6 +1,11 @@
 import React from "react";
-
-import { Button, Paragraf, Headder, Seksjon, Kilde } from "./styles";
+import { 
+  Button, 
+  Paragraf, 
+  Headder, 
+  Seksjon, 
+  Kilde 
+} from "./styles";
 
 const MarsPage = () => {
   return (
