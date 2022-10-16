@@ -7,6 +7,7 @@ import {
   NavMenuItems,
   NavMenuLink,
   NavMenuList,
+  Planets,
   // NavMenuList2,
   WebsiteName,
 } from "./styles";
@@ -48,7 +49,7 @@ function Nav() {
           </NavMenuItems>
           <NavMenuItems onClick={planetDropDown}>
             <NavMenuLink>
-              <NavLink to="/">{t("Navbar.planets")}</NavLink>
+              <Planets>{t("Navbar.planets")}</Planets>
             </NavMenuLink>
           </NavMenuItems>
           <NavMenuItems>
@@ -59,6 +60,12 @@ function Nav() {
         </NavMenuList>
       </NavBar>
       <NavBar2 active={active}>
+        <NavMenuItems>
+          <NavLink to="/venus">Venus</NavLink>
+        </NavMenuItems>
+        <NavMenuItems>
+          <NavLink to="/earth">Earth</NavLink>
+        </NavMenuItems>
         <NavMenuItems>
           <NavMenuLink>
             <NavLink to="/mars">Mars</NavLink>
@@ -73,16 +80,10 @@ function Nav() {
           <NavLink to="/saturn">Saturn</NavLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavLink to="/venus">Venus</NavLink>
-        </NavMenuItems>
-        <NavMenuItems>
           <NavLink to="/neptun">Neptun</NavLink>
         </NavMenuItems>
         <NavMenuItems>
           <NavLink to="/moon">Moon</NavLink>
-        </NavMenuItems>
-        <NavMenuItems>
-          <NavLink to="/earth">Earth</NavLink>
         </NavMenuItems>
       </NavBar2>
       <Routes>
