@@ -25,6 +25,9 @@ export const EarthImg = styled.img`
       transform: rotate(360deg);
     }
   }
+  @media (max-width: 425px) {
+    width: 300%;
+  }
 `;
 
 export const EarthH1 = styled.h1`
@@ -33,6 +36,9 @@ export const EarthH1 = styled.h1`
   text-align: center;
   margin-bottom: 5rem;
   -webkit-text-stroke: 2px black;
+  @media (max-width: 425px) {
+    font-size: 3rem;
+  }
 `;
 
 export const EarthP = styled.p`
@@ -40,9 +46,21 @@ export const EarthP = styled.p`
   text-align: left;
   margin-left: 5rem;
   margin-right: 50rem;
+  margin-bottom: 5rem;
+  @media (max-width: 768px) {
+    margin-right: 10rem;
+  }
+  @media (max-width: 425px) {
+    font-size: 1rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
 `;
 
 export const Box = styled.div`
   width: 100%;
   margin: 15rem 0;
+  @media (max-width: 768px) {
+    margin-bottom: 10rem;
+  }
 `;
