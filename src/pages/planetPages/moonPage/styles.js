@@ -1,5 +1,4 @@
 import styled from "styled-components";
-// import Stars from "../LandingPage/img/stars.avif";
 import MoonImage from "./img/earthFromMoon.jpg";
 
 export const Box = styled.div`

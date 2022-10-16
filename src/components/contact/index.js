@@ -2,7 +2,15 @@ import React from "react";
 
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { Main, Form, Input, Button } from "./stylesContact.js";
+import {
+  Main,
+  Form,
+  Input,
+  Button,
+  ContactH2,
+  ContactBg,
+  Box,
+} from "./stylesContact.js";
 
 const Contact = () => {
   const form = useRef();
@@ -20,28 +28,30 @@ const Contact = () => {
   };
 
   return (
-    <>
-      <Main>
-        <h2>Kontakt Oss</h2>
+    <ContactBg>
+      <Box>
+        <Main>
+          <ContactH2>Kontakt Oss</ContactH2>
 
-        <Form ref={form} onSubmit={sendEmail}>
-          <Input type='text' name='name' placeholder='Ditt Navn' required />
-          <Input
-            type='email'
-            name='email'
-            placeholder='Din Mailadresse'
-            required
-          />
-          <Input
-            name='message'
-            rows='20'
-            placeholder='Din Melding'
-            required
-          ></Input>
-          <Button type='submit'>Send Melding</Button>
-        </Form>
-      </Main>
-    </>
+          <Form ref={form} onSubmit={sendEmail}>
+            <Input type="text" name="name" placeholder="Ditt Navn" required />
+            <Input
+              type="email"
+              name="email"
+              placeholder="Din Mailadresse"
+              required
+            />
+            <Input
+              name="message"
+              rows="20"
+              placeholder="Din Melding"
+              required
+            ></Input>
+            <Button type="submit">Send Melding</Button>
+          </Form>
+        </Main>
+      </Box>
+    </ContactBg>
   );
 };
 

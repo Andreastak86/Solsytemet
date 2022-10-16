@@ -1,25 +1,26 @@
 import styled from "styled-components";
+import Stars from "../../pages/LandingPage/img/stars.avif";
 
 export const Main = styled.section`
-  background: #0d1b2a;
   color: #ffb800;
-  display: grid;
-  grid-template-columns: max-content;
-  height: auto;
-  font-size: 32px;
-  @media (max-width: 768px) {
-    width: 86%;
-  }
-  @media (max-width: 375px) {
-    width: 90%;
-  }
+  font-size: 2rem;
+  width: 100%;
   /* border: 2px solid red; */
+`;
+
+export const ContactBg = styled.div`
+  background: url(${Stars});
+  position: fixed;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
 `;
 
 export const Form = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
+  gap: 1.5rem;
+  margin-top: 2rem;
 `;
 
 export const Input = styled.input`
@@ -42,4 +43,16 @@ export const Button = styled.button`
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid #ffb800;
+`;
+
+export const ContactH2 = styled.h2`
+  color: white;
+  @media (max-width: 425px) {
+    font-size: 2rem;
+  }
+`;
+
+export const Box = styled.div`
+  width: 80%;
+  margin: 15rem auto;
 `;
