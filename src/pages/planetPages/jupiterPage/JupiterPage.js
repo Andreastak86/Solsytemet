@@ -1,3 +1,4 @@
+import { t } from "i18next";
 import {
   StyledPageContainer,
   StyledPageFooter,
@@ -9,7 +10,6 @@ import {
   StyledPageSection,
   StyledPageUl,
 } from "./styles";
-import { t } from "i18next";
 
 const JupiterPage = () => {
   return (
@@ -17,25 +17,46 @@ const JupiterPage = () => {
       <StyledPageContainer>
         <StyledPageMainWrapper>
           <StyledPageInfoWrapper info>
-            <StyledPageH1>{t("Jupiter.title")}</StyledPageH1>
-            <StyledPageP>{t("Jupiter.firstText")}</StyledPageP>
-            <StyledPageP>{t("Jupiter.secondText")}</StyledPageP>
-            <StyledPageP>{t("Jupiter.thirdText")}</StyledPageP>
+            <StyledPageH1>
+              {t("Jupiter.title")}
+            </StyledPageH1>
+            <StyledPageP>
+              {t("Jupiter.firstText")}
+            </StyledPageP>
+            <StyledPageP>
+              {t("Jupiter.secondText")}
+            </StyledPageP>
+            <StyledPageP>
+              {t("Jupiter.thirdText")}
+            </StyledPageP>
           </StyledPageInfoWrapper>
 
           <StyledPageInfoWrapper facts>
-            <StyledPageH1>{t("Jupiter.factsTitle")}</StyledPageH1>
+            <StyledPageH1>
+              {t("Jupiter.factsTitle")}
+
+            </StyledPageH1>
             <StyledPageUl>
-              <StyledPageLi>{t("Jupiter.factsSize")}</StyledPageLi>
-              <StyledPageLi>{t("Jupiter.factsSpeed")}</StyledPageLi>
-              <StyledPageLi>{t("Jupiter.factsMass")}</StyledPageLi>
-              <StyledPageLi>{t("Jupiter.factsEquatorRadius")}</StyledPageLi>
+              <StyledPageLi>
+                {t("Jupiter.factsSize")}
+              </StyledPageLi>
+              <StyledPageLi>
+                {t("Jupiter.factsSpeed")}
+              </StyledPageLi>
+              <StyledPageLi>
+                {t("Jupiter.factsMass")}
+              </StyledPageLi>
+              <StyledPageLi>
+                {t("Jupiter.factsEquatorRadius")}
+              </StyledPageLi>
             </StyledPageUl>
           </StyledPageInfoWrapper>
         </StyledPageMainWrapper>
 
         <StyledPageFooter>
-          <StyledPageP footer>{t("Jupiter.source")}</StyledPageP>
+          <StyledPageP footer>
+            {t("Jupiter.source")}
+          </StyledPageP>
         </StyledPageFooter>
       </StyledPageContainer>
     </StyledPageSection>

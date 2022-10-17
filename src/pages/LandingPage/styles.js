@@ -7,14 +7,12 @@ export const LPDiv = styled.div`
   height: 200vh;
   z-index: -1;
   overflow: hidden;
-  @media (max-width: 1080) {
-    height: 340vh;
+  @media (max-width: 1280px) {
+    height: 400vh;
+    margin-top: -35rem;
   }
-  @media (max-width: 720px) {
-    height: 150vh;
-  }
-  @media (max-width: 720px) {
-    height: 100vh;
+  @media (max-width: 780px) {
+    height: 250vh;
   }
   @media (max-width: 425px) {
     height: 150vh;

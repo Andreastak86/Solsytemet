@@ -44,7 +44,7 @@ export const NavBar2 = styled.nav`
   position: fixed;
   top: 7rem;
   left: 0;
-  width: 100%;
+  width: 100vw;
   transition: 0.3s;
   overflow: hidden;
   z-index: 10;
