@@ -1,7 +1,8 @@
 import styled from "styled-components";
-import Stars from "../../pages/LandingPage/img/stars.avif";
+import Stars from "../../pages/frontPage/img/stars.avif";
 
 export const Main = styled.section`
+  background: black;
   color: #ffb800;
   font-size: 2rem;
   width: 100%;
@@ -45,14 +46,7 @@ export const Button = styled.button`
   border: 1px solid #ffb800;
 `;
 
-export const ContactH2 = styled.h2`
-  color: white;
-  @media (max-width: 425px) {
-    font-size: 2rem;
-  }
-`;
-
-export const Box = styled.div`
-  width: 80%;
-  margin: 15rem auto;
+export const Kontakt = styled.div`
+  display: grid;
+  margin-bottom: 1rem;
 `;

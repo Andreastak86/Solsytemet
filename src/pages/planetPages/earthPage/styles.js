@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Stars from "./../../LandingPage/img/stars.avif";
+import Stars from "./../../frontPage/img/stars.avif";
 
 export const EarthContainer = styled.div`
   position: fixed;
@@ -44,16 +44,10 @@ export const EarthH1 = styled.h1`
 export const EarthP = styled.p`
   font-size: 2rem;
   text-align: left;
-  margin-left: 5rem;
-  margin-right: 50rem;
-  margin-bottom: 5rem;
-  @media (max-width: 768px) {
-    margin-right: 10rem;
-  }
+  margin: 10% 10%;
   @media (max-width: 425px) {
     font-size: 1rem;
-    margin-right: 2rem;
-    margin-left: 2rem;
+    margin: 10% 10%;
   }
 `;
 

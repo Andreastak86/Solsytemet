@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import uAnus from "./img/uranus.jpg";
+import Pluto from "./img/pluto.jpg";
 
 export const Seksjon = styled.section`
-  background-image: url(${uAnus});
+  background-image: url(${Pluto});
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%; /*or your image's width*/
@@ -16,7 +16,7 @@ export const Seksjon = styled.section`
 `;
 
 export const Headder = styled.h1`
-  color: #2dccc9;
+  color: #f06d0a;
   font-size: 64px;
 `;
 
@@ -41,13 +41,13 @@ export const Flex = styled.p`
 `;
 
 export const Liste = styled.p`
-  color: #ad174b;
+  color: #f56f07;
   font-size: 16px;
   margin: 50px 60px 30px 50px;
 `;
 
 export const Text = styled.p`
-  color: #ad174b;
+  color: #f56f07;
   font-size: 20px;
   margin: 100px 60px 30px 0px;
 `;
