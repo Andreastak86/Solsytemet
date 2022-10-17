@@ -11,7 +11,7 @@ import {
   // NavMenuList2,
   WebsiteName,
 } from "./styles";
-import LandingPage from "../../../../pages/LandingPage/LandingPage";
+import FrontPage from "../../../../pages/frontPage/FrontPage";
 import SunPage from "../../../../pages/planetPages/sunPage/SunPage";
 import EarthPage from "../../../../pages/planetPages/earthPage/EarthPage";
 import MoonPage from "../../../../pages/planetPages/moonPage/MoonPage";
@@ -87,7 +87,7 @@ function Nav() {
         </NavMenuItems>
       </NavBar2>
       <Routes>
-        <Route path="/" element={<LandingPage />} />
+        <Route path="/" element={<FrontPage />} />
         <Route path="/sun" element={<SunPage />} />
         <Route path="/earth" element={<EarthPage />} />
         <Route path="/moon" element={<MoonPage />} />
