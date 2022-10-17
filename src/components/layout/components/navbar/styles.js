@@ -14,9 +14,13 @@ export const NavBar = styled.nav`
 `;
 
 export const WebsiteName = styled.h1`
-  font-size: 3rem;
+  font-size: 2rem;
   margin: auto 0;
   color: white;
+
+  @media screen and (min-width: 768px) {
+    font-size: 3rem;
+  }
 `;
 
 export const Planets = styled.p`
@@ -26,11 +30,15 @@ export const Planets = styled.p`
 `;
 
 export const NavMenuList = styled.ul`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  width: 50%;
-  margin: auto 0;
+  display: ${(props) => props.active && "none"};
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto 0;
+  }
 `;
 
 export const NavBar2 = styled.nav`
@@ -57,4 +65,18 @@ export const NavMenuItems = styled.li`
 export const NavMenuLink = styled.a`
   color: white;
   text-decoration: none;
+`;
+
+export const StyledMobileIcon = styled.div`
+  position: relative;
+  top: -20px;
+  right: -30px;
+  transform: translate(-100%, 60%);
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #fff;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
 `;

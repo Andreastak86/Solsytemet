@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { NavLink, Route, Routes } from "react-router-dom";
+import { FaBars } from "react-icons/fa";
 import { t } from "i18next";
 import {
   NavBar,
@@ -9,6 +10,7 @@ import {
   NavMenuList,
   Planets,
   WebsiteName,
+  StyledMobileIcon,
 } from "./styles";
 import SunPage from "../../../../pages/planetPages/sunPage/SunPage";
 import EarthPage from "../../../../pages/planetPages/earthPage/EarthPage";
@@ -19,14 +21,12 @@ import SaturnPage from "../../../../pages/planetPages/saturnPage/SaturnPage";
 import NeptunPage from "../../../../pages/planetPages/neptunePage/NeptunePage";
 import VenusPage from "../../../../pages/planetPages/venusPage/VenusPage";
 import Contact from "../../../contact";
-
 import UranusPage from "../../../../pages/planetPages/uranusPage/UranusPage";
 import PlutoPage from "../../../../pages/planetPages/plutoPage/plutoPage";
 import MercuryPage from "../../../../pages/planetPages/merkurPage/MercuryPage";
-
 import FrontPage from "../../../../pages/frontPage/FrontPage";
 
-function Nav() {
+function Nav({ toggle }) {
   const [active, setActive] = useState();
   const planetDropDown = (id) => {
     setActive(!active);
@@ -40,7 +40,7 @@ function Nav() {
             <NavLink to="/">{t("Navbar.title")}</NavLink>
           </NavMenuLink>
         </WebsiteName>
-        <NavMenuList>
+        <NavMenuList active>
           <NavMenuItems>
             <NavMenuLink>
               <NavLink to="/">{t("Navbar.mainPage")}</NavLink>
@@ -62,6 +62,10 @@ function Nav() {
             </NavMenuLink>
           </NavMenuItems>
         </NavMenuList>
+
+        <StyledMobileIcon onClick={toggle}>
+          <FaBars />
+        </StyledMobileIcon>
       </NavBar>
       <NavBar2 active={active}>
         <NavMenuItems>
