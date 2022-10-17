@@ -1,41 +1,89 @@
 {
-    "Navbar": {
-        "title": "Solarsystem",
-        "mainPage": "Main page",
-        "ourSolarsystem": "Our solarsystem",
-        "planets": "Planets",
-        "contact": "Contact us"
-    },
+  "Navbar": {
+    "title": "Solarsystem",
+    "mainPage": "Main page",
+    "ourSun": "Our sun",
+    "planets": "Planets",
+    "contact": "Contact us"
+  },
 
-    "Sun": {
-        "title": "Sun",
-        "titleSubtext": "Our Sun is a 4.5 billion-year-old star - a hot glowing ball of hydrogen and helium at the center of our solar system."
-    },
+  "Sun": {
+    "title": "Sun",
+    "titleSubtext": "Our Sun is a 4.5 billion-year-old star - a hot glowing ball of hydrogen and helium at the center of our solar system.",
+    "age": "How old the Sun is can be related to the early stages of the formation of the Solar System. The age of the Sun is near that of the Solar System, estimated to be around 4.6 billion years old."
+    
+  },
 
-    "Eksempel": {
-        "test": "this is a test",
-        "kakeErGodt": "I like cake"
-    },
+  "Earth": {
+    "title": "Earth",
+    "name": "One of the ancient names for our Earth is",
+    "radius": "Our Earth has an equatorial Radius of"
+  },
 
-    "HomePage": {
-        "titel": "This is a test",
-        "titelSubtext": "This is a small text under the title",
-        "textSomethingIntresting": "Name the text in camelcase by something relevant"
-    },
+  "Moon": {
+    "title": "Moon",
+    "para1": "The Moon is Earth's only natural satellite. Its diameter is about one-quarter the diameter of the Earth (comparable to the width of Australia).",
+    "para2": "The Moon is the fifth largest satellite in the Solar System. It is larger than any of the known dwarf planets and is the largest (and most massive) satellite relative to its parent planet.",
+    "para3": "The Moon is a planetary-mass object that formed a differentiated rocky body, making it a satellite planet under the geophysical definitions of the term. ",
+    "para4": "It lacks any significant atmosphere, hydrosphere, or magnetic field. ",
+    "para5": "Its surface gravity is about one-sixth of Earth's (0.1654 g). Jupiter's moon Io is the only satellite in the Solar System known to have a higher surface gravity and density."
+  },
 
-    "Earth": {
-        "title": "This is Earths titsle",
-        "titleSubtext": "Earth is the planet we live on",
-        "textRotation": "This is a text about earths rotation"
-    },
+  "Jupiter": {
+    "title": "Jupiter",
+    "firstText": "Jupiter is the fifth planet from the sun and the largest planet in the solar system. Jupiter, in addition to Saturn, Uranus and Neptune are gas giants.",
+    "secondText": "In ancient times, the planet was associated with mythology and religious beliefs in a number of cultures. The Romans named the planet after the Roman god Jupiter.",
+    "thirdText": "Jupiter consists mainly of hydrogen. The rapid rotation gives Jupiter the shape of a flattened spheroid, with a small bulge around the equator. The outer atmosphere is segregated into several strips at different altitudes, leading to turbulence and storms along the interacting boundaries.",
+    "factsTitle": "Facts about Jupiter",
+    "factsSize": "Largest planet in the solar system",
+    "factsSpeed": "Average speed: 13.07 km/s",
+    "factsMass": "Mass: 2.5 times the mass of all other planets in the solar system combined",
+    "factsEquatorRadius": "Equatorradius: 71 492 km",
+    "source": "Retrieved: October 11th 2022 from https://no.wikipedia.org/wiki/Jupiter"
+  },
 
-    "Mars": {
-        "title": "This is Mars title",
-        "titleSubtext": "Mars is the planet",
-        "textRotation": "This is a text about mars rotation"
-    },
+  "Saturn": {
+    "title": "Saturn",
+    "firstText": "Saturn is the sixth planet from the Sun and the second largest in the Solar System, after Jupiter. It is named after the Roman god Saturn.",
+    "secondText": "Saturn's layer of metallic hydrogen conducts electricity, and is thought to give rise to the planet's magnetic field, which at the surface is somewhat weaker than Earth's. Wind speeds can reach 1,800 km/h.",
+    "thirdText": "Saturn's ring system consists of nine connected main rings and three disconnected arcs, which consist mainly of ice particles, with also some rock and dust. 82 known moons orbit the planet - 53 of these have been given official names. In addition, there are hundreds of «dwarf moons» in the ring system.",
+    "factsTitle": "Facts About Saturn",
+    "factsYear": "1 Saturn year = 30 years on earth",
+    "factsMass": "Mass: 95 times that of Earth",
+    "factsRadius": "Average radius: 9 times that of Earth",
+    "factsRings": "Main rings: 9",
+    "factsSpeed": "Average speed: 9.69 km/s",
+    "factsMoons": "Moons: 82",
+    "source": "Retrieved: October 11th 2022 from https://no.wikipedia.org/wiki/Saturn"
+  },
 
-    "Footer":{
-        "MadeBy": "Made by:"
-    }
+  "Neptun": {
+    "title": "Neptune",
+    "firstText": "Neptune is the eighth and outermost planet in the solar system from the sun, and the only planet that is impossible to see from Earth with the naked eye. It is named after Neptune, the Roman god of the sea. It is the fourth largest planet in the Solar System by diameter and has the third largest mass.",
+    "secondText": "Neptune has a similar chemical composition to Uranus, and both differ from the composition of the much larger gas giants Jupiter and Saturn. Neptune's atmosphere has a larger amount of ice-forming substances, such as water, ammonia and methane.",
+    "thirdText": "The planet's blue appearance comes mainly from red sunlight being absorbed by methane in the upper atmospheric layers. Unlike the relatively calm atmosphere of Uranus, Neptune's atmosphere is known for its active and visible weather patterns.",
+    "factsTitle": "Facts About Neptune",
+    "factsDiscovery": "Discovered: September 23, 1846",
+    "factsMass": "The planet with the third largest mass in the solar system",
+    "factsSpeed": "Average speed: 5.43 km/s",
+    "factsMoons": "Moons: 14 known",
+    "source": "Retrieved: October 13th 2022 from https://no.wikipedia.org/wiki/Neptun_(planet)"
+  },
+
+  "Venus": {
+    "title": "Venus",
+    "firstText": "Venus is the second planet from the sun and the third smallest in the solar system. The planet is named after Venus, the Roman goddess of love, beauty and fertility. After the Moon, Venus is the brightest natural object in the night sky and is bright enough to cast shadows.",
+    "secondText": "If you are far north on Earth (for example Tromsø), Venus is circumpolar in certain periods and visible all night. The same is the case in certain other periods if you are far enough south on Earth. It is called the Evening Star when it is visible after sunset and the Morning Star when it is visible before sunrise.",
+    "thirdText": "Venus is a terrestrial planet and is sometimes called Earth's «sister planet» due to its relatively similar size, gravity and composition. An opaque layer of highly reflective clouds of sulfuric acid prevents the surface from being seen in visible light from space.",
+    "factsTitle": "Facts About Venus",
+    "factsRadius": "Average radius: 6,051.8 km",
+    "factsSize": "The third smallest planet in the solar system",
+    "factsSpeed": "Average speed: 35.02 km/s",
+    "factsMoons": "Moons: None",
+    "source": "Retrieved: October 13th 2022 from https://no.wikipedia.org/wiki/Venus"
+  },
+
+  "Footer": {
+    "MadeBy": "Made by:"
+  }
 }

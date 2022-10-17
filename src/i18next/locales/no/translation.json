@@ -1,21 +1,88 @@
 {
-    "Navbar": {
-        "title": "Solsystemet",
-        "mainPage": "Forsiden",
-        "ourSolarsystem": "Vårt solsystem",
-        "planets": "Planetene",
-        "contact": "Kontakt oss"
-    },
+  "Navbar": {
+    "title": "Solsystemet",
+    "mainPage": "Forsiden",
+    "ourSun": "Vår sol",
+    "planets": "Planetene",
+    "contact": "Kontakt oss"
+  },
 
-    "Sun": {
-        "title": "Solen",
-        "titleSubtext": "Solen vår er en 4,5 milliarder år gammel stjerne - en varm glødende ball av hydrogen og helium i sentrum av solsystemet vårt."
-    },
-    "eksempel":{
-        "test": "Dette er en test",
-        "kake": "Og et eksempel på hvordan sette dette opp"
-    },
-    "Footer":{
-        "MadeBy": "Laget av:"
-    }
+  "Sun": {
+    "title": "Solen",
+    "titleSubtext": "Solen vår er en 4,5 milliarder år gammel stjerne - en varm glødende ball av hydrogen og helium i sentrum av solsystemet vårt.",
+    "age": "Hvor gammel solen er kan relateres til de tidlige stadiene av dannelsen av solsystemet. Solens alder er nær solsystemets alder, anslått til å være rundt 4,6 milliarder år gammel."
+  },
+
+  "Earth": {
+    "title": "Jorda",
+    "name": "Et av de eldgamle navnene på vår jord er",
+    "radius": "Jorden vår har en ekvatorial radius på"
+  },
+
+  "Moon": {
+    "title": "Månen",
+    "para1": "Månen er jordens eneste naturlige satellitt . Diameteren er omtrent en fjerdedel av jordens diameter (sammenlignbar med Australias bredde ).",
+    "para2": "Månen er den femte største satellitten i solsystemet . Den er større enn noen av de kjente dvergplanetene og er den største (og mest massive) satellitten i forhold til moderplaneten .",
+    "para3": "Månen er et objekt med planetmasse som dannet et differensiert steinlegeme , noe som gjør den til en satellittplanet under geofysiske definisjoner av begrepet . ",
+    "para4": "Den mangler noen betydelig atmosfære , hydrosfære eller magnetfelt . ",
+    "para5": "Dens overflatetyngdekraft er omtrent en sjettedel av jordens (0,1654  g ). Jupiters måne Io er den eneste satellitten i solsystemet som er kjent for å ha høyere overflatetyngdekraft og -tetthet."
+  },
+  
+  "Jupiter": {
+    "title": "Jupiter",
+    "firstText": "Jupiter er den femte planeten fra solen og den største planeten i solsystemet. Jupiter, i tillegg til Saturn, Uranus og Neptun er gasskjemper.",
+    "secondText": "Planeten var i oldtiden forbundet med mytologi og religiøse oppfatninger i en rekke kulturer. Romerne oppkalte planeten etter den romerske guden Jupiter.",
+    "thirdText": "Jupiter består hovedsakelig av hydrogen. Den raske rotasjonen gir Jupiter form som en flattrykt sfæroide, med en liten bul rundt ekvator. Den ytre atmosfæren er segregert i flere striper på forskjellige høyder, som fører til turbulens og stormer langs de vekselvirkende grensene.",
+    "factsTitle": "Fakta om Jupiter",
+    "factsSize": "Største planeten i solsystemet",
+    "factsSpeed": "Gjennomsnittsfart: 13,07 km/s",
+    "factsMass": "Masse: 2,5 ganger massen til alle andre planeter i solsystemet til sammen",
+    "factsEquatorRadius": "Ekvatorradius: 71 492 km",
+    "source": "Hentet: 11. oktober 2022 fra https://no.wikipedia.org/wiki/Jupiter"
+  },
+
+  "Saturn": {
+    "title": "Saturn",
+    "firstText": "Saturn er den sjette planeten fra solen og den nest største i solsystemet, etter Jupiter. Den er oppkalt etter den romerske guden Saturn.",
+    "secondText": "Saturns lag med metallisk hydrogen leder elektrisk strøm, og antas å gi opphav til planetens magnetfelt, som ved overflaten er noe svakere enn jordens. Vindhastighetene kan komme opp i 1 800 km/t.",
+    "thirdText": "Saturns ringsystem består av ni sammenhengende hovedringer og tre usammenhengende buer, som består hovedsakelig av ispartikler, med også en del stein og støv. 82 kjente måner går i bane rundt planeten - 53 av disse har fått offisielle navn. I tillegg befinner det seg hundrevis av «dvergmåner» i ringsystemet.",
+    "factsTitle": "Fakta Om Saturn",
+    "factsYear": "1 Saturn-år = 30 år på jorden",
+    "factsMass": "Masse: 95 ganger jordens",
+    "factsRadius": "Gjennomsnittsradius: 9 ganger jordens",
+    "factsRings": "Hovedringer: 9",
+    "factsSpeed": "Gjennomsnittsfart: 9,69 km/s",
+    "factsMoons": "Måner: 82",
+    "source": "Hentet: 11. oktober 2022 fra https://no.wikipedia.org/wiki/Saturn"
+  },
+
+  "Neptun": {
+    "title": "Neptun",
+    "firstText": "Neptun er den åttende og ytterste planeten i solsystemet regnet fra solen, og den eneste planeten det er umulig å se fra jorden med det blotte øyet. Den er oppkalt etter Neptun, den romerske havguden. Den er den fjerde største planeten i solsystemet etter diameter og har den tredje største massen.",
+    "secondText": "Neptun har en lignende kjemisk sammensetning som Uranus, og begge skiller seg fra sammensetningen til de langt større gasskjempene Jupiter og Saturn. Neptuns atmosfære har en større mengde isdannende stoffer, som blant annet vann, ammoniakk og metan.",
+    "thirdText": "Planetens blå utseende kommer hovedsakelig av at rødt sollys absorberes av metan i de øvre atmosfærelagene. I motsetning til den relativt rolige atmosfæren til Uranus er Neptuns atmosfære kjent for sine aktive og synlige værmønstre.",
+    "factsTitle": "Fakta Om Neptun",
+    "factsDiscovery": "Oppdaget: 23. september 1846",
+    "factsMass": "Planeten med den tredje største massen i solsystemet",
+    "factsSpeed": "Gjennomsnittsfart: 5,43 km/s",
+    "factsMoons": "Måner: 14 kjente",
+    "source": "Hentet: 13. oktober 2022 fra https://no.wikipedia.org/wiki/Neptun_(planet)"
+  },
+
+  "Venus": {
+    "title": "Venus",
+    "firstText": "Venus er den andre planeten fra solen og den tredje minste i solsystemet. Planeten er oppkalt etter Venus, den romerske gudinnen for kjærlighet, skjønnhet og fruktbarhet. Etter månen er Venus det mest lyssterke naturlige objektet på nattehimmelen og den er lys nok til å kaste skygger.",
+    "secondText": "Dersom man er langt nord på jorden (for eksempel Tromsø), er Venus i visse perioder sirkumpolar og synlig hele natten. Det samme er tilfelle i visse andre perioder hvis man er langt nok mot sør på jorden. Den kalles Aftenstjernen når den er synlig etter solnedgang og Morgenstjernen når den er synlig før soloppgang.",
+    "thirdText": "Venus er en terrestrisk planet og blir noen ganger kalt jordens «søsterplanet» på grunn av relativt lik størrelse, gravitasjon og sammensetning. Et ugjennomsiktig lag med svært reflektive skyer av svovelsyre hindrer overflaten i å bli sett i synlig lys fra verdensrommet.",
+    "factsTitle": "Fakta Om Venus",
+    "factsRadius": "Gjennomsnittsradius: 6 051,8 km",
+    "factsSize": "Den tredje minste planeten i solsystemet",
+    "factsSpeed": "Gjennomsnittsfart: 35,02 km/s",
+    "factsMoons": "Måner: Ingen",
+    "source": "Hentet: 13. oktober 2022 fra https://no.wikipedia.org/wiki/Venus"
+  },
+
+  "Footer": {
+    "MadeBy": "Laget av:"
+  }
 }
