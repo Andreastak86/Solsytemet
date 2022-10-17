@@ -11,8 +11,6 @@ export const GlobalStyle = createGlobalStyle`
         font-family: 'Roboto Mono', monospace;
         color: white;
         box-sizing: border-box;
-        /* overflow-x: hidden; */
-
     }
     
 `;

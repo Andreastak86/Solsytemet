@@ -1,3 +1,4 @@
+
 import { t } from "i18next";
 import {
   StyledPageContainer,
@@ -17,24 +18,42 @@ const MercuryPage = () => {
       <StyledPageContainer>
         <StyledPageMainWrapper>
           <StyledPageInfoWrapper info>
-            <StyledPageH1>{t("Mercury.title")}</StyledPageH1>
-            <StyledPageP>{t("Mercury.firstText")}</StyledPageP>
-            <StyledPageP>{t("Mercury.secondText")}</StyledPageP>
-            <StyledPageP>{t("Mercury.thirdText")}</StyledPageP>
+            <StyledPageH1>
+              {t("Mercury.title")}
+            </StyledPageH1>
+            <StyledPageP>
+              {t("Mercury.firstText")}
+            </StyledPageP>
+            <StyledPageP>
+              {t("Mercury.secondText")}
+            </StyledPageP>
+            <StyledPageP>
+              {t("Mercury.thirdText")}
+            </StyledPageP>
           </StyledPageInfoWrapper>
 
           <StyledPageInfoWrapper facts>
             <StyledPageH1>{t("Mercury.factsTitle")}</StyledPageH1>
             <StyledPageUl>
-              <StyledPageLi>{t("Mercury.factsDiscovery")}</StyledPageLi>
-              <StyledPageLi>{t("Mercury.factsMass")}</StyledPageLi>
-              <StyledPageLi>{t("Mercury.factsSpeed")}</StyledPageLi>
-              <StyledPageLi>{t("Mercury.factsMoons")}</StyledPageLi>
+              <StyledPageLi>
+                {t("Mercury.factsDiscovery")}
+              </StyledPageLi>
+              <StyledPageLi>
+                {t("Mercury.factsMass")}
+              </StyledPageLi>
+              <StyledPageLi>
+                {t("Mercury.factsSpeed")}
+              </StyledPageLi>
+              <StyledPageLi>
+                {t("Mercury.factsMoons")}
+              </StyledPageLi>
             </StyledPageUl>
           </StyledPageInfoWrapper>
         </StyledPageMainWrapper>
         <StyledPageFooter>
-          <StyledPageP footer>{t("Mercury.source")}</StyledPageP>
+          <StyledPageP footer>
+            {t("Mercury.source")}
+          </StyledPageP>
         </StyledPageFooter>
       </StyledPageContainer>
     </StyledPageSection>
