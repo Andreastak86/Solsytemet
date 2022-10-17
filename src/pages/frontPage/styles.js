@@ -6,16 +6,16 @@ export const LPDiv = styled.div`
   width: 100%;
   height: 200vh;
   z-index: -1;
-  overflow: hidden;
+  /* overflow: hidden; */
   @media (max-width: 1280px) {
     height: 400vh;
     margin-top: -35rem;
   }
   @media (max-width: 780px) {
-    height: 250vh;
+    margin-top: -15rem;
+    height: 300vh;
   }
   @media (max-width: 425px) {
-    height: 150vh;
   }
 `;
 
