@@ -54,6 +54,8 @@ export const StyledPageH1 = styled.h1`
   padding: 0.5em 0 0.25em;
   font-size: 1.6rem;
   color: #f06d0a;
+  text-shadow: 2px 2px 1px black;
+
   line-height: 1;
 
   @media screen and (min-width: 768px) {
@@ -85,6 +87,7 @@ export const StyledPageUl = styled.ul`
 
 export const StyledPageLi = styled.li`
   color: #fa7207;
+  text-shadow: 2px 2px 1px black;
 
   padding-bottom: 0.25em;
 
