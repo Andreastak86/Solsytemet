@@ -21,7 +21,7 @@ import VenusPage from "../../../../pages/planetPages/venusPage/VenusPage";
 import Contact from "../../../contact";
 
 import UranusPage from "../../../../pages/planetPages/uranusPage/UranusPage";
-import PlutoPage from "../../../../pages/planetPages/plutoPage/PlutoPage";
+import PlutoPage from "../../../../pages/planetPages/plutoPage/plutoPage";
 import MercuryPage from "../../../../pages/planetPages/merkurPage/MercuryPage";
 
 import FrontPage from "../../../../pages/frontPage/FrontPage";
