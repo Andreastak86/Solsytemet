@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import uAnus from "./img/uranus.jpg";
+import Merkur from "./img/merkurmd.jpg";
 
 export const Seksjon = styled.section`
-  background-image: url(${uAnus});
+  background-image: url(${Merkur});
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%; /*or your image's width*/
@@ -16,7 +16,7 @@ export const Seksjon = styled.section`
 `;
 
 export const Headder = styled.h1`
-  color: #2dccc9;
+  color: #4554a3;
   font-size: 64px;
 `;
 
@@ -26,7 +26,7 @@ export const Bilde = styled.img`
 `;
 
 export const Paragraf = styled.p`
-  color: #155e5d;
+  color: #ffff;
   font-size: 32px;
 `;
 
@@ -41,13 +41,13 @@ export const Flex = styled.p`
 `;
 
 export const Liste = styled.p`
-  color: #ad174b;
+  color: #ffff;
   font-size: 16px;
-  margin: 50px 60px 30px 50px;
+  margin: 100px 60px 30px 0px;
 `;
 
 export const Text = styled.p`
-  color: #ad174b;
+  color: #ffff;
   font-size: 20px;
   margin: 100px 60px 30px 0px;
 `;
