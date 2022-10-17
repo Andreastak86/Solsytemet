@@ -38,22 +38,16 @@ function Nav() {
         <WebsiteName>
           <NavMenuLink>
             <NavLink to="/">{t("Navbar.title")}</NavLink>
-
-            <NavLink to="/">{t("Navbar.title")}</NavLink>
           </NavMenuLink>
         </WebsiteName>
         <NavMenuList>
           <NavMenuItems>
             <NavMenuLink>
               <NavLink to="/">{t("Navbar.mainPage")}</NavLink>
-
-              <NavLink to="/">{t("Navbar.mainPage")}</NavLink>
             </NavMenuLink>
           </NavMenuItems>
           <NavMenuItems>
             <NavMenuLink>
-              <NavLink to="/sun">{t("Navbar.ourSun")}</NavLink>
-
               <NavLink to="/sun">{t("Navbar.ourSun")}</NavLink>
             </NavMenuLink>
           </NavMenuItems>
@@ -64,8 +58,6 @@ function Nav() {
           </NavMenuItems>
           <NavMenuItems>
             <NavMenuLink>
-              <NavLink to="/contact">{t("Navbar.contact")}</NavLink>
-
               <NavLink to="/contact">{t("Navbar.contact")}</NavLink>
             </NavMenuLink>
           </NavMenuItems>
