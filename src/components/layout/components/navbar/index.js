@@ -8,10 +8,8 @@ import {
   NavMenuLink,
   NavMenuList,
   Planets,
-  // NavMenuList2,
   WebsiteName,
 } from "./styles";
-import FrontPage from "../../../../pages/frontPage/FrontPage";
 import SunPage from "../../../../pages/planetPages/sunPage/SunPage";
 import EarthPage from "../../../../pages/planetPages/earthPage/EarthPage";
 import MoonPage from "../../../../pages/planetPages/moonPage/MoonPage";
@@ -21,6 +19,7 @@ import SaturnPage from "../../../../pages/planetPages/saturnPage/SaturnPage";
 import NeptunPage from "../../../../pages/planetPages/neptunPage/NeptunPage";
 import VenusPage from "../../../../pages/planetPages/venusPage/VenusPage";
 import Contact from "../../../contact";
+import FrontPage from "../../../../pages/frontPage/frontPage";
 
 function Nav() {
   const [active, setActive] = useState();
@@ -67,6 +66,9 @@ function Nav() {
           <NavLink to="/earth">Earth</NavLink>
         </NavMenuItems>
         <NavMenuItems>
+          <NavLink to="/moon">Moon</NavLink>
+        </NavMenuItems>
+        <NavMenuItems>
           <NavMenuLink>
             <NavLink to="/mars">Mars</NavLink>
           </NavMenuLink>
@@ -81,9 +83,6 @@ function Nav() {
         </NavMenuItems>
         <NavMenuItems>
           <NavLink to="/neptun">Neptun</NavLink>
-        </NavMenuItems>
-        <NavMenuItems>
-          <NavLink to="/moon">Moon</NavLink>
         </NavMenuItems>
       </NavBar2>
       <Routes>

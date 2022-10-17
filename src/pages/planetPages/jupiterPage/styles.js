@@ -54,6 +54,7 @@ export const StyledPageH1 = styled.h1`
   padding: 0.5em 0 0.25em;
   font-size: 1.6rem;
   color: #fff;
+  line-height: 1;
 
   @media screen and (min-width: 768px) {
     font-size: 2.2rem;

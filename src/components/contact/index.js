@@ -1,16 +1,7 @@
 import React from "react";
-
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
-import {
-  Main,
-  Form,
-  Input,
-  Button,
-  ContactH2,
-  ContactBg,
-  Box,
-} from "./stylesContact.js";
+import { Main, Form, Button, Kontakt } from "./stylesContact.js";
 
 const Contact = () => {
   const form = useRef();
@@ -28,30 +19,43 @@ const Contact = () => {
   };
 
   return (
-    <ContactBg>
-      <Box>
-        <Main>
-          <ContactH2>Kontakt Oss</ContactH2>
+    <>
+      <Main>
+        <h2>Kontakt Oss</h2>
+        <Kontakt>
+          <a
+            href='solsystemet.kodehode@gmail.com'
+            target='_blank'
+            rel='noreferrer'
+          >
+            Send oss en mail
+          </a>
+        </Kontakt>
 
-          <Form ref={form} onSubmit={sendEmail}>
-            <Input type="text" name="name" placeholder="Ditt Navn" required />
-            <Input
-              type="email"
-              name="email"
-              placeholder="Din Mailadresse"
-              required
-            />
-            <Input
-              name="message"
-              rows="20"
-              placeholder="Din Melding"
-              required
-            ></Input>
-            <Button type="submit">Send Melding</Button>
-          </Form>
-        </Main>
-      </Box>
-    </ContactBg>
+        <Form ref={form} onSubmit={sendEmail}>
+          <h5>Eller Send Oss En Melding</h5>
+          <input type='text' name='name' placeholder='Ditt Navn' required />
+          <input
+            type='email'
+            name='email'
+            placeholder='Din Mailadresse'
+            required
+          />
+          <textarea
+            name='message'
+            rows='7'
+            placeholder='Din Melding'
+            required
+          ></textarea>
+
+          <Button>
+            <button type='submit' className='btn btn-primary'>
+              Send Melding
+            </button>
+          </Button>
+        </Form>
+      </Main>
+    </>
   );
 };
 

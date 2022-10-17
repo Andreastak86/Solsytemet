@@ -1,7 +1,17 @@
-import { Box, EarthContainer, EarthH1, EarthImg, EarthP } from "./styles";
-import EarthImage from "./img/earth.webp";
-import { useEffect, useState } from "react";
+import { 
+  useEffect, 
+  useState 
+} from "react";
 import axios from "axios";
+import { t } from "i18next";
+import { 
+  Box, 
+  EarthContainer, 
+  EarthH1, 
+  EarthImg, 
+  EarthP 
+} from "./styles";
+import EarthImage from "./img/earth.webp";
 
 const EarthPage = () => {
   const [apiError, setApiError] = useState();
@@ -24,15 +34,20 @@ const EarthPage = () => {
     return (
       <>
         <EarthContainer>
-          <EarthImg src={EarthImage} alt="Earth" />
+          <EarthImg 
+            src={EarthImage} 
+            alt="Earth" 
+          />
         </EarthContainer>
         <Box>
-          <EarthH1>Earth</EarthH1>
+          <EarthH1>
+            {t("Earth.title")}
+          </EarthH1>
           <EarthP>
-            One of the ancient names for our Earth is "{data.name}"
+            {t("Earth.name")}"{data.name}"
           </EarthP>
           <EarthP>
-            Our Earth has an equatorial Radius of {data.equaRadius}km
+            {t("Earth.radius")} {data.equaRadius}km
           </EarthP>
         </Box>
       </>
@@ -41,22 +56,36 @@ const EarthPage = () => {
     return (
       <>
         <EarthContainer>
-          <EarthImg src={EarthImage} alt="Earth" />
+          <EarthImg 
+            src={EarthImage} 
+            alt="Earth" 
+          />
         </EarthContainer>
         <Box>
-          <EarthH1>Earth</EarthH1>
-          <EarthP>Failed to Load, please try again.</EarthP>
+          <EarthH1>
+            Earth
+          </EarthH1>
+          <EarthP>
+            Failed to Load, please try again.
+          </EarthP>
         </Box>
       </>
     );
   } else {
     <>
       <EarthContainer>
-        <EarthImg src={EarthImage} alt="Earth" />
+        <EarthImg 
+          src={EarthImage} 
+          alt="Earth" 
+        />
       </EarthContainer>
       <Box>
-        <EarthH1>Earth</EarthH1>
-        <EarthP>Failed to Load, please try again.</EarthP>
+        <EarthH1>
+          Earth
+        </EarthH1>
+        <EarthP>
+          Failed to Load, please try again.
+        </EarthP>
       </Box>
     </>;
   }
