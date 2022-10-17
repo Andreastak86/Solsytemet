@@ -19,10 +19,11 @@ import JupiterPage from "../../../../pages/planetPages/jupiterPage/JupiterPage";
 import SaturnPage from "../../../../pages/planetPages/saturnPage/SaturnPage";
 import NeptunPage from "../../../../pages/planetPages/neptunePage/NeptunePage";
 import VenusPage from "../../../../pages/planetPages/venusPage/VenusPage";
-import Contact from "../../../contact";
+
 import UranusPage from "../../../../pages/planetPages/uranusPage/UranusPage";
 import PlutoPage from "../../../../pages/planetPages/plutoPage/PlutoPage";
 import MercuryPage from "../../../../pages/planetPages/merkurPage/MercuryPage";
+import ContactPage from "../../../../components/contact/ContactPage";
 
 function Nav() {
   const [active, setActive] = useState();
@@ -107,7 +108,7 @@ function Nav() {
         <Route path='/saturn' element={<SaturnPage />} />
         <Route path='/neptun' element={<NeptunPage />} />
         <Route path='/venus' element={<VenusPage />} />
-        <Route path='/contact' element={<Contact />} />
+        <Route path='/contact' element={<ContactPage />} />
         <Route path='/uranus' element={<UranusPage />} />
         <Route path='/pluto' element={<PlutoPage />} />
         <Route path='/mercury' element={<MercuryPage />} />
