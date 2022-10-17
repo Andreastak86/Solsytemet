@@ -82,6 +82,22 @@
     "source": "Hentet: 13. oktober 2022 fra https://no.wikipedia.org/wiki/Venus"
   },
 
+  "Pluto": {
+    "title": "Pluto",
+    "firstText": " Pluto er en dvergplanet i solsystemet. Pluto ble tidligere regnet som den niende og ytterste av planetene i solsystemet, men har siden 2006 blitt regnet som en dvergplanet. Plutos diameter er cirka 2370 kilometer, om lag en sjettedel av Jordens diameter og mindre enn Månen.",
+
+    "secondText": "Pluto er meget lyssvak med en tilsynelatendesørrelsesklasse på 14,7 i gjennomsnittlig avstand fra Jorden. Den er ikke mulig å se uten bruk av teleskop av en viss størrelse. Overflatetemperaturen er –235 °C.",
+
+    "thirdText": "Pluto har fem måner som alle beveger seg i Plutos ekvatorplan. Den største, Charon, ble oppdaget i 1978. Den har samme rotasjonstid som Pluto, og de to vender derfor alltid samme side mot hverandre. Charon har en diameter halvparten så stor som Plutos.",
+
+    "factsTitle": "Fakta Om Pluto",
+    "factsRadius": "Radius: 1185 kilometer",
+    "factsSize": "Den minste (dverg)'planeten' i solsystemet",
+    "factsSpeed": "Gjennomsnittsfart: 4,7 km/s",
+    "factsMoons": "Måner: 5 stk",
+    "source": "Pluto i Store norske leksikon på snl.no. Hentet 17. oktober 2022 fra https://snl.no/Pluto"
+  },
+
   "Footer": {
     "MadeBy": "Laget av:"
   }

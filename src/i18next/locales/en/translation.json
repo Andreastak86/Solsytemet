@@ -11,7 +11,6 @@
     "title": "Sun",
     "titleSubtext": "Our Sun is a 4.5 billion-year-old star - a hot glowing ball of hydrogen and helium at the center of our solar system.",
     "age": "How old the Sun is can be related to the early stages of the formation of the Solar System. The age of the Sun is near that of the Solar System, estimated to be around 4.6 billion years old."
-    
   },
 
   "Earth": {
@@ -81,6 +80,21 @@
     "factsSpeed": "Average speed: 35.02 km/s",
     "factsMoons": "Moons: None",
     "source": "Retrieved: October 13th 2022 from https://no.wikipedia.org/wiki/Venus"
+  },
+  "Pluto": {
+    "title": "Pluto",
+    "firstText": " Pluto er en dvergplanet i solsystemet. Pluto ble tidligere regnet som den niende og ytterste av planetene i solsystemet, men har siden 2006 blitt regnet som en dvergplanet. Plutos diameter er cirka 2370 kilometer, om lag en sjettedel av Jordens diameter og mindre enn Månen.",
+
+    "secondText": "Pluto er meget lyssvak med en tilsynelatendesørrelsesklasse på 14,7 i gjennomsnittlig avstand fra Jorden. Den er ikke mulig å se uten bruk av teleskop av en viss størrelse. Overflatetemperaturen er –235 °C.",
+
+    "thirdText": "Pluto har fem måner som alle beveger seg i Plutos ekvatorplan. Den største, Charon, ble oppdaget i 1978. Den har samme rotasjonstid som Pluto, og de to vender derfor alltid samme side mot hverandre. Charon har en diameter halvparten så stor som Plutos.",
+
+    "factsTitle": "Facts About Pluto",
+    "factsRadius": "Average radius: 1185 kilometer",
+    "factsSize": "The smallest (dwarf) 'planet' in the solar system",
+    "factsSpeed": "Average speed: 4.7 km/s",
+    "factsMoons": "Moons: 5 pcs",
+    "source": "Pluto in Store norske leksikon at snl.no. Retrieved 17 October 2022 from https://snl.no/Pluto"
   },
 
   "Footer": {
