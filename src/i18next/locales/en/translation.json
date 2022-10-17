@@ -83,11 +83,11 @@
   },
   "Pluto": {
     "title": "Pluto",
-    "firstText": " Pluto er en dvergplanet i solsystemet. Pluto ble tidligere regnet som den niende og ytterste av planetene i solsystemet, men har siden 2006 blitt regnet som en dvergplanet. Plutos diameter er cirka 2370 kilometer, om lag en sjettedel av Jordens diameter og mindre enn Månen.",
+    "firstText": " Pluto is a dwarf planet in the solar system. Pluto was previously considered the ninth and outermost of the planets in the solar system, but since 2006 has been considered a dwarf planet. Pluto's diameter is approximately 2,370 kilometers, about one-sixth the diameter of Earth and smaller than the Moon.",
 
-    "secondText": "Pluto er meget lyssvak med en tilsynelatendesørrelsesklasse på 14,7 i gjennomsnittlig avstand fra Jorden. Den er ikke mulig å se uten bruk av teleskop av en viss størrelse. Overflatetemperaturen er –235 °C.",
+    "secondText": "Pluto is very faint with an apparent magnitude of 14.7 at the average distance from Earth. It is not possible to see it without the use of a telescope of a certain size. The surface temperature is –235 °C.",
 
-    "thirdText": "Pluto har fem måner som alle beveger seg i Plutos ekvatorplan. Den største, Charon, ble oppdaget i 1978. Den har samme rotasjonstid som Pluto, og de to vender derfor alltid samme side mot hverandre. Charon har en diameter halvparten så stor som Plutos.",
+    "thirdText": "Pluto has five moons that all move in Pluto's equatorial plane. The largest, Charon, was discovered in 1978. It has the same rotation period as Pluto, and the two therefore always face the same side. Charon has a diameter half that of Pluto.",
 
     "factsTitle": "Facts About Pluto",
     "factsRadius": "Average radius: 1185 kilometer",
@@ -95,6 +95,21 @@
     "factsSpeed": "Average speed: 4.7 km/s",
     "factsMoons": "Moons: 5 pcs",
     "source": "Pluto in Store norske leksikon at snl.no. Retrieved 17 October 2022 from https://snl.no/Pluto"
+  },
+  "Uranus": {
+    "title": "Uranus",
+    "firstText": " PRONUNCIATION: urˈanus!!!! Uranus is the seventh of the planets from the Sun, and the third largest planet in the solar system.",
+
+    "secondText": "Like Jupiter, Saturn and Neptune, Uranus is a gas planet, more precisely an ice giant. Uranus takes 84.02 years to complete one orbit around the Sun.",
+
+    "thirdText": "The average distance from the Sun is 2,871 million kilometers, which is 19 times the distance to Earth. Like the other planets in the solar system, Uranus was formed around 4.5 billion years ago, just after the Sun had been formed.",
+
+    "factsTitle": "Facts About Uranus",
+    "factsRadius": "Radius at the equator (Earth = 1) 4.007",
+    "factsSize": "The second outermost planet in the solar system",
+    "factsSpeed": "Average speed: 6.81 km/s",
+    "factsMoons": "Moons: 27 pcs",
+    "source": "RIngnes, Truls; Aksnes, Kaare; Hammerstrøm, Maria: Uranus in Store norske lesikon at snl.no. Retrieved 11 October 2022 from https://snl.no/Uranus"
   },
 
   "Footer": {
