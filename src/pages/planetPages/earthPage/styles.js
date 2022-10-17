@@ -36,7 +36,7 @@ export const EarthH1 = styled.h1`
   text-align: center;
   margin-bottom: 5rem;
   -webkit-text-stroke: 2px black;
-  @media (max-width: 425px) {
+  @media (max-width: 768px) {
     font-size: 3rem;
   }
 `;
@@ -44,8 +44,8 @@ export const EarthH1 = styled.h1`
 export const EarthP = styled.p`
   font-size: 2rem;
   text-align: left;
-  margin: 10% 10%;
-  @media (max-width: 425px) {
+  margin: 3% 10%;
+  @media (max-width: 768px) {
     font-size: 1rem;
     margin: 10% 10%;
   }
