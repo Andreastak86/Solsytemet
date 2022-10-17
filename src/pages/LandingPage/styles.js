@@ -3,15 +3,16 @@ import Stars from "./img/stars.avif";
 
 export const LPDiv = styled.div`
   background: url(${Stars});
-  width: 100vw;
+  width: 100%;
   height: 200vh;
   z-index: -1;
   overflow: hidden;
-  @media (max-width: 1080) {
-    height: 200vh;
+  @media (max-width: 1280px) {
+    height: 400vh;
+    margin-top: -35rem;
   }
-  @media (max-width: 720px) {
-    height: 170vh;
+  @media (max-width: 780px) {
+    height: 250vh;
   }
   @media (max-width: 425px) {
     height: 150vh;
@@ -22,7 +23,7 @@ export const SunImg = styled.img`
   width: 20rem;
   object-fit: contain;
   animation: spin 20s linear infinite;
-  @media (max-width: 1080px) {
+  @media (max-width: 720px) {
     width: 15rem;
   }
   @media (max-width: 425px) {
@@ -43,9 +44,6 @@ export const VenusImg = styled.img`
   width: 4.5rem;
   object-fit: contain;
   animation: spin 20s linear infinite;
-  @media (max-width: 1080px) {
-    width: 3.5rem;
-  }
   @media (max-width: 425px) {
    width: 2.25rem;
   }
@@ -55,9 +53,6 @@ export const EarthImg = styled.img`
   width: 5rem;
   object-fit: contain;
   animation: spin 20s linear infinite;
-  @media (max-width: 1080px) {
-    width: 3rem;
-  }
   @media (max-width: 425px) {
    width: 2.5rem;
   }
@@ -76,9 +71,6 @@ export const MarsImg = styled.img`
   width: 2.5rem;
   object-fit: contain;
   animation: spin 20s linear infinite;
-  @media (max-width: 1080px) {
-    width: 2rem;
-  }
   @media (max-width: 425px) {
     width: 1.25rem;
 }
@@ -87,9 +79,6 @@ export const JupiterImg = styled.img`
   width: 10rem;
   object-fit: contain;
   animation: spin 20s linear infinite;
-  @media (max-width: 1080px) {
-    width: 8rem;
-  }
   @media (max-width: 720px) {
     width: 6rem;
   }
@@ -102,9 +91,6 @@ export const SaturnImg = styled.img`
   width: 9rem;
   object-fit: contain;
   animation: spin 20s linear infinite;
-  @media (max-width: 1080px) {
-    width: 7.5rem;
-  }
   @media (max-width: 720px) {
     width: 6rem;
   }
@@ -117,9 +103,6 @@ export const UranusImg = styled.img`
   width: 7rem;
   object-fit: contain;
   animation: spin 20s linear infinite;
-  @media (max-width: 1080px) {
-    width: 5.5rem;
-  }
   @media (max-width: 425px) {
     width: 3.5rem;
 }
@@ -129,9 +112,6 @@ export const NeptuneImg = styled.img`
   width: 6.5rem;
   object-fit: contain;
   animation: spin 20s linear infinite;
-  @media (max-width: 1080px) {
-    width: 6rem;
-  }
   @media (max-width: 425px) {
     width: 3.25rem;
 }
@@ -172,10 +152,10 @@ export const MercuryContainer = styled.div`
   position: absolute;
   z-index: 8;
   animation: spin 3479s linear infinite;
-  // border: solid red 2px;
+  /* border: solid red 2px; */
   @media (max-width: 1024px) {
-   width: 15rem;
-   height: 15rem;
+   width: 18rem;
+   height: 18rem;
   }
   @media (max-width: 720px) {
     width: 13rem;
@@ -193,10 +173,10 @@ export const VenusContainer = styled.div`
   position: absolute;
   z-index: 7;
   animation: spin 14579s linear infinite;
-  // border: solid red 2px;
+  /* border: solid red 2px; */
   @media (max-width: 1024px) {
-    width: 23rem;
-    height: 23rem;
+    width: 26rem;
+    height: 26rem;
   }
   @media (max-width: 720px) {
     width: 21rem;
@@ -214,10 +194,10 @@ export const EarthContainer = styled.div`
   position: absolute;
   z-index: 6;
   animation: spin 59.4s linear infinite;
-  // border: solid red 2px;
+  /* border: solid red 2px; */
   @media (max-width: 1024px) {
-    width: 30rem;
-    height: 30rem;
+    width: 35rem;
+    height: 35rem;
   }
   @media (max-width: 720px) {
     width: 28rem;
@@ -236,11 +216,7 @@ export const MoonContainer = styled.div`
   height: 6.5rem;
   position: absolute;
   animation: spin 1638s linear infinite;
-  // border: solid yellow 2px;
-  @media (max-width: 1080px) {
-    width: 5rem;
-    height: 5rem;
-  }
+  /* border: solid yellow 2px; */
   @media (max-width: 425px) {
     width: 4rem;
     height: 4rem;
@@ -253,10 +229,10 @@ export const MarsContainer = styled.div`
   position: absolute;
   z-index: 5;
   animation: spin 61.8s linear infinite;
-  // border: solid red 2px;
+  /* border: solid red 2px; */
   @media (max-width: 1024px) {
-    width: 36.5rem;
-    height: 36.5rem;
+    width: 42rem;
+    height: 42rem;
   }
   @media (max-width: 720px) {
     width: 35rem;
@@ -273,10 +249,10 @@ export const JupiterContainer = styled.div`
   position: absolute;
   z-index: 4;
   animation: spin 24.6s linear infinite;
-  // border: solid red 2px;
+  /* border: solid red 2px; */
   @media (max-width: 1024px) {
-    width: 50rem;
-    height: 50rem;
+    width: 60rem;
+    height: 60rem;
   }
   @media (max-width: 720px) {
     width: 46rem;
@@ -293,10 +269,10 @@ export const SaturnContainer = styled.div`
   position: absolute;
   z-index: 3;
   animation: spin 27s linear infinite;
-  // border: solid red 2px;
+  /* border: solid red 2px; */
   @media (max-width: 1024px) {
-    width: 60rem;
-    height: 60rem;
+    width: 73rem;
+    height: 73rem;
   }
   @media (max-width: 720px) {
     width: 55rem ;
@@ -313,10 +289,10 @@ export const UranusContainer = styled.div`
   position: absolute;
   z-index: 2;
   animation: spin 43.2s linear infinite;
-  // border: solid red 2px;
+  /* border: solid red 2px; */
   @media (max-width: 1024px) {
-    width: 70rem;
-    height: 70rem;
+    width: 80rem;
+    height: 80rem;
   }
   @media (max-width: 720px) {
     width: 65rem;
@@ -334,11 +310,11 @@ export const NeptuneContainer = styled.div`
 
   position: absolute;
   animation: spin 40.2s linear infinite;
-  // border: solid red 2px;
+  /* border: solid red 2px; */
   z-index: 1;
   @media (max-width: 1024px) {
-    width: 80rem;
-    height: 80rem;
+    width: 88rem;
+    height: 88rem;
   }
   @media (max-width: 720px) {
     width: 75rem;
@@ -356,10 +332,10 @@ export const PlutoContainer = styled.div`
   position: absolute;
   z-index: 0;
   animation: spin 383.4s linear infinite;
-  // border: solid red 2px;
+  /* border: solid red 2px; */
   @media (max-width: 1024px) {
-    width: 83rem;
-    height: 83rem;
+    width: 90rem;
+    height: 90rem;
   }
 
   @media (max-width: 720px) {
