@@ -22,9 +22,9 @@ const MercuryPage = () => {
             <Flex>
               <Text>
                 <p>
-                  Merkur er den innerste og minste planeten i solsystemet. Den
-                  er bare litt større enn Månen, og er i likhet med Venus, Jorda
-                  og Mars en steinplanet.
+                  hei hei Merkur er den innerste og minste planeten i
+                  solsystemet. Den er bare litt større enn Månen, og er i likhet
+                  med Venus, Jorda og Mars en steinplanet.
                   <br />
                   Planeten er gråfarget og tildekket av kratre, og ligner dermed
                   på Månen i utseende. Det er observert tegn til is i kratre i
