@@ -12,10 +12,10 @@ export const LPDiv = styled.div`
     margin-top: -35rem;
   }
   @media (max-width: 780px) {
-    height: 250vh;
+    margin-top: -15rem;
+    height: 300vh;
   }
   @media (max-width: 425px) {
-    height: 150vh;
   }
 `;
 
