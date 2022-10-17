@@ -11,7 +11,32 @@
     "title": "Sun",
     "titleSubtext": "Our Sun is a 4.5 billion-year-old star - a hot glowing ball of hydrogen and helium at the center of our solar system.",
     "age": "How old the Sun is can be related to the early stages of the formation of the Solar System. The age of the Sun is near that of the Solar System, estimated to be around 4.6 billion years old."
-    
+  },
+
+  "Mercury": {
+    "title": "Mercury",
+    "firstText": " Mercury is the innermost and smallest planet in the solar system. It is only slightly larger than the Moon, and like Venus, Earth and Mars is a rocky planet.",
+    "secondText": "The planet is gray in color and covered in craters, thus resembling the Moon in appearance. Signs of ice have been observed in craters in the polar regions that are never hit by sunlight. The surface is covered with small and large impact craters. The largest crater, Caloris, is 1,550 kilometers in diameter.",
+    "thirdText": " On the opposite side of the planet there is a pattern of rings that are probably formed by shock waves after the impact that formed the Caloris crater. On the surface are found also volcanoes, but no active volcanoes have been observed.The first spacecraft to visit Mercury was Mariner 10 which arrived on the planet in 1974 and photographed almost half of the planet's surface with resolution down to 100 meters.",
+    "factsTitle": "Facts About Mars",
+    "factsRadius": "Radius at the equator (Earth = 1) 0.532",
+    "factsSize": "The planet closest to the sun",
+    "factsSpeed": "Average speed: 47.87 km/s",
+    "factsMoons": "Moons: 0 pcs",
+    "source": "Aksnes, Kaare; Hammerstrøm, Maria: Mercury in Store norske leksikon at snl.no. Retrieved 11 October 2022 from https://snl.no/Merkur"
+  },
+
+  "Venus": {
+    "title": "Venus",
+    "firstText": "Venus is the second planet from the sun and the third smallest in the solar system. The planet is named after Venus, the Roman goddess of love, beauty and fertility. After the Moon, Venus is the brightest natural object in the night sky and is bright enough to cast shadows.",
+    "secondText": "If you are far north on Earth (for example Tromsø), Venus is circumpolar in certain periods and visible all night. The same is the case in certain other periods if you are far enough south on Earth. It is called the Evening Star when it is visible after sunset and the Morning Star when it is visible before sunrise.",
+    "thirdText": "Venus is a terrestrial planet and is sometimes called Earth's «sister planet» due to its relatively similar size, gravity and composition. An opaque layer of highly reflective clouds of sulfuric acid prevents the surface from being seen in visible light from space.",
+    "factsTitle": "Facts About Venus",
+    "factsRadius": "Average radius: 6,051.8 km",
+    "factsSize": "The third smallest planet in the solar system",
+    "factsSpeed": "Average speed: 35.02 km/s",
+    "factsMoons": "Moons: None",
+    "source": "Retrieved: October 13th 2022 from https://no.wikipedia.org/wiki/Venus"
   },
 
   "Earth": {
@@ -27,6 +52,19 @@
     "para3": "The Moon is a planetary-mass object that formed a differentiated rocky body, making it a satellite planet under the geophysical definitions of the term. ",
     "para4": "It lacks any significant atmosphere, hydrosphere, or magnetic field. ",
     "para5": "Its surface gravity is about one-sixth of Earth's (0.1654 g). Jupiter's moon Io is the only satellite in the Solar System known to have a higher surface gravity and density."
+  },
+
+  "Mars": {
+    "title": "Mars",
+    "firstText": " Mars is the fourth planet counted from the Sun. It is the seventh largest planet in the solar system and has just over half the circumference of Earth. Like Mercury, Venus and Earth, it is a rocky planet.",
+    "secondText": "A day on Mars lasts 24.6 hours, not unlike a day on Earth (23.9 hours). A Martian day is called a sol, which is an abbreviation for 'solar day'.",
+    "thirdText": "Mars may have been more Earth-like 3.5 billion years ago. Formations on the surface indicate that water has been clean there in the past, while today the surface is dry.",
+    "factsTitle": "Facts About Mars",
+    "factsRadius": "Radius at the equator (Earth = 1) 0.532",
+    "factsSize": "The fourth planet in the solar system",
+    "factsSpeed": "Average speed: 24.1 km/s",
+    "factsMoons": "Moons: 2 pcs",
+    "source": "Aksnes, Kaare; Hammerstrøm, Maria: Mars in Store norske leksikon at snl.no. Retrieved 11 October 2022 from https://snl.no/Mars"
   },
 
   "Jupiter": {
@@ -57,6 +95,19 @@
     "source": "Retrieved: October 11th 2022 from https://no.wikipedia.org/wiki/Saturn"
   },
 
+  "Uranus": {
+    "title": "Uranus",
+    "firstText": " PRONUNCIATION: urˈanus!!!! Uranus is the seventh of the planets from the Sun, and the third largest planet in the solar system.",
+    "secondText": "Like Jupiter, Saturn and Neptune, Uranus is a gas planet, more precisely an ice giant. Uranus takes 84.02 years to complete one orbit around the Sun.",
+    "thirdText": "The average distance from the Sun is 2,871 million kilometers, which is 19 times the distance to Earth. Like the other planets in the solar system, Uranus was formed around 4.5 billion years ago, just after the Sun had been formed.",
+    "factsTitle": "Facts About Uranus",
+    "factsRadius": "Radius at the equator (Earth = 1) 4.007",
+    "factsSize": "The second outermost planet in the solar system",
+    "factsSpeed": "Average speed: 6.81 km/s",
+    "factsMoons": "Moons: 27 pcs",
+    "source": "RIngnes, Truls; Aksnes, Kaare; Hammerstrøm, Maria: Uranus in Store norske lesikon at snl.no. Retrieved 11 October 2022 from https://snl.no/Uranus"
+  },
+
   "Neptun": {
     "title": "Neptune",
     "firstText": "Neptune is the eighth and outermost planet in the solar system from the sun, and the only planet that is impossible to see from Earth with the naked eye. It is named after Neptune, the Roman god of the sea. It is the fourth largest planet in the Solar System by diameter and has the third largest mass.",
@@ -70,17 +121,17 @@
     "source": "Retrieved: October 13th 2022 from https://no.wikipedia.org/wiki/Neptun_(planet)"
   },
 
-  "Venus": {
-    "title": "Venus",
-    "firstText": "Venus is the second planet from the sun and the third smallest in the solar system. The planet is named after Venus, the Roman goddess of love, beauty and fertility. After the Moon, Venus is the brightest natural object in the night sky and is bright enough to cast shadows.",
-    "secondText": "If you are far north on Earth (for example Tromsø), Venus is circumpolar in certain periods and visible all night. The same is the case in certain other periods if you are far enough south on Earth. It is called the Evening Star when it is visible after sunset and the Morning Star when it is visible before sunrise.",
-    "thirdText": "Venus is a terrestrial planet and is sometimes called Earth's «sister planet» due to its relatively similar size, gravity and composition. An opaque layer of highly reflective clouds of sulfuric acid prevents the surface from being seen in visible light from space.",
-    "factsTitle": "Facts About Venus",
-    "factsRadius": "Average radius: 6,051.8 km",
-    "factsSize": "The third smallest planet in the solar system",
-    "factsSpeed": "Average speed: 35.02 km/s",
-    "factsMoons": "Moons: None",
-    "source": "Retrieved: October 13th 2022 from https://no.wikipedia.org/wiki/Venus"
+  "Pluto": {
+    "title": "Pluto",
+    "firstText": " Pluto is a dwarf planet in the solar system. Pluto was previously considered the ninth and outermost of the planets in the solar system, but since 2006 has been considered a dwarf planet. Pluto's diameter is approximately 2,370 kilometers, about one-sixth the diameter of Earth and smaller than the Moon.",
+    "secondText": "Pluto is very faint with an apparent magnitude of 14.7 at the average distance from Earth. It is not possible to see it without the use of a telescope of a certain size. The surface temperature is –235 °C.",
+    "thirdText": "Pluto has five moons that all move in Pluto's equatorial plane. The largest, Charon, was discovered in 1978. It has the same rotation period as Pluto, and the two therefore always face the same side. Charon has a diameter half that of Pluto.",
+    "factsTitle": "Facts About Pluto",
+    "factsRadius": "Average radius: 1185 kilometer",
+    "factsSize": "The smallest (dwarf) 'planet' in the solar system",
+    "factsSpeed": "Average speed: 4.7 km/s",
+    "factsMoons": "Moons: 5 pcs",
+    "source": "Pluto in Store norske leksikon at snl.no. Retrieved 17 October 2022 from https://snl.no/Pluto"
   },
 
   "Footer": {

@@ -7,6 +7,9 @@ export const SunBackground = styled.div`
   height: 100%;
   background-color: black;
   padding-top: 0.1rem;
+  @media (max-width: 1280px) {
+    margin-top: -13rem;
+  }
 `
 
 export const SunHeader = styled.div`
@@ -25,6 +28,9 @@ export const SunTitle = styled.h1`
   display: flex;
   justify-content: center;
   padding-top: 20rem;
+  @media (max-width: 1280px) {
+    font-size: 7rem;
+  }
 `
 
 export const SunText = styled.p`
