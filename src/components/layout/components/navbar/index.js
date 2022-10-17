@@ -22,6 +22,7 @@ import VenusPage from "../../../../pages/planetPages/venusPage/VenusPage";
 import Contact from "../../../contact";
 import UranusPage from "../../../../pages/planetPages/uranusPage/UranusPage";
 import PlutoPage from "../../../../pages/planetPages/plutoPage/PlutoPage";
+import MercuryPage from "../../../../pages/planetPages/merkurPage/MercuryPage";
 
 function Nav() {
   const [active, setActive] = useState();
@@ -61,6 +62,9 @@ function Nav() {
         </NavMenuList>
       </NavBar>
       <NavBar2 active={active}>
+        <NavMenuItems>
+          <NavLink to='/mercury'>Merkur</NavLink>
+        </NavMenuItems>
         <NavMenuItems>
           <NavLink to='/venus'>Venus</NavLink>
         </NavMenuItems>
@@ -106,6 +110,7 @@ function Nav() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/uranus' element={<UranusPage />} />
         <Route path='/pluto' element={<PlutoPage />} />
+        <Route path='/mercury' element={<MercuryPage />} />
       </Routes>
     </>
   );
