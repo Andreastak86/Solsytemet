@@ -1,5 +1,9 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { 
+  NavLink, 
+  Route, 
+  Routes 
+} from "react-router-dom";
 import { t } from "i18next";
 import {
   NavBar,
@@ -7,9 +11,19 @@ import {
   NavMenuItems,
   NavMenuLink,
   NavMenuList,
-  // NavMenuList2,
+  Planets,
   WebsiteName,
 } from "./styles";
+import LandingPage from "../../../../pages/LandingPage/LandingPage";
+import SunPage from "../../../../pages/planetPages/sunPage/SunPage";
+import EarthPage from "../../../../pages/planetPages/earthPage/EarthPage";
+import MoonPage from "../../../../pages/planetPages/moonPage/MoonPage";
+import MarsPage from "../../../../pages/planetPages/marsPage/MarsPage";
+import JupiterPage from "../../../../pages/planetPages/jupiterPage/JupiterPage";
+import SaturnPage from "../../../../pages/planetPages/saturnPage/SaturnPage";
+import NeptunPage from "../../../../pages/planetPages/neptunPage/NeptunPage";
+import VenusPage from "../../../../pages/planetPages/venusPage/VenusPage";
+import Contact from "../../../contact";
 
 function Nav() {
   const [active, setActive] = useState();
@@ -32,6 +46,7 @@ function Nav() {
         <NavMenuList>
           <NavMenuItems>
             <NavMenuLink>
+
               <NavLink
                 to="/"
               >
@@ -49,16 +64,17 @@ function Nav() {
             </NavMenuLink>
           </NavMenuItems>
           <NavMenuItems
-            onClick={planetDropDown}
-          >
+            onClick={planetDropDown}>
             <NavMenuLink>
-              {t("Navbar.planets")}
+              <Planets>
+                {t("Navbar.planets")}
+              </Planets>
             </NavMenuLink>
           </NavMenuItems>
           <NavMenuItems>
             <NavMenuLink>
               <NavLink
-                to="#"
+                to="/contact"
               >
                 {t("Navbar.contact")}
               </NavLink>
@@ -69,6 +85,27 @@ function Nav() {
       <NavBar2
         active={active}
       >
+        <NavMenuItems>
+          <NavLink
+            to="/venus"
+          >
+            Venus
+          </NavLink>
+        </NavMenuItems>
+        <NavMenuItems>
+          <NavLink
+            to="/earth"
+          >
+            Earth
+          </NavLink>
+        </NavMenuItems>
+        <NavMenuItems>
+          <NavLink
+            to="/moon"
+          >
+            Moon
+          </NavLink>
+        </NavMenuItems>
         <NavMenuItems>
           <NavMenuLink>
             <NavLink
@@ -96,33 +133,54 @@ function Nav() {
         </NavMenuItems>
         <NavMenuItems>
           <NavLink
-            to="/venus"
-          >
-            Venus
-          </NavLink>
-        </NavMenuItems>
-        <NavMenuItems>
-          <NavLink
             to="/neptun"
           >
             Neptun
           </NavLink>
         </NavMenuItems>
-        <NavMenuItems>
-          <NavLink
-            to="/moon"
-          >
-            Moon
-          </NavLink>
-        </NavMenuItems>
-        <NavMenuItems>
-          <NavLink
-            to="/earth"
-          >
-            Earth
-          </NavLink>
-        </NavMenuItems>
       </NavBar2>
+      <Routes>
+        <Route
+          path="/"
+          element={<LandingPage />}
+        />
+        <Route
+          path="/sun"
+          element={<SunPage />}
+        />
+        <Route
+          path="/earth"
+          element={<EarthPage />}
+        />
+        <Route
+          path="/moon"
+          element={<MoonPage />}
+        />
+        <Route
+          path="/mars"
+          element={<MarsPage />}
+        />
+        <Route
+          path="/jupiter"
+          element={<JupiterPage />}
+        />
+        <Route
+          path="/saturn"
+          element={<SaturnPage />}
+        />
+        <Route
+          path="/neptun"
+          element={<NeptunPage />}
+        />
+        <Route
+          path="/venus"
+          element={<VenusPage />}
+        />
+        <Route
+          path="/contact"
+          element={<Contact />}
+        />
+      </Routes>
     </>
   );
 }

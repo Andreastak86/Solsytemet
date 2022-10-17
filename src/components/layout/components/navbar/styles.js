@@ -19,6 +19,12 @@ export const WebsiteName = styled.h1`
   color: white;
 `;
 
+export const Planets = styled.p`
+  font-size: 1rem;
+  text-decoration: underline;
+  cursor: pointer;
+`;
+
 export const NavMenuList = styled.ul`
   display: flex;
   flex-direction: row;
