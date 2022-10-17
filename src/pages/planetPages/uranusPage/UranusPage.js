@@ -10,7 +10,7 @@ import {
   Button,
 } from "./styles";
 
-const index = () => {
+const UranusPage = () => {
   return (
     <Seksjon>
       <div className='container uranus__container'>
@@ -74,4 +74,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default UranusPage;

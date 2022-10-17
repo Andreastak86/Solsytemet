@@ -11,7 +11,7 @@ import {
   Button,
 } from "./styles";
 
-const merkurPage = () => {
+const MercuryPage = () => {
   return (
     <Seksjon>
       <div className='container merkur__container'>
@@ -76,4 +76,4 @@ const merkurPage = () => {
   );
 };
 
-export default merkurPage;
+export default MercuryPage;
