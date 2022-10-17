@@ -26,8 +26,8 @@ const PlutoPage = () => {
           <StyledPageInfoWrapper facts>
             <StyledPageH1>{t("Pluto.factsTitle")}</StyledPageH1>
             <StyledPageUl>
-              <StyledPageLi>{t("Pluto.factsDiscovery")}</StyledPageLi>
-              <StyledPageLi>{t("Pluto.factsMass")}</StyledPageLi>
+              <StyledPageLi>{t("Pluto.factsRadius")}</StyledPageLi>
+              <StyledPageLi>{t("Pluto.factsSize")}</StyledPageLi>
               <StyledPageLi>{t("Pluto.factsSpeed")}</StyledPageLi>
               <StyledPageLi>{t("Pluto.factsMoons")}</StyledPageLi>
             </StyledPageUl>

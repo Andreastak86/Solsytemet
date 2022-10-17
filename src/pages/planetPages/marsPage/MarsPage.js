@@ -26,8 +26,8 @@ const MarsPage = () => {
           <StyledPageInfoWrapper facts>
             <StyledPageH1>{t("Mars.factsTitle")}</StyledPageH1>
             <StyledPageUl>
-              <StyledPageLi>{t("Mars.factsDiscovery")}</StyledPageLi>
-              <StyledPageLi>{t("Mars.factsMass")}</StyledPageLi>
+              <StyledPageLi>{t("Mars.factsRadius")}</StyledPageLi>
+              <StyledPageLi>{t("Mars.factsSize")}</StyledPageLi>
               <StyledPageLi>{t("Mars.factsSpeed")}</StyledPageLi>
               <StyledPageLi>{t("Mars.factsMoons")}</StyledPageLi>
             </StyledPageUl>

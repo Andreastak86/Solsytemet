@@ -26,8 +26,8 @@ const MercuryPage = () => {
           <StyledPageInfoWrapper facts>
             <StyledPageH1>{t("Mercury.factsTitle")}</StyledPageH1>
             <StyledPageUl>
-              <StyledPageLi>{t("Mercury.factsDiscovery")}</StyledPageLi>
-              <StyledPageLi>{t("Mercury.factsMass")}</StyledPageLi>
+              <StyledPageLi>{t("Mercury.factsRadius")}</StyledPageLi>
+              <StyledPageLi>{t("Mercury.factsSize")}</StyledPageLi>
               <StyledPageLi>{t("Mercury.factsSpeed")}</StyledPageLi>
               <StyledPageLi>{t("Mercury.factsMoons")}</StyledPageLi>
             </StyledPageUl>
