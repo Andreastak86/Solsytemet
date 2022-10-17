@@ -26,7 +26,6 @@ import MercuryPage from "../../../../pages/planetPages/merkurPage/MercuryPage";
 
 import FrontPage from "../../../../pages/frontPage/FrontPage";
 
-
 function Nav() {
   const [active, setActive] = useState();
   const planetDropDown = (id) => {
@@ -38,30 +37,24 @@ function Nav() {
       <NavBar>
         <WebsiteName>
           <NavMenuLink>
-
-            <NavLink to='/'>{t("Navbar.title")}</NavLink>
-
             <NavLink to="/">{t("Navbar.title")}</NavLink>
 
+            <NavLink to="/">{t("Navbar.title")}</NavLink>
           </NavMenuLink>
         </WebsiteName>
         <NavMenuList>
           <NavMenuItems>
             <NavMenuLink>
-
-              <NavLink to='/'>{t("Navbar.mainPage")}</NavLink>
-
               <NavLink to="/">{t("Navbar.mainPage")}</NavLink>
 
+              <NavLink to="/">{t("Navbar.mainPage")}</NavLink>
             </NavMenuLink>
           </NavMenuItems>
           <NavMenuItems>
             <NavMenuLink>
-
-              <NavLink to='/sun'>{t("Navbar.ourSun")}</NavLink>
-
               <NavLink to="/sun">{t("Navbar.ourSun")}</NavLink>
 
+              <NavLink to="/sun">{t("Navbar.ourSun")}</NavLink>
             </NavMenuLink>
           </NavMenuItems>
           <NavMenuItems onClick={planetDropDown}>
@@ -71,69 +64,63 @@ function Nav() {
           </NavMenuItems>
           <NavMenuItems>
             <NavMenuLink>
-
-              <NavLink to='/contact'>{t("Navbar.contact")}</NavLink>
-
               <NavLink to="/contact">{t("Navbar.contact")}</NavLink>
 
+              <NavLink to="/contact">{t("Navbar.contact")}</NavLink>
             </NavMenuLink>
           </NavMenuItems>
         </NavMenuList>
       </NavBar>
       <NavBar2 active={active}>
-
         <NavMenuItems>
-          <NavLink to='/mercury'>Merkur</NavLink>
+          <NavLink to="/mercury">Merkur</NavLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavLink to='/venus'>Venus</NavLink>
+          <NavLink to="/venus">Venus</NavLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavLink to='/earth'>Earth</NavLink>
+          <NavLink to="/earth">Earth</NavLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavLink to='/moon'>Moon</NavLink>
+          <NavLink to="/moon">Moon</NavLink>
         </NavMenuItems>
         <NavMenuItems>
           <NavMenuLink>
-            <NavLink to='/mars'>Mars</NavLink>
-
+            <NavLink to="/mars">Mars</NavLink>
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
           <NavMenuLink>
-
-            <NavLink to='/jupiter'>Jupiter</NavLink>
+            <NavLink to="/jupiter">Jupiter</NavLink>
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavLink to='/saturn'>Saturn</NavLink>
+          <NavLink to="/saturn">Saturn</NavLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavLink to='/uranus'>Uranus</NavLink>
+          <NavLink to="/uranus">Uranus</NavLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavLink to='/neptun'>Neptun</NavLink>
+          <NavLink to="/neptun">Neptun</NavLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavLink to='/pluto'>Pluto</NavLink>
+          <NavLink to="/pluto">Pluto</NavLink>
         </NavMenuItems>
       </NavBar2>
       <Routes>
-        <Route path='/' element={<LandingPage />} />
-        <Route path='/sun' element={<SunPage />} />
-        <Route path='/earth' element={<EarthPage />} />
-        <Route path='/moon' element={<MoonPage />} />
-        <Route path='/mars' element={<MarsPage />} />
-        <Route path='/jupiter' element={<JupiterPage />} />
-        <Route path='/saturn' element={<SaturnPage />} />
-        <Route path='/neptun' element={<NeptunPage />} />
-        <Route path='/venus' element={<VenusPage />} />
-        <Route path='/contact' element={<Contact />} />
-        <Route path='/uranus' element={<UranusPage />} />
-        <Route path='/pluto' element={<PlutoPage />} />
-        <Route path='/mercury' element={<MercuryPage />} />
-
+        <Route path="/" element={<FrontPage />} />
+        <Route path="/sun" element={<SunPage />} />
+        <Route path="/earth" element={<EarthPage />} />
+        <Route path="/moon" element={<MoonPage />} />
+        <Route path="/mars" element={<MarsPage />} />
+        <Route path="/jupiter" element={<JupiterPage />} />
+        <Route path="/saturn" element={<SaturnPage />} />
+        <Route path="/neptun" element={<NeptunPage />} />
+        <Route path="/venus" element={<VenusPage />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/uranus" element={<UranusPage />} />
+        <Route path="/pluto" element={<PlutoPage />} />
+        <Route path="/mercury" element={<MercuryPage />} />
       </Routes>
     </>
   );
