@@ -10,8 +10,8 @@ const ContactPage = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      "service_69572xj",
-      "template_n8q0gqf",
+      "service_ll2alhu",
+      "template_unt0mlo",
       form.current,
       "GyOKH1R0saYvMD1DZ"
     );
