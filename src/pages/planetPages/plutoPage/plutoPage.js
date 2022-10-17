@@ -10,7 +10,7 @@ import {
   Button,
 } from "./styles";
 
-const pluto = () => {
+const plutoPage = () => {
   return (
     <Seksjon>
       <div className='container pluto__container'>
@@ -71,4 +71,4 @@ const pluto = () => {
   );
 };
 
-export default pluto;
+export default plutoPage;
