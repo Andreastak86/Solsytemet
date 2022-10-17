@@ -26,18 +26,26 @@ export const SunTitle = styled.h1`
 `
 
 export const SunText = styled.p`
-  margin: 5rem auto;
+  margin: 0 auto;
+  margin-top: 2rem;
   text-align: center;
   color: white;
   width: 30%;
+  @media (max-width: 1080px) {
+    width: 70%;
+  }
 `
 
 export const SunImgTextFlex = styled.div`
   width: 50%;
   margin: 0 auto;
+  margin-top: 2rem;
   display: flex;
   flex-direction: row;
   padding-bottom: 10rem;
+  @media (max-width: 1080px) {
+    width: 90%;
+  }
 `
 
 export const SunEarthImage = styled.div`
