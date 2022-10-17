@@ -19,7 +19,7 @@ import SaturnPage from "../../../../pages/planetPages/saturnPage/SaturnPage";
 import NeptunPage from "../../../../pages/planetPages/neptunPage/NeptunPage";
 import VenusPage from "../../../../pages/planetPages/venusPage/VenusPage";
 import Contact from "../../../contact";
-import FrontPage from "../../../../pages/frontPage/frontPage";
+import FrontPage from "../../../../pages/frontPage/FrontPage";
 
 function Nav() {
   const [active, setActive] = useState();
