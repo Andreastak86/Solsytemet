@@ -82,6 +82,53 @@
     "source": "Hentet: 13. oktober 2022 fra https://no.wikipedia.org/wiki/Venus"
   },
 
+  "Pluto": {
+    "title": "Pluto",
+    "firstText": " Pluto er en dvergplanet i solsystemet. Pluto ble tidligere regnet som den niende og ytterste av planetene i solsystemet, men har siden 2006 blitt regnet som en dvergplanet. Plutos diameter er cirka 2370 kilometer, om lag en sjettedel av Jordens diameter og mindre enn Månen.",
+
+    "secondText": "Pluto er meget lyssvak med en tilsynelatendesørrelsesklasse på 14,7 i gjennomsnittlig avstand fra Jorden. Den er ikke mulig å se uten bruk av teleskop av en viss størrelse. Overflatetemperaturen er –235 °C.",
+
+    "thirdText": "Pluto har fem måner som alle beveger seg i Plutos ekvatorplan. Den største, Charon, ble oppdaget i 1978. Den har samme rotasjonstid som Pluto, og de to vender derfor alltid samme side mot hverandre. Charon har en diameter halvparten så stor som Plutos.",
+
+    "factsTitle": "Fakta Om Pluto",
+    "factsRadius": "Radius: 1185 kilometer",
+    "factsSize": "Den minste (dverg)'planeten' i solsystemet",
+    "factsSpeed": "Gjennomsnittsfart: 4,7 km/s",
+    "factsMoons": "Måner: 5 stk",
+    "source": "Pluto i Store norske leksikon på snl.no. Hentet 17. oktober 2022 fra https://snl.no/Pluto"
+  },
+  "Uranus": {
+    "title": "Uranus",
+    "firstText": " UTALE: urˈanus!!!! Uranus er den syvende av planetene fra solen, og den tredje største planeten i solsystemet.",
+
+    "secondText": "I likhet med Jupiter, Saturn og Neptun er Uranus en gassplanet, nærmere bestemt en iskjempe. Uranus bruker 84,02 år på å fullføre én bane rundt solen.",
+
+    "thirdText": "Gjennomsnittlig avstand fra solen er 2871 millioner kilometer, som er 19 ganger avstanden til jorden. I likhet med de andre planetene i solsystemet ble Uranus dannet for rundt 4,5 milliarder år siden, like etter at solen var blitt dannet.",
+
+    "factsTitle": "Fakta About Uranus",
+    "factsRadius": "Radius (Jorden = 1) 4.007",
+    "factsSize": "Den nest ytterste planeten i solsystemet",
+    "factsSpeed": "Snitthastighet: 6,81 km/s",
+    "factsMoons": "Måner: 27 stk",
+    "source": "Ringnes, Truls; Aksnes, Kaare; Hammerstrøm, Maria: Uranus i Store norske lesikon på snl.no. Hentet 11. oktober 2022 fra https://snl.no/Uranus"
+  },
+
+  "Mars": {
+    "title": "Mars",
+    "firstText": "Mars er den fjerde planeten regnet fra Sola. Den er den syvende største planeten i solsystemet og har litt over halvparten så stor omkrets som Jorda. Den er i likhet med Merkur, Venus og Jorda en steinplanet.",
+
+    "secondText": "Et døgn på Mars varer 24,6 timer, ikke ulikt et døgn på Jorda (23,9 timer). Et Mars-døgn kalles sol, som er en forkortelse for «solar day» (soldøgn).",
+
+    "thirdText": " Mars kan ha vært mer jordlignende for 3,5 milliarder år siden. Formasjoner på overflaten tyder på at vann har rent der tidligere, mens i dag er overflaten tørrlagt.",
+
+    "factsTitle": "Fakta Om Mars",
+    "factsRadius": "Radius ved ekvator (Jorda = 1) 0,532",
+    "factsSize": "Den fjerde planeten i solsystemet",
+    "factsSpeed": "Gjennomsnittsfart: 24,1 km/s",
+    "factsMoons": "Måner: 2 stk",
+    "source": "Aksnes, Kaare; Hammerstrøm, Maria: Mars i Store norske leksikon på snl.no. Hentet 11. oktober 2022 fra https://snl.no/Mars"
+  },
+
   "Footer": {
     "MadeBy": "Laget av:"
   }
