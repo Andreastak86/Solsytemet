@@ -1,12 +1,11 @@
 import styled from "styled-components";
 import { FaTimes } from "react-icons/fa";
-//import { Link as LinkScroll } from "react-scroll";
 
 export const SidebarContainer = styled.aside`
   position: fixed;
   z-index: 999;
   width: 100%;
-  height: 100%;
+  height: 65%;
   background: #000;
   display: grid;
   align-items: center;
@@ -45,27 +44,25 @@ export const SidebarMainMenu = styled.ul`
   justify-content: space-between;
   align-items: center;
   text-align: center;
+  margin-bottom: 1em;
 `;
 
 export const SidebarPlanetMenu = styled.ul`
+  width: 80%;
+  margin: 0 auto;
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   text-align: center;
+
+  @media screen and (min-width: 600px) {
+    flex-direction: row;
+  }
 `;
 
-// export const SidebarLink = styled(LinkScroll)`
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   font-size: 1.5rem;
-//   text-decoration: none;
-//   transition: 0.2s ease-in-out;
-//   color: #fff;
-//   cursor: pointer;
-
-//   &:hover {
-//     color: var(--clr-accent);
-//     transition: 0.2s ease-in-out;
-//   }
-// `;
+export const NavMenuLink = styled.a`
+  color: white;
+  text-decoration: none;
+  padding: 0.25em;
+`;
