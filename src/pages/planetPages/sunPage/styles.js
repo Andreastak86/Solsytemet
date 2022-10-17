@@ -37,6 +37,7 @@ export const SunImgTextFlex = styled.div`
   margin: 0 auto;
   display: flex;
   flex-direction: row;
+  padding-bottom: 10rem;
 `
 
 export const SunEarthImage = styled.div`

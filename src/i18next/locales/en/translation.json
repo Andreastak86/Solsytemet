@@ -9,7 +9,9 @@
 
   "Sun": {
     "title": "Sun",
-    "titleSubtext": "Our Sun is a 4.5 billion-year-old star - a hot glowing ball of hydrogen and helium at the center of our solar system."
+    "titleSubtext": "Our Sun is a 4.5 billion-year-old star - a hot glowing ball of hydrogen and helium at the center of our solar system.",
+    "age": "How old the Sun is can be related to the early stages of the formation of the Solar System. The age of the Sun is near that of the Solar System, estimated to be around 4.6 billion years old."
+    
   },
 
   "Earth": {
