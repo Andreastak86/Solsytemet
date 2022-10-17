@@ -17,24 +17,44 @@ const PlutoPage = () => {
       <StyledPageContainer>
         <StyledPageMainWrapper>
           <StyledPageInfoWrapper info>
-            <StyledPageH1>{t("Pluto.title")}</StyledPageH1>
-            <StyledPageP>{t("Pluto.firstText")}</StyledPageP>
-            <StyledPageP>{t("Pluto.secondText")}</StyledPageP>
-            <StyledPageP>{t("Pluto.thirdText")}</StyledPageP>
+            <StyledPageH1>
+            {t("Pluto.title")}
+          </StyledPageH1>
+            <StyledPageP>
+            {t("Pluto.firstText")}
+          </StyledPageP>
+            <StyledPageP>
+            {t("Pluto.secondText")}
+          </StyledPageP>
+            <StyledPageP>
+            {t("Pluto.thirdText")}
+          </StyledPageP>
           </StyledPageInfoWrapper>
 
           <StyledPageInfoWrapper facts>
-            <StyledPageH1>{t("Pluto.factsTitle")}</StyledPageH1>
+            <StyledPageH1>
+            {t("Pluto.factsTitle")}
+          </StyledPageH1>
             <StyledPageUl>
-              <StyledPageLi>{t("Pluto.factsDiscovery")}</StyledPageLi>
-              <StyledPageLi>{t("Pluto.factsMass")}</StyledPageLi>
-              <StyledPageLi>{t("Pluto.factsSpeed")}</StyledPageLi>
-              <StyledPageLi>{t("Pluto.factsMoons")}</StyledPageLi>
+              <StyledPageLi>
+              {t("Pluto.factsDiscovery")}
+            </StyledPageLi>
+              <StyledPageLi>
+              {t("Pluto.factsMass")}
+            </StyledPageLi>
+              <StyledPageLi>
+              {t("Pluto.factsSpeed")}
+            </StyledPageLi>
+              <StyledPageLi>
+              {t("Pluto.factsMoons")}
+            </StyledPageLi>
             </StyledPageUl>
           </StyledPageInfoWrapper>
         </StyledPageMainWrapper>
         <StyledPageFooter>
-          <StyledPageP footer>{t("Pluto.source")}</StyledPageP>
+          <StyledPageP footer>
+          {t("Pluto.source")}
+        </StyledPageP>
         </StyledPageFooter>
       </StyledPageContainer>
     </StyledPageSection>
