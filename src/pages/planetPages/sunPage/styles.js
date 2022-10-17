@@ -6,10 +6,12 @@ export const SunBackground = styled.div`
   width: 100%;
   height: 100%;
   background-color: black;
+  padding-top: 0.1rem;
 `
 
 export const SunHeader = styled.div`
   margin-top: 7rem;
+  margin-bottom: 2rem;
   height: 50rem;
   width: 100%;
   background: url(${TheSun});
@@ -27,7 +29,6 @@ export const SunTitle = styled.h1`
 
 export const SunText = styled.p`
   margin: 0 auto;
-  margin-top: 2rem;
   text-align: center;
   color: white;
   width: 30%;
@@ -53,4 +54,7 @@ export const SunEarthImage = styled.div`
   background: url(${SunAndEarth});
   background-size: contain;
   background-repeat: no-repeat;
+  @media (max-width: 680px) {
+    width: 30%;
+  }
 `
