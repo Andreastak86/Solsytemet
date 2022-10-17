@@ -10,7 +10,6 @@ import {
   Planets,
   WebsiteName,
 } from "./styles";
-import LandingPage from "../../../../pages/LandingPage/LandingPage";
 import SunPage from "../../../../pages/planetPages/sunPage/SunPage";
 import EarthPage from "../../../../pages/planetPages/earthPage/EarthPage";
 import MoonPage from "../../../../pages/planetPages/moonPage/MoonPage";
@@ -20,9 +19,13 @@ import SaturnPage from "../../../../pages/planetPages/saturnPage/SaturnPage";
 import NeptunPage from "../../../../pages/planetPages/neptunePage/NeptunePage";
 import VenusPage from "../../../../pages/planetPages/venusPage/VenusPage";
 import Contact from "../../../contact";
+
 import UranusPage from "../../../../pages/planetPages/uranusPage/UranusPage";
 import PlutoPage from "../../../../pages/planetPages/plutoPage/PlutoPage";
 import MercuryPage from "../../../../pages/planetPages/merkurPage/MercuryPage";
+
+import FrontPage from "../../../../pages/frontPage/FrontPage";
+
 
 function Nav() {
   const [active, setActive] = useState();
@@ -35,18 +38,30 @@ function Nav() {
       <NavBar>
         <WebsiteName>
           <NavMenuLink>
+
             <NavLink to='/'>{t("Navbar.title")}</NavLink>
+
+            <NavLink to="/">{t("Navbar.title")}</NavLink>
+
           </NavMenuLink>
         </WebsiteName>
         <NavMenuList>
           <NavMenuItems>
             <NavMenuLink>
+
               <NavLink to='/'>{t("Navbar.mainPage")}</NavLink>
+
+              <NavLink to="/">{t("Navbar.mainPage")}</NavLink>
+
             </NavMenuLink>
           </NavMenuItems>
           <NavMenuItems>
             <NavMenuLink>
+
               <NavLink to='/sun'>{t("Navbar.ourSun")}</NavLink>
+
+              <NavLink to="/sun">{t("Navbar.ourSun")}</NavLink>
+
             </NavMenuLink>
           </NavMenuItems>
           <NavMenuItems onClick={planetDropDown}>
@@ -56,12 +71,17 @@ function Nav() {
           </NavMenuItems>
           <NavMenuItems>
             <NavMenuLink>
+
               <NavLink to='/contact'>{t("Navbar.contact")}</NavLink>
+
+              <NavLink to="/contact">{t("Navbar.contact")}</NavLink>
+
             </NavMenuLink>
           </NavMenuItems>
         </NavMenuList>
       </NavBar>
       <NavBar2 active={active}>
+
         <NavMenuItems>
           <NavLink to='/mercury'>Merkur</NavLink>
         </NavMenuItems>
@@ -77,10 +97,12 @@ function Nav() {
         <NavMenuItems>
           <NavMenuLink>
             <NavLink to='/mars'>Mars</NavLink>
+
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
           <NavMenuLink>
+
             <NavLink to='/jupiter'>Jupiter</NavLink>
           </NavMenuLink>
         </NavMenuItems>
@@ -111,6 +133,7 @@ function Nav() {
         <Route path='/uranus' element={<UranusPage />} />
         <Route path='/pluto' element={<PlutoPage />} />
         <Route path='/mercury' element={<MercuryPage />} />
+
       </Routes>
     </>
   );

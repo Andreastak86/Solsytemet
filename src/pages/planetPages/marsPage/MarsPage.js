@@ -11,7 +11,9 @@ import {
   Liste,
 } from "./styles";
 
+
 const marsPage = () => {
+
   return (
     <Seksjon>
       <div className='container mars__container'>
@@ -73,4 +75,6 @@ const marsPage = () => {
   );
 };
 
+
 export default marsPage;
+
