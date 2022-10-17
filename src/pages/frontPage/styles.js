@@ -6,7 +6,7 @@ export const LPDiv = styled.div`
   width: 100%;
   height: 200vh;
   z-index: -1;
-  overflow: hidden;
+  /* overflow: hidden; */
   @media (max-width: 1280px) {
     height: 400vh;
     margin-top: -35rem;
