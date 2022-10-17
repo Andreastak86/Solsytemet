@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import { NavMenuLink, Planets } from "../navbar/styles";
 import {
   CloseIcon,
   Icon,
@@ -7,6 +6,7 @@ import {
   SidebarMainMenu,
   SidebarPlanetMenu,
   SidebarWrapper,
+  NavMenuLink,
 } from "./styles";
 import { t } from "i18next";
 
@@ -29,11 +29,6 @@ const Sidebar = ({ isOpen, toggle }) => {
             </NavLink>
           </NavMenuLink>
           <NavMenuLink>
-            <NavLink to="/" onClick={toggle}>
-              <Planets>{t("Navbar.planets")}</Planets>
-            </NavLink>
-          </NavMenuLink>
-          <NavMenuLink>
             <NavLink to="/contact" onClick={toggle}>
               {t("Navbar.contact")}
             </NavLink>
@@ -41,6 +36,11 @@ const Sidebar = ({ isOpen, toggle }) => {
         </SidebarMainMenu>
 
         <SidebarPlanetMenu>
+          <NavMenuLink>
+            <NavLink to="/mercury" onClick={toggle}>
+              Merkur
+            </NavLink>
+          </NavMenuLink>
           <NavMenuLink>
             <NavLink to="/venus" onClick={toggle}>
               Venus
@@ -72,8 +72,18 @@ const Sidebar = ({ isOpen, toggle }) => {
             </NavLink>
           </NavMenuLink>
           <NavMenuLink>
+            <NavLink to="/uranus" onClick={toggle}>
+              Uranus
+            </NavLink>
+          </NavMenuLink>
+          <NavMenuLink>
             <NavLink to="/neptun" onClick={toggle}>
               Neptun
+            </NavLink>
+          </NavMenuLink>
+          <NavMenuLink>
+            <NavLink to="/pluto" onClick={toggle}>
+              Pluto
             </NavLink>
           </NavMenuLink>
         </SidebarPlanetMenu>

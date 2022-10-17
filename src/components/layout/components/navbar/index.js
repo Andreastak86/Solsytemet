@@ -14,8 +14,8 @@ import {
 } from "./styles";
 import SunPage from "../../../../pages/planetPages/sunPage/SunPage";
 import EarthPage from "../../../../pages/planetPages/earthPage/EarthPage";
-import MoonPage from "../../../../pages/planetPages/moonPage/index";
-import MarsPage from "../../../../pages/planetPages/marsPage/index";
+import MoonPage from "../../../../pages/planetPages/moonPage/MoonPage";
+import MarsPage from "../../../../pages/planetPages/marsPage/MarsPage";
 import JupiterPage from "../../../../pages/planetPages/jupiterPage/JupiterPage";
 import SaturnPage from "../../../../pages/planetPages/saturnPage/SaturnPage";
 import NeptunPage from "../../../../pages/planetPages/neptunePage/NeptunePage";

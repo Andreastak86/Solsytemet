@@ -59,9 +59,7 @@ export const NavBar2 = styled.nav`
 `;
 
 export const NavMenuItems = styled.li`
-  @media screen and (min-width: 768px) {
-    list-style: none;
-  }
+  list-style: none;
 `;
 
 export const NavMenuLink = styled.a`
