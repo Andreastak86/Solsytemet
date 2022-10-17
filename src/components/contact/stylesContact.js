@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Stars from "../../pages/LandingPage/img/stars.avif";
+import Stars from "../../pages/frontPage/img/stars.avif";
 
 export const Main = styled.section`
   background: black;
