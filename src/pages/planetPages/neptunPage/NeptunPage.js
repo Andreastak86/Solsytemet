@@ -17,24 +17,45 @@ const NeptunPage = () => {
       <StyledPageContainer>
         <StyledPageMainWrapper>
           <StyledPageInfoWrapper info>
-            <StyledPageH1>{t("Neptun.title")}</StyledPageH1>
-            <StyledPageP>{t("Neptun.firstText")}</StyledPageP>
-            <StyledPageP>{t("Neptun.secondText")}</StyledPageP>
-            <StyledPageP>{t("Neptun.thirdText")}</StyledPageP>
+            <StyledPageH1>
+              {t("Neptun.title")}
+            </StyledPageH1>
+            <StyledPageP>
+              {t("Neptun.firstText")}
+            </StyledPageP>
+            <StyledPageP>
+              {t("Neptun.secondText")}
+            </StyledPageP>
+            <StyledPageP>
+              {t("Neptun.thirdText")}
+            </StyledPageP>
           </StyledPageInfoWrapper>
 
           <StyledPageInfoWrapper facts>
-            <StyledPageH1>{t("Neptun.factsTitle")}</StyledPageH1>
+            <StyledPageH1>
+              {t("Neptun.factsTitle")}
+            </StyledPageH1>
             <StyledPageUl>
-              <StyledPageLi>{t("Neptun.factsDiscovery")}</StyledPageLi>
-              <StyledPageLi>{t("Neptun.factsMass")}</StyledPageLi>
-              <StyledPageLi>{t("Neptun.factsSpeed")}</StyledPageLi>
-              <StyledPageLi>{t("Neptun.factsMoons")}</StyledPageLi>
+              <StyledPageLi>
+                {t("Neptun.factsDiscovery")}
+              </StyledPageLi>
+              <StyledPageLi>
+                {t("Neptun.factsMass")}
+              </StyledPageLi>
+              <StyledPageLi>
+                {t("Neptun.factsSpeed")}
+              </StyledPageLi>
+              <StyledPageLi>
+                {t("Neptun.factsMoons")}
+              </StyledPageLi>
             </StyledPageUl>
           </StyledPageInfoWrapper>
         </StyledPageMainWrapper>
         <StyledPageFooter>
-          <StyledPageP footer>{t("Neptun.source")}</StyledPageP>
+          
+          <StyledPageP footer>
+            {t("Neptun.source")}
+          </StyledPageP>
         </StyledPageFooter>
       </StyledPageContainer>
     </StyledPageSection>

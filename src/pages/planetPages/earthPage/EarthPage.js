@@ -34,7 +34,10 @@ const EarthPage = () => {
     return (
       <>
         <EarthContainer>
-          <EarthImg src={EarthImage} alt="Earth" />
+          <EarthImg 
+            src={EarthImage} 
+            alt="Earth" 
+          />
         </EarthContainer>
         <Box>
           <EarthH1>
@@ -53,22 +56,36 @@ const EarthPage = () => {
     return (
       <>
         <EarthContainer>
-          <EarthImg src={EarthImage} alt="Earth" />
+          <EarthImg 
+            src={EarthImage} 
+            alt="Earth" 
+          />
         </EarthContainer>
         <Box>
-          <EarthH1>Earth</EarthH1>
-          <EarthP>Failed to Load, please try again.</EarthP>
+          <EarthH1>
+            Earth
+          </EarthH1>
+          <EarthP>
+            Failed to Load, please try again.
+          </EarthP>
         </Box>
       </>
     );
   } else {
     <>
       <EarthContainer>
-        <EarthImg src={EarthImage} alt="Earth" />
+        <EarthImg 
+          src={EarthImage} 
+          alt="Earth" 
+        />
       </EarthContainer>
       <Box>
-        <EarthH1>Earth</EarthH1>
-        <EarthP>Failed to Load, please try again.</EarthP>
+        <EarthH1>
+          Earth
+        </EarthH1>
+        <EarthP>
+          Failed to Load, please try again.
+        </EarthP>
       </Box>
     </>;
   }
