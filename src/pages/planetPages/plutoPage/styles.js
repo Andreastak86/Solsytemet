@@ -3,13 +3,17 @@ import Pluto from "./img/pluto.jpg";
 
 export const StyledPageSection = styled.section`
   width: 100%;
-  padding: 11em 0;
+  padding: 11em 0 80em;
   background-color: #000;
   background-image: url(${Pluto});
   background-repeat: no-repeat;
   background-position: 40% center;
   height: 100vh;
   line-height: 1.2;
+
+  @media screen and (min-width: 500px) {
+    padding: 11em 0;
+  }
 
   @media screen and (min-width: 1200px) {
     line-height: 1.6;
@@ -39,6 +43,7 @@ export const StyledPageMainWrapper = styled.div`
 
 export const StyledPageInfoWrapper = styled.div`
   width: ${(props) => (props.info ? "100%" : props.facts && "100%")};
+  filter: drop-shadow(1px 2px 1px black);
 
   @media screen and (min-width: 768px) {
     width: ${(props) => (props.info ? "60%" : props.facts && "30%")};
@@ -47,6 +52,12 @@ export const StyledPageInfoWrapper = styled.div`
 
 export const StyledPageFooter = styled.footer`
   color: #d5dcf5;
+  margin-top: 2em;
+  filter: drop-shadow(1px 2px 1px black);
+
+  @media screen and (min-width: 500px) {
+    margin-top: 0;
+  }
 `;
 
 export const StyledPageH1 = styled.h1`
@@ -70,8 +81,6 @@ export const StyledPageP = styled.p`
   padding: 0.25em 0;
   color: #f56f07;
   font-size: ${(props) => (props.footer ? "0.6rem" : "1rem")};
-  filter: ${(props) =>
-    props.footer ? "none" : "drop-shadow(1px 2px 1px black)"};
 
   @media screen and (min-width: 768px) {
     font-size: ${(props) => (props.footer ? "0.8rem" : "1.2rem")};
