@@ -11,7 +11,9 @@ import {
   Liste,
 } from "./styles";
 
-const index = () => {
+
+const marsPage = () => {
+
   return (
     <Seksjon>
       <div className='container mars__container'>
@@ -73,4 +75,6 @@ const index = () => {
   );
 };
 
-export default index;
+
+export default marsPage;
+
