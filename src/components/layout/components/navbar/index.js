@@ -20,11 +20,15 @@ import JupiterPage from "../../../../pages/planetPages/jupiterPage/JupiterPage";
 import SaturnPage from "../../../../pages/planetPages/saturnPage/SaturnPage";
 import NeptunPage from "../../../../pages/planetPages/neptunePage/NeptunePage";
 import VenusPage from "../../../../pages/planetPages/venusPage/VenusPage";
-import Contact from "../../../contact";
+
 import UranusPage from "../../../../pages/planetPages/uranusPage/UranusPage";
 import PlutoPage from "../../../../pages/planetPages/plutoPage/plutoPage";
 import MercuryPage from "../../../../pages/planetPages/merkurPage/MercuryPage";
+
+import ContactPage from "../../../../components/contact/ContactPage";
+
 import FrontPage from "../../../../pages/frontPage/FrontPage";
+
 
 function Nav({ toggle }) {
   const [active, setActive] = useState();
@@ -104,19 +108,21 @@ function Nav({ toggle }) {
         </NavMenuItems>
       </NavBar2>
       <Routes>
-        <Route path="/" element={<FrontPage />} />
-        <Route path="/sun" element={<SunPage />} />
-        <Route path="/earth" element={<EarthPage />} />
-        <Route path="/moon" element={<MoonPage />} />
-        <Route path="/mars" element={<MarsPage />} />
-        <Route path="/jupiter" element={<JupiterPage />} />
-        <Route path="/saturn" element={<SaturnPage />} />
-        <Route path="/neptun" element={<NeptunPage />} />
-        <Route path="/venus" element={<VenusPage />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/uranus" element={<UranusPage />} />
-        <Route path="/pluto" element={<PlutoPage />} />
-        <Route path="/mercury" element={<MercuryPage />} />
+
+        <Route path='/' element={<LandingPage />} />
+        <Route path='/sun' element={<SunPage />} />
+        <Route path='/earth' element={<EarthPage />} />
+        <Route path='/moon' element={<MoonPage />} />
+        <Route path='/mars' element={<MarsPage />} />
+        <Route path='/jupiter' element={<JupiterPage />} />
+        <Route path='/saturn' element={<SaturnPage />} />
+        <Route path='/neptun' element={<NeptunPage />} />
+        <Route path='/venus' element={<VenusPage />} />
+        <Route path='/contact' element={<ContactPage />} />
+        <Route path='/uranus' element={<UranusPage />} />
+        <Route path='/pluto' element={<PlutoPage />} />
+        <Route path='/mercury' element={<MercuryPage />} />
+
       </Routes>
     </>
   );
