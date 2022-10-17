@@ -26,8 +26,8 @@ const UranusPage = () => {
           <StyledPageInfoWrapper facts>
             <StyledPageH1>{t("Uranus.factsTitle")}</StyledPageH1>
             <StyledPageUl>
-              <StyledPageLi>{t("Uranus.factsDiscovery")}</StyledPageLi>
-              <StyledPageLi>{t("Uranus.factsMass")}</StyledPageLi>
+              <StyledPageLi>{t("Uranus.factsRadius")}</StyledPageLi>
+              <StyledPageLi>{t("Uranus.factsSize")}</StyledPageLi>
               <StyledPageLi>{t("Uranus.factsSpeed")}</StyledPageLi>
               <StyledPageLi>{t("Uranus.factsMoons")}</StyledPageLi>
             </StyledPageUl>

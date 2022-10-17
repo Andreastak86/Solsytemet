@@ -1,3 +1,4 @@
+
 import { t } from "i18next";
 import {
   StyledPageContainer,
@@ -24,17 +25,29 @@ const NeptunPage = () => {
           </StyledPageInfoWrapper>
 
           <StyledPageInfoWrapper facts>
-            <StyledPageH1>{t("Neptun.factsTitle")}</StyledPageH1>
+            <StyledPageH1>
+              {t("Neptun.factsTitle")}
+            </StyledPageH1>
             <StyledPageUl>
-              <StyledPageLi>{t("Neptun.factsDiscovery")}</StyledPageLi>
-              <StyledPageLi>{t("Neptun.factsMass")}</StyledPageLi>
-              <StyledPageLi>{t("Neptun.factsSpeed")}</StyledPageLi>
-              <StyledPageLi>{t("Neptun.factsMoons")}</StyledPageLi>
+              <StyledPageLi>
+                {t("Neptun.factsDiscovery")}
+              </StyledPageLi>
+              <StyledPageLi>
+                {t("Neptun.factsMass")}
+              </StyledPageLi>
+              <StyledPageLi>
+                {t("Neptun.factsSpeed")}
+              </StyledPageLi>
+              <StyledPageLi>
+                {t("Neptun.factsMoons")}
+              </StyledPageLi>
             </StyledPageUl>
           </StyledPageInfoWrapper>
         </StyledPageMainWrapper>
         <StyledPageFooter>
-          <StyledPageP footer>{t("Neptun.source")}</StyledPageP>
+          <StyledPageP footer>
+            {t("Neptun.source")}
+          </StyledPageP>
         </StyledPageFooter>
       </StyledPageContainer>
     </StyledPageSection>
