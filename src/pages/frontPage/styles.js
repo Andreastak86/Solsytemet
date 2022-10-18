@@ -10,7 +10,7 @@ export const LPDiv = styled.div`
   background-size: cover;
   overflow: hidden;
   @media (min-width: 1280px) {
-    height: 200vh;
+    height: 300vh;
     /* margin-top: -35rem; */
     background-size: contain;
   }
