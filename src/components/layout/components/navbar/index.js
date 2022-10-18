@@ -72,38 +72,38 @@ function Nav({ toggle }) {
       </NavBar>
       <NavBar2 active={active}>
         <NavMenuItems>
-          <NavLink to="/mercury">Merkur</NavLink>
+          <NavLink to="/mercury">{t("Planets.mercury")}</NavLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavLink to="/venus">Venus</NavLink>
+          <NavLink to="/venus">{t("Planets.venus")}</NavLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavLink to="/earth">Earth</NavLink>
+          <NavLink to="/earth">{t("Planets.earth")}</NavLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavLink to="/moon">Moon</NavLink>
+          <NavLink to="/moon">{t("Planets.moon")}</NavLink>
         </NavMenuItems>
         <NavMenuItems>
           <NavMenuLink>
-            <NavLink to="/mars">Mars</NavLink>
+            <NavLink to="/mars">{t("Planets.mars")}</NavLink>
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
           <NavMenuLink>
-            <NavLink to="/jupiter">Jupiter</NavLink>
+            <NavLink to="/jupiter">{t("Planets.jupiter")}</NavLink>
           </NavMenuLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavLink to="/saturn">Saturn</NavLink>
+          <NavLink to="/saturn">{t("Planets.saturn")}</NavLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavLink to="/uranus">Uranus</NavLink>
+          <NavLink to="/uranus">{t("Planets.uranus")}</NavLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavLink to="/neptune">Neptun</NavLink>
+          <NavLink to="/neptune">{t("Planets.neptune")}</NavLink>
         </NavMenuItems>
         <NavMenuItems>
-          <NavLink to="/pluto">Pluto</NavLink>
+          <NavLink to="/pluto">{t("Planets.pluto")}</NavLink>
         </NavMenuItems>
       </NavBar2>
       <Routes>

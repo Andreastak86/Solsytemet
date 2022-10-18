@@ -4,18 +4,22 @@ import Stars from "./img/stars.avif";
 export const LPDiv = styled.div`
   background: url(${Stars});
   width: 100%;
-  height: 200vh;
+  height: 100%;
   z-index: -1;
-  /* overflow: hidden; */
-  @media (max-width: 1280px) {
-    height: 400vh;
-    margin-top: -35rem;
+  position: absolute;
+  background-size: cover;
+  overflow: hidden;
+  @media (min-width: 1280px) {
+    height: 300vh;
+    /* margin-top: -35rem; */
+    background-size: contain;
   }
   @media (max-width: 780px) {
-    margin-top: -15rem;
-    height: 300vh;
+    /* margin-top: -15rem; */
+    /* height: 300vh; */
   }
   @media (max-width: 425px) {
+    /* height: 200vh; */
   }
 `;
 
@@ -36,7 +40,7 @@ export const MercuryImg = styled.img`
   object-fit: contain;
   animation: spin 20s linear infinite;
   @media (max-width: 720px) {
-   width: 1rem;
+    width: 1rem;
   }
 `;
 
@@ -45,7 +49,7 @@ export const VenusImg = styled.img`
   object-fit: contain;
   animation: spin 20s linear infinite;
   @media (max-width: 425px) {
-   width: 2.25rem;
+    width: 2.25rem;
   }
 `;
 
@@ -54,18 +58,18 @@ export const EarthImg = styled.img`
   object-fit: contain;
   animation: spin 20s linear infinite;
   @media (max-width: 425px) {
-   width: 2.5rem;
+    width: 2.5rem;
   }
 `;
 
 export const MoonImg = styled.img`
-  width: .8rem;
+  width: 0.8rem;
   object-fit: contain;
   animation: spin 20s linear infinite;
   @media (max-width: 425px) {
-    width: .4rem;
-}
-`
+    width: 0.4rem;
+  }
+`;
 
 export const MarsImg = styled.img`
   width: 2.5rem;
@@ -73,7 +77,7 @@ export const MarsImg = styled.img`
   animation: spin 20s linear infinite;
   @media (max-width: 425px) {
     width: 1.25rem;
-}
+  }
 `;
 export const JupiterImg = styled.img`
   width: 10rem;
@@ -83,9 +87,8 @@ export const JupiterImg = styled.img`
     width: 6rem;
   }
   @media (max-width: 425px) {
-    width: 3rem ;
+    width: 3rem;
   }
-  
 `;
 export const SaturnImg = styled.img`
   width: 9rem;
@@ -96,7 +99,7 @@ export const SaturnImg = styled.img`
   }
   @media (max-width: 425px) {
     width: 3rem;
-}
+  }
 `;
 
 export const UranusImg = styled.img`
@@ -105,7 +108,7 @@ export const UranusImg = styled.img`
   animation: spin 20s linear infinite;
   @media (max-width: 425px) {
     width: 3.5rem;
-}
+  }
 `;
 
 export const NeptuneImg = styled.img`
@@ -114,7 +117,7 @@ export const NeptuneImg = styled.img`
   animation: spin 20s linear infinite;
   @media (max-width: 425px) {
     width: 3.25rem;
-}
+  }
 `;
 
 export const PlutoImg = styled.img`
@@ -122,12 +125,13 @@ export const PlutoImg = styled.img`
   object-fit: contain;
   animation: spin 20s linear infinite;
   @media (max-width: 425px) {
-    width: .5rem;
-}
+    width: 0.5rem;
+  }
 `;
 
 export const LPMid = styled.div`
   height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -154,8 +158,8 @@ export const MercuryContainer = styled.div`
   animation: spin 3479s linear infinite;
   /* border: solid red 2px; */
   @media (max-width: 1024px) {
-   width: 18rem;
-   height: 18rem;
+    width: 18rem;
+    height: 18rem;
   }
   @media (max-width: 720px) {
     width: 13rem;
@@ -221,7 +225,7 @@ export const MoonContainer = styled.div`
     width: 4rem;
     height: 4rem;
   }
-`
+`;
 
 export const MarsContainer = styled.div`
   width: 49rem;
@@ -275,7 +279,7 @@ export const SaturnContainer = styled.div`
     height: 73rem;
   }
   @media (max-width: 720px) {
-    width: 55rem ;
+    width: 55rem;
     height: 55rem;
   }
   @media (max-width: 425px) {
@@ -339,8 +343,8 @@ export const PlutoContainer = styled.div`
   }
 
   @media (max-width: 720px) {
-   width: 76rem;
-   height: 76rem;
+    width: 76rem;
+    height: 76rem;
   }
   @media (max-width: 425px) {
     width: 45rem;

@@ -1,16 +1,17 @@
 import styled from "styled-components";
-import TheSun from "./img/the_sun.jpg"
-import SunAndEarth from "./img/earth-and-the-sun.jpg"
+import TheSun from "./img/the_sun.jpg";
+import SunAndEarth from "./img/earth-and-the-sun.jpg";
 
 export const SunBackground = styled.div`
   width: 100%;
   height: 100%;
   background-color: black;
   padding-top: 0.1rem;
+  padding-bottom: 5.5rem;
   @media (max-width: 1280px) {
     margin-top: -13rem;
   }
-`
+`;
 
 export const SunHeader = styled.div`
   margin-top: 7rem;
@@ -19,7 +20,7 @@ export const SunHeader = styled.div`
   width: 100%;
   background: url(${TheSun});
   background-position: center;
-`
+`;
 
 export const SunTitle = styled.h1`
   font-size: 10rem;
@@ -31,7 +32,7 @@ export const SunTitle = styled.h1`
   @media (max-width: 1280px) {
     font-size: 7rem;
   }
-`
+`;
 
 export const SunText = styled.p`
   margin: 0 auto;
@@ -41,7 +42,7 @@ export const SunText = styled.p`
   @media (max-width: 1080px) {
     width: 70%;
   }
-`
+`;
 
 export const SunImgTextFlex = styled.div`
   width: 50%;
@@ -53,7 +54,7 @@ export const SunImgTextFlex = styled.div`
   @media (max-width: 1080px) {
     width: 90%;
   }
-`
+`;
 
 export const SunEarthImage = styled.div`
   width: 100%;
@@ -63,4 +64,4 @@ export const SunEarthImage = styled.div`
   @media (max-width: 680px) {
     width: 30%;
   }
-`
+`;

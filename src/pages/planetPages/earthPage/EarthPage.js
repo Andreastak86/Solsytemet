@@ -1,16 +1,7 @@
-import { 
-  useEffect, 
-  useState 
-} from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 import { t } from "i18next";
-import { 
-  Box, 
-  EarthContainer, 
-  EarthH1, 
-  EarthImg, 
-  EarthP 
-} from "./styles";
+import { Box, EarthContainer, EarthH1, EarthImg, EarthP } from "./styles";
 import EarthImage from "./img/earth.webp";
 
 const EarthPage = () => {
@@ -34,17 +25,12 @@ const EarthPage = () => {
     return (
       <>
         <EarthContainer>
-          <EarthImg 
-            src={EarthImage} 
-            alt="Earth" 
-          />
+          <EarthImg src={EarthImage} alt="Earth" />
         </EarthContainer>
         <Box>
-          <EarthH1>
-            {t("Earth.title")}
-          </EarthH1>
+          <EarthH1>{t("Earth.title")}</EarthH1>
           <EarthP>
-            {t("Earth.name")}"{data.name}"
+            {t("Earth.name")} "{data.name}"
           </EarthP>
           <EarthP>
             {t("Earth.radius")} {data.equaRadius}km
@@ -56,36 +42,22 @@ const EarthPage = () => {
     return (
       <>
         <EarthContainer>
-          <EarthImg 
-            src={EarthImage} 
-            alt="Earth" 
-          />
+          <EarthImg src={EarthImage} alt="Earth" />
         </EarthContainer>
         <Box>
-          <EarthH1>
-            Earth
-          </EarthH1>
-          <EarthP>
-            Failed to Load, please try again.
-          </EarthP>
+          <EarthH1>Earth</EarthH1>
+          <EarthP>Failed to Load, please try again.</EarthP>
         </Box>
       </>
     );
   } else {
     <>
       <EarthContainer>
-        <EarthImg 
-          src={EarthImage} 
-          alt="Earth" 
-        />
+        <EarthImg src={EarthImage} alt="Earth" />
       </EarthContainer>
       <Box>
-        <EarthH1>
-          Earth
-        </EarthH1>
-        <EarthP>
-          Failed to Load, please try again.
-        </EarthP>
+        <EarthH1>Earth</EarthH1>
+        <EarthP>Failed to Load, please try again.</EarthP>
       </Box>
     </>;
   }

@@ -19,9 +19,10 @@ export const Footer = styled.footer`
 export const FooterFlow = styled.ul`
   display: flex;
   flex-direction: row;
-  margin-top: 0;
+  flex-wrap: wrap;
   list-style: none outside none;
   text-align: center;
+  justify-content: center;
 `;
 
 export const FooterList = styled.li`
