@@ -136,5 +136,17 @@
 
   "Footer": {
     "MadeBy": "Made by:"
+  },
+  "Planets": {
+    "mercury": "Mercury",
+    "venus": "Venus",
+    "earth": "Earth",
+    "moon": "Moon",
+    "mars": "Mars",
+    "jupiter": "Jupiter",
+    "saturn": "Saturn",
+    "uranus": "Uranus",
+    "neptune": "Neptune",
+    "pluto": "Pluto"
   }
 }

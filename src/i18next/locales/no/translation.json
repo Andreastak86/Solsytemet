@@ -181,8 +181,19 @@
     "source": "Aksnes, Kaare; Hammerstrøm, Maria: Merkur in Store norske leksikon at snl.no. Hentet 11 October 2022 from https://snl.no/Merkur"
   },
 
-
   "Footer": {
     "MadeBy": "Laget av:"
+  },
+  "Planets": {
+    "mercury": "Merkur",
+    "venus": "Venus",
+    "earth": "Jorden",
+    "moon": "Månen",
+    "mars": "Mars",
+    "jupiter": "Jupiter",
+    "saturn": "Saturn",
+    "uranus": "Uranus",
+    "neptune": "Neptun",
+    "pluto": "Pluto"
   }
 }
