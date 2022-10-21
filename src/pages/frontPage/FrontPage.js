@@ -1,159 +1,80 @@
 import { Link } from "react-router-dom";
-import {
-  LPDiv,
-  LPMid,
-  SunContainer,
-  MercuryContainer,
-  VenusContainer,
-  EarthContainer,
-  MarsContainer,
-  JupiterContainer,
-  SaturnContainer,
-  UranusContainer,
-  NeptuneContainer,
-  PlutoContainer,
-  SunImg,
-  MercuryImg,
-  VenusImg,
-  EarthImg,
-  MoonImg,
-  MarsImg,
-  JupiterImg,
-  SaturnImg,
-  UranusImg,
-  NeptuneImg,
-  PlutoImg,
-  MoonContainer,
-} from "./styles";
-import Sun from "./img/sun.webp";
-import Mercury from "./img/mercury.webp";
-import Venus from "./img/Venus.png";
-import Earth from "./img/earth.png";
-import Moon from "./img/moon.png";
-import Mars from "./img/mars.png";
-import Jupiter from "./img/jupiter.webp";
-import Saturn from "./img/saturn.png";
-import Uranus from "./img/uranus.png";
-import Neptune from "./img/neptune.webp";
-import Pluto from "./img/pluto.webp";
+import * as Styled from "./styles";
+// import Sun from "./img/sun.webp";
+// import Mercury from "./img/mercury.webp";
+// import Venus from "./img/Venus.png";
+// import Earth from "./img/earth.png";
+// import Moon from "./img/moon.png";
+// import Mars from "./img/mars.png";
+// import Jupiter from "./img/jupiter.webp";
+// import Saturn from "./img/saturn.png";
+// import Uranus from "./img/uranus.png";
+// import Neptune from "./img/neptune.webp";
+// import Pluto from "./img/pluto.webp";
+import * as StyledImg from "./img/PlanetImg";
 
 const FrontPage = () => {
   return (
     <>
-      <LPDiv>
-        <LPMid>
-          <SunContainer>
-            <Link
-              to="/sun"
-            >
-              <SunImg
-                src={Sun}
-                alt="the sun"
-              />
+      <Styled.LPDiv>
+        <Styled.LPMid>
+          <Styled.SunContainer>
+            <Link to="/sun">
+              <Styled.SunImg src={StyledImg.Sun} alt="the sun" />
             </Link>
-          </SunContainer>
-          <MercuryContainer>
-            <Link
-              to="/mercury"
-            >
-              <MercuryImg
-                src={Mercury}
-                alt="Mercury"
-              />
+          </Styled.SunContainer>
+          <Styled.MercuryContainer>
+            <Link to="/mercury">
+              <Styled.MercuryImg src={StyledImg.Mercury} alt="Mercury" />
             </Link>
-          </MercuryContainer>
-          <VenusContainer>
-            <Link
-              to="/venus"
-            >
-              <VenusImg
-                src={Venus}
-                alt="Venus"
-              />
+          </Styled.MercuryContainer>
+          <Styled.VenusContainer>
+            <Link to="/venus">
+              <Styled.VenusImg src={StyledImg.Venus} alt="Venus" />
             </Link>
-          </VenusContainer>
-          <EarthContainer>
-            <MoonContainer>
-              <Link
-                to="/moon"
-              >
-                <MoonImg
-                  src={Moon}
-                  alt="Moon"
-                />
+          </Styled.VenusContainer>
+          <Styled.EarthContainer>
+            <Styled.MoonContainer>
+              <Link to="/moon">
+                <Styled.MoonImg src={StyledImg.Moon} alt="Moon" />
               </Link>
-            </MoonContainer>
-            <Link
-              to="/earth"
-            >
-              <EarthImg
-                src={Earth}
-                alt="Earth"
-              />
+            </Styled.MoonContainer>
+            <Link to="/earth">
+              <Styled.EarthImg src={StyledImg.Earth} alt="Earth" />
             </Link>
-          </EarthContainer>
-          <MarsContainer>
-            <Link
-              to="/mars"
-            >
-              <MarsImg
-                src={Mars}
-                alt="Mars"
-              />
+          </Styled.EarthContainer>
+          <Styled.MarsContainer>
+            <Link to="/mars">
+              <Styled.MarsImg src={StyledImg.Mars} alt="Mars" />
             </Link>
-          </MarsContainer>
-          <JupiterContainer>
-            <Link
-              to="/jupiter"
-            >
-              <JupiterImg
-                src={Jupiter}
-                alt="Jupiter"
-              />
+          </Styled.MarsContainer>
+          <Styled.JupiterContainer>
+            <Link to="/jupiter">
+              <Styled.JupiterImg src={StyledImg.Jupiter} alt="Jupiter" />
             </Link>
-          </JupiterContainer>
-          <SaturnContainer>
-            <Link
-              to="/saturn"
-            >
-              <SaturnImg
-                src={Saturn}
-                alt="Saturn"
-              />
+          </Styled.JupiterContainer>
+          <Styled.SaturnContainer>
+            <Link to="/saturn">
+              <Styled.SaturnImg src={StyledImg.Saturn} alt="Saturn" />
             </Link>
-          </SaturnContainer>
-          <UranusContainer>
-            <Link
-              to="/uranus"
-            >
-              <UranusImg
-                src={Uranus}
-                alt="Uranus"
-              />
+          </Styled.SaturnContainer>
+          <Styled.UranusContainer>
+            <Link to="/uranus">
+              <Styled.UranusImg src={StyledImg.Uranus} alt="Uranus" />
             </Link>
-          </UranusContainer>
-          <NeptuneContainer>
-            <Link
-              to="/neptune"
-            >
-              <NeptuneImg
-                src={Neptune}
-                alt="Neptune"
-              />
+          </Styled.UranusContainer>
+          <Styled.NeptuneContainer>
+            <Link to="/neptune">
+              <Styled.NeptuneImg src={StyledImg.Neptune} alt="Neptune" />
             </Link>
-          </NeptuneContainer>
-          <PlutoContainer>
-            <Link
-              to="pluto"
-            >
-              <PlutoImg
-                src={Pluto}
-                alt="Pluto"
-              />
+          </Styled.NeptuneContainer>
+          <Styled.PlutoContainer>
+            <Link to="pluto">
+              <Styled.PlutoImg src={StyledImg.Pluto} alt="Pluto" />
             </Link>
-          </PlutoContainer>
-        </LPMid>
-      </LPDiv>
+          </Styled.PlutoContainer>
+        </Styled.LPMid>
+      </Styled.LPDiv>
     </>
   );
 };
