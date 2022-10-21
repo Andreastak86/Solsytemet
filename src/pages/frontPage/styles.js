@@ -11,15 +11,15 @@ export const LPDiv = styled.div`
   overflow: hidden;
   @media (min-width: 1280px) {
     height: 300vh;
-    /* margin-top: -35rem; */
+    margin-top: -35rem;
     background-size: contain;
   }
   @media (max-width: 780px) {
-    /* margin-top: -15rem; */
-    /* height: 300vh; */
+    height: 200vh;
   }
   @media (max-width: 425px) {
     /* height: 200vh; */
+    margin-top: 0;
   }
 `;
 
