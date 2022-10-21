@@ -1,16 +1,5 @@
 import { Link } from "react-router-dom";
 import * as Styled from "./styles";
-// import Sun from "./img/sun.webp";
-// import Mercury from "./img/mercury.webp";
-// import Venus from "./img/Venus.png";
-// import Earth from "./img/earth.png";
-// import Moon from "./img/moon.png";
-// import Mars from "./img/mars.png";
-// import Jupiter from "./img/jupiter.webp";
-// import Saturn from "./img/saturn.png";
-// import Uranus from "./img/uranus.png";
-// import Neptune from "./img/neptune.webp";
-// import Pluto from "./img/pluto.webp";
 import * as StyledImg from "./img/PlanetImg";
 
 const FrontPage = () => {
